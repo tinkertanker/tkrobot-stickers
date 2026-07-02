@@ -8,7 +8,8 @@
 - Smooth plain light grey tube arms and legs, around `#e1e1e1`; match the locked v11 anchor proportions: moderately slim, thicker than the too-thin v9/v10 attempts, still slimmer than the earliest baseline, and legs may be about 5% longer than the originals.
 - Hands use round black palm blobs with light grey `#e1e1e1` fingers and thumbs emerging from the blob's edge.
 - The black palm is the actual palm blob, not a glove wrapped around the fingers.
-- Each hand has one longer thumb and three longer rounded fingers.
+- Each hand has exactly one thumb and exactly three fingers. This is very important; do not draw four fingers plus one thumb.
+- Fingers should read as flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
 - Oversized black oval feet.
 - Flat red diamond chest mark, with no gem facets.
 - No neck.
@@ -43,7 +44,7 @@ Accept a candidate only if:
 
 - The red diamond chest mark is visible.
 - The light grey limbs are smooth and unmarked.
-- The palms are round black blobs, while the fingers and thumbs are longer light grey `#e1e1e1`, not black; the fingers emerge from the palm blob.
+- The palms are round black blobs, while the fingers and thumbs are light grey `#e1e1e1`, not black; each hand has exactly three fingers plus one thumb; the fingers emerge from the palm blob as flat rectangular tabs.
 - There is no mouth.
 - The character reads clearly at sticker size.
 - The transparent output has clean corners and no obvious green fringe.
