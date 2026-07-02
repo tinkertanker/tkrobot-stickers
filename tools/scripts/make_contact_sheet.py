@@ -17,7 +17,12 @@ def main() -> None:
     parser.add_argument("--cols", type=int, default=4)
     args = parser.parse_args()
 
-    files = sorted(p for p in args.folder.glob("*.png") if p.is_file())
+    out_path = args.out.resolve()
+    files = sorted(
+        p
+        for p in args.folder.glob("*.png")
+        if p.is_file() and p.resolve() != out_path and p.name != "contact-sheet.png"
+    )
     if not files:
         raise SystemExit(f"No PNG files found in {args.folder}")
 
