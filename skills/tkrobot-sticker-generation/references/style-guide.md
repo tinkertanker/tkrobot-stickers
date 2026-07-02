@@ -11,7 +11,8 @@
 - Red diamond chest mark.
 - No mouth, smile, open mouth, teeth, tongue, or face hole.
 - No joints, segment rings, elbow marks, knee marks, bend lines, or black interior lines on white limbs.
-- Pupils are allowed when useful, but they must stay inside the white glasses.
+- No pupils by default. Use plain white glasses for normal expressions.
+- Pupils are allowed only for special looks where they are part of the concept, such as charging or happy, and must stay inside the white glasses.
 
 ## Visual Style
 
@@ -21,11 +22,11 @@ Avoid realistic robot detailing, metallic panels, 3D rendering, complicated fing
 
 ## Replacement Notes
 
-- `gasp`: surprise should come from hands on cheeks, widened glasses or pupils, and exclamation marks.
+- `gasp`: surprise should come from hands on cheeks, widened blank glasses, and exclamation marks.
 - `salute`: both arms must be visible; avoid the one-arm silhouette in the old version.
 - `yay`: keep the robot upright and balanced.
 - `snooze`: sleepy lightning can live inside the glasses, not on the black face.
-- `shock`: use recoil, pupils, and burst marks; do not add limb bend lines.
+- `shock`: use recoil, blank widened glasses, and burst marks; do not add pupils or limb bend lines.
 
 ## Review Checklist
 

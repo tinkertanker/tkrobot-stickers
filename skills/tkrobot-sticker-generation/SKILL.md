@@ -15,7 +15,7 @@ Use this skill to keep generated T Krobot stickers visually consistent with the 
 2. Compare candidates against `assets/tkrobot-originals-contact-sheet.png` when available.
 3. Preserve originals and rejected versions; save new work with versioned filenames.
 4. Generate on a flat chroma-key background when transparent PNGs are needed, then remove the background locally.
-5. Reject candidates that break the mascot invariants: mouths, segmented limbs, joint rings, or black interior lines on white limbs.
+5. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
 
 ## Prompting Rules
 
@@ -24,11 +24,11 @@ Start from this compact prompt shape:
 ```text
 Create a T Krobot sticker for "<slug>" on a perfectly flat solid #00ff00 chroma-key background.
 T Krobot is a black rounded robot with a pill-shaped black head, black oval torso, large round white glasses with black rims, smooth plain white tube arms and legs, black mitten hands, oversized black oval feet, and a red diamond chest mark.
-No mouth. No joints. No segment lines. No black lines across arms or legs. White limbs must be continuous plain white shapes with only an outer black outline. Pupils are allowed inside the glasses if useful.
+No mouth. No joints. No segment lines. No black lines across arms or legs. White limbs must be continuous plain white shapes with only an outer black outline. No pupils by default; use pupils only for special looks such as charging or happy.
 Use clean 2D cartoon sticker styling with thick black outlines, simple flat shapes, subtle highlights, expressive pose marks, generous padding, and no cropping.
 ```
 
-Add the requested pose and emotion after the invariant block. Keep expression readable through pose, glasses/pupils, and motion marks rather than through a mouth.
+Add the requested pose and emotion after the invariant block. Keep expression readable through pose, blank glasses, and motion marks rather than through a mouth or default pupils.
 
 ## Resources
 
