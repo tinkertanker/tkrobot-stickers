@@ -6,11 +6,12 @@
 - Black oval torso.
 - Large round white glasses with black rims.
 - Smooth plain light grey tube arms and legs, around `#ccc`; legs may be about 5% longer than the originals.
-- Hands use black palm pads with light grey `#ccc` fingers and thumbs.
-- Each hand has one slightly longer thumb and three slightly longer rounded fingers.
+- Hands use full black palm/hand bases with light grey `#ccc` fingers and thumbs.
+- The black palm is the whole hand-without-fingers, not a tiny blob.
+- Each hand has one longer thumb and three longer rounded fingers.
 - Oversized black oval feet.
 - Flat red diamond chest mark, with no gem facets.
-- Optional subtle light grey neck around `#ccc`.
+- No neck.
 - No mouth, smile, open mouth, teeth, tongue, or face hole.
 - No joints, segment rings, elbow marks, knee marks, bend lines, or black interior lines on white limbs.
 - No pupils by default. Use plain white glasses for normal expressions.
@@ -20,7 +21,7 @@
 
 Use the original sticker library's clean 2D cartoon style: thick black outlines, simple forms, light highlights, transparent final PNGs, and sparse orange/yellow/grey motion marks.
 
-Use a subtle near-black-to-black gradient on the head and body so the head/torso boundary is easier to read. Keep the body recognisably black. Do not make the limbs or fingers charcoal-dark; use light grey around `#ccc`.
+Use a subtle near-black-to-black gradient on the head and body so the head/torso boundary is easier to read. Keep the body recognisably black. Add a very thin 1px-style light grey shine/border along the bottom edge of the head to separate it from the body. Do not add a neck. Do not make the limbs or fingers charcoal-dark; use light grey around `#ccc`.
 
 Use only a few emanata or motion marks. Avoid symbol clutter around the character.
 
@@ -40,7 +41,7 @@ Accept a candidate only if:
 
 - The red diamond chest mark is visible.
 - The light grey limbs are smooth and unmarked.
-- The palms are black, while the fingers and thumbs are light grey `#ccc`, not black.
+- The palms are full black hand bases, while the fingers and thumbs are longer light grey `#ccc`, not black.
 - There is no mouth.
 - The character reads clearly at sticker size.
 - The transparent output has clean corners and no obvious green fringe.

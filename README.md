@@ -16,10 +16,10 @@ This repo stores the source sticker library and generation guidance for T Krobot
 
 The first improved batch covered the weaker originals: `gasp`, `salute`, `yay`, `snooze`, and `shock`, but v2 is rejected because pupils became the default expression language.
 
-The current candidate batch is `generated/replacements-v7/`. It is closer to the new direction, but still needs review before becoming final canon. Keep older generated versions in place so style decisions remain traceable.
+The current candidate batch is `generated/replacements-v8/`. `generated/rejected-v7/` is preserved because it was confusingly labelled and still failed on hand construction plus neck/head separation details. Keep older generated versions in place so style decisions remain traceable.
 
 ## Character Rules
 
-T Krobot is a simple black robot with large white glasses, black palms with light grey fingers, oversized black feet, smooth plain light grey limbs, and a flat red diamond chest mark. Use light grey body parts around `#ccc`; do not make them charcoal-dark. Hands have a black palm pad plus one longer light grey thumb and three longer light grey rounded fingers. A subtle near-black-to-black gradient on the head/body is useful so the head and torso separate visually. A hint of a light grey `#ccc` neck is allowed.
+T Krobot is a simple black robot with large white glasses, black hand/palm bases with light grey fingers, oversized black feet, smooth plain light grey limbs, and a flat red diamond chest mark. Use light grey body parts around `#ccc`; do not make them charcoal-dark. Hands have a full black palm/hand base plus one longer light grey thumb and three longer light grey rounded fingers. Do not add a neck. Separate the head from the body with a very thin 1px-style light grey shine/border along the bottom edge of the head.
 
 Do not draw a mouth. Do not draw joints, segment rings, bend lines, or any black interior lines on the white arms or legs. Do not draw pupils by default; reserve pupils only for special looks where they are part of the concept, such as charging or happy.

@@ -7,10 +7,10 @@ Use these rules whenever generating or editing T Krobot stickers.
 - Black rounded pill-shaped head and black oval torso.
 - Large round white glasses with black rims.
 - Smooth plain light grey tube arms and legs, around `#ccc`; legs may be about 5% longer than the originals.
-- Hands use black palm pads with light grey `#ccc` fingers and thumbs. Each hand has one slightly longer thumb and three slightly longer rounded fingers.
+- Hands use a full black palm/hand base with light grey `#ccc` fingers and thumbs. The black palm is the whole hand-without-fingers, not a tiny blob. Each hand has one longer thumb and three longer rounded fingers.
 - Oversized black oval feet.
 - Flat red diamond chest mark, centred on the torso; no gem facets.
-- Optional subtle light grey neck around `#ccc`.
+- No neck.
 - No mouth, smile, open mouth, teeth, tongue, or face hole.
 - No joints, segment rings, elbow marks, knee marks, bend lines, or black interior lines on white arms or legs.
 - No pupils by default. Use plain white glasses for normal expressions.
@@ -20,7 +20,7 @@ Use these rules whenever generating or editing T Krobot stickers.
 
 Match the original sticker library: clean 2D cartoon, thick black outlines, simple flat shapes, light highlights only, expressive motion marks, transparent background final output.
 
-Use a subtle near-black-to-black gradient on the head and body so the head/torso boundary is easier to read. Keep it recognisably black, not grey. Use only a few emanata/motion marks; do not surround the character with lots of symbols.
+Use a subtle near-black-to-black gradient on the head and body so the head/torso boundary is easier to read. Keep it recognisably black, not grey. Add a very thin 1px-style light grey shine/border along the bottom edge of the head to separate it from the body. Use only a few emanata/motion marks; do not surround the character with lots of symbols.
 
 Avoid 3D renders, metallic robot details, complex fingers, extra props unless requested, captions, watermarks, and green elements when using chroma key.
 
@@ -30,8 +30,8 @@ Avoid 3D renders, metallic robot details, complex fingers, extra props unless re
 Use case: stylized-concept
 Asset type: T Krobot transparent chat sticker candidate, square PNG
 Primary request: Create a T Krobot sticker for "<slug>" on a perfectly flat solid #00ff00 chroma-key background for background removal.
-Subject: T Krobot, Tinkertanker company mascot: black rounded robot with a pill-shaped black head and black oval torso using a subtle near-black-to-black gradient, large round white glasses with black rims, smooth plain light grey tube arms and smooth plain light grey tube legs around #ccc, hands with black palm pads plus light grey #ccc thumbs and fingers, oversized black oval feet, flat red diamond chest mark, optional subtle light grey neck around #ccc.
-Critical character invariants: NO mouth. NO joints. NO segment lines. NO black lines across arms or legs. Light grey limbs must be completely plain continuous shapes with only an outer black outline. Palms must be black; fingers and thumbs must be light grey #ccc, slightly longer, not stubby black bits. Centre diamond must be flat red, not faceted. NO pupils by default; only use pupils for special looks such as charging or happy.
+Subject: T Krobot, Tinkertanker company mascot: black rounded robot with a pill-shaped black head and black oval torso using a subtle near-black-to-black gradient, plus a very thin 1px-style light grey shine line along the bottom edge of the head; large round white glasses with black rims; smooth plain light grey tube arms and smooth plain light grey tube legs around #ccc; hands with full black palm/hand bases plus light grey #ccc thumbs and fingers; oversized black oval feet; flat red diamond chest mark; no neck.
+Critical character invariants: NO mouth. NO neck. NO joints. NO segment lines. NO black lines across arms or legs. Light grey limbs must be completely plain continuous shapes with only an outer black outline. Palms must be full black hand bases, not tiny blobs; fingers and thumbs must be light grey #ccc, longer, not stubby black bits. Centre diamond must be flat red, not faceted. NO pupils by default; only use pupils for special looks such as charging or happy.
 Style/medium: clean polished 2D cartoon sticker matching original T Krobot stickers; thick outer black outlines, simple flat shapes with subtle highlight only, not 3D, no metallic detail.
 Composition/framing: centred character, generous padding, no cropping. <pose and expression details>
 Chroma key: one perfectly uniform #00ff00 background, no shadows, gradients, texture, floor, or reflection. Do not use #00ff00 in the subject.
