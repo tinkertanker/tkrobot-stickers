@@ -1,161 +1,184 @@
 {
-  "name": "T Krobot Sticker Library",
+  "name": "T Krobot definitive sticker pack",
+  "style": "locked-v11",
   "count": 22,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
-      "slug": "crashed",
-      "filename": "crashed.png",
-      "sticker_path": "stickers/crashed.png",
-      "source_path": "archive/chroma-key-sources/crashed.png",
-      "original_filename": "crashed2.png"
-    },
-    {
-      "slug": "ded",
-      "filename": "ded.png",
-      "sticker_path": "stickers/ded.png",
-      "source_path": "archive/chroma-key-sources/ded.png",
-      "original_filename": "ded.png"
-    },
-    {
-      "slug": "depressed",
-      "filename": "depressed.png",
-      "sticker_path": "stickers/depressed.png",
-      "source_path": "archive/chroma-key-sources/depressed.png",
-      "original_filename": "depressed2.png"
-    },
-    {
-      "slug": "facepalm",
-      "filename": "facepalm.png",
-      "sticker_path": "stickers/facepalm.png",
-      "source_path": "archive/chroma-key-sources/facepalm.png",
-      "original_filename": "facepalm.png"
-    },
-    {
-      "slug": "falling",
-      "filename": "falling.png",
-      "sticker_path": "stickers/falling.png",
-      "source_path": "archive/chroma-key-sources/falling.png",
-      "original_filename": "falling.png"
-    },
-    {
-      "slug": "fingerguns",
-      "filename": "fingerguns.png",
-      "sticker_path": "stickers/fingerguns.png",
-      "source_path": "archive/chroma-key-sources/fingerguns.png",
-      "original_filename": "fingerguns.png"
-    },
-    {
-      "slug": "flailing",
-      "filename": "flailing.png",
-      "sticker_path": "stickers/flailing.png",
-      "source_path": "archive/chroma-key-sources/flailing.png",
-      "original_filename": "flailing2.png"
-    },
-    {
-      "slug": "gasp",
-      "filename": "gasp.png",
-      "sticker_path": "stickers/gasp.png",
-      "source_path": "archive/chroma-key-sources/gasp.png",
-      "original_filename": "gasp.png"
-    },
-    {
-      "slug": "greetings",
-      "filename": "greetings.png",
-      "sticker_path": "stickers/greetings.png",
-      "source_path": "archive/chroma-key-sources/greetings.png",
-      "original_filename": "greetings.png"
-    },
-    {
-      "slug": "handraise",
-      "filename": "handraise.png",
-      "sticker_path": "stickers/handraise.png",
-      "source_path": "archive/chroma-key-sources/handraise.png",
-      "original_filename": "handraise4.png"
-    },
-    {
-      "slug": "heart",
-      "filename": "heart.png",
-      "sticker_path": "stickers/heart.png",
-      "source_path": "archive/chroma-key-sources/heart.png",
-      "original_filename": "heart.png"
-    },
-    {
-      "slug": "intenseglare",
-      "filename": "intenseglare.png",
-      "sticker_path": "stickers/intenseglare.png",
-      "source_path": "archive/chroma-key-sources/intenseglare.png",
-      "original_filename": "intenseglare2.png"
-    },
-    {
-      "slug": "ok",
-      "filename": "ok.png",
-      "sticker_path": "stickers/ok.png",
-      "source_path": "archive/chroma-key-sources/ok.png",
-      "original_filename": "ok.png"
-    },
-    {
-      "slug": "pls",
-      "filename": "pls.png",
-      "sticker_path": "stickers/pls.png",
-      "source_path": "archive/chroma-key-sources/pls.png",
-      "original_filename": "pls5.png"
-    },
-    {
-      "slug": "right",
-      "filename": "right.png",
-      "sticker_path": "stickers/right.png",
-      "source_path": "archive/chroma-key-sources/right.png",
-      "original_filename": "right.png"
-    },
-    {
-      "slug": "salute",
-      "filename": "salute.png",
-      "sticker_path": "stickers/salute.png",
-      "source_path": "archive/chroma-key-sources/salute.png",
-      "original_filename": "salute.png"
-    },
-    {
-      "slug": "shock",
-      "filename": "shock.png",
-      "sticker_path": "stickers/shock.png",
-      "source_path": "archive/chroma-key-sources/shock.png",
-      "original_filename": "shock.png"
-    },
-    {
-      "slug": "shrug",
-      "filename": "shrug.png",
-      "sticker_path": "stickers/shrug.png",
-      "source_path": "archive/chroma-key-sources/shrug.png",
-      "original_filename": "shrug4.png"
-    },
-    {
-      "slug": "snooze",
-      "filename": "snooze.png",
-      "sticker_path": "stickers/snooze.png",
-      "source_path": "archive/chroma-key-sources/snooze.png",
-      "original_filename": "snooze.png"
-    },
-    {
-      "slug": "thumbsup",
-      "filename": "thumbsup.png",
-      "sticker_path": "stickers/thumbsup.png",
-      "source_path": "archive/chroma-key-sources/thumbsup.png",
-      "original_filename": "thumbsup.png"
+      "slug": "yay",
+      "filename": "yay.png",
+      "sticker_path": "stickers/yay.png",
+      "source_path": "archive/chroma-key-sources/yay.png",
+      "original_filename": "yay.png",
+      "original_item_id": "6quxyqll"
     },
     {
       "slug": "wrong",
       "filename": "wrong.png",
       "sticker_path": "stickers/wrong.png",
       "source_path": "archive/chroma-key-sources/wrong.png",
-      "original_filename": "wrong.png"
+      "original_filename": "wrong.png",
+      "original_item_id": "yAuZO5Nk"
     },
     {
-      "slug": "yay",
-      "filename": "yay.png",
-      "sticker_path": "stickers/yay.png",
-      "source_path": "archive/chroma-key-sources/yay.png",
-      "original_filename": "yay.png"
+      "slug": "thumbsup",
+      "filename": "thumbsup.png",
+      "sticker_path": "stickers/thumbsup.png",
+      "source_path": "archive/chroma-key-sources/thumbsup.png",
+      "original_filename": "thumbsup.png",
+      "original_item_id": "X6u0pw1x"
+    },
+    {
+      "slug": "snooze",
+      "filename": "snooze.png",
+      "sticker_path": "stickers/snooze.png",
+      "source_path": "archive/chroma-key-sources/snooze.png",
+      "original_filename": "snooze.png",
+      "original_item_id": "4guOogp4"
+    },
+    {
+      "slug": "shrug4",
+      "filename": "shrug4.png",
+      "sticker_path": "stickers/shrug4.png",
+      "source_path": "archive/chroma-key-sources/shrug4.png",
+      "original_filename": "shrug4.png",
+      "original_item_id": "9Zu07ZnG"
+    },
+    {
+      "slug": "shock",
+      "filename": "shock.png",
+      "sticker_path": "stickers/shock.png",
+      "source_path": "archive/chroma-key-sources/shock.png",
+      "original_filename": "shock.png",
+      "original_item_id": "KoulPo6R"
+    },
+    {
+      "slug": "salute",
+      "filename": "salute.png",
+      "sticker_path": "stickers/salute.png",
+      "source_path": "archive/chroma-key-sources/salute.png",
+      "original_filename": "salute.png",
+      "original_item_id": "WnulOjn0"
+    },
+    {
+      "slug": "right",
+      "filename": "right.png",
+      "sticker_path": "stickers/right.png",
+      "source_path": "archive/chroma-key-sources/right.png",
+      "original_filename": "right.png",
+      "original_item_id": "WnulOjnd"
+    },
+    {
+      "slug": "pls5",
+      "filename": "pls5.png",
+      "sticker_path": "stickers/pls5.png",
+      "source_path": "archive/chroma-key-sources/pls5.png",
+      "original_filename": "pls5.png",
+      "original_item_id": "E0u4k0OQ"
+    },
+    {
+      "slug": "ok",
+      "filename": "ok.png",
+      "sticker_path": "stickers/ok.png",
+      "source_path": "archive/chroma-key-sources/ok.png",
+      "original_filename": "ok.png",
+      "original_item_id": "p9ur1qo8"
+    },
+    {
+      "slug": "intenseglare2",
+      "filename": "intenseglare2.png",
+      "sticker_path": "stickers/intenseglare2.png",
+      "source_path": "archive/chroma-key-sources/intenseglare2.png",
+      "original_filename": "intenseglare2.png",
+      "original_item_id": "kpuNgjZN"
+    },
+    {
+      "slug": "heart",
+      "filename": "heart.png",
+      "sticker_path": "stickers/heart.png",
+      "source_path": "archive/chroma-key-sources/heart.png",
+      "original_filename": "heart.png",
+      "original_item_id": "geuoL97k"
+    },
+    {
+      "slug": "handraise4",
+      "filename": "handraise4.png",
+      "sticker_path": "stickers/handraise4.png",
+      "source_path": "archive/chroma-key-sources/handraise4.png",
+      "original_filename": "handraise4.png",
+      "original_item_id": "KoulPoEb"
+    },
+    {
+      "slug": "greetings",
+      "filename": "greetings.png",
+      "sticker_path": "stickers/greetings.png",
+      "source_path": "archive/chroma-key-sources/greetings.png",
+      "original_filename": "greetings.png",
+      "original_item_id": "6quxyqNx"
+    },
+    {
+      "slug": "gasp",
+      "filename": "gasp.png",
+      "sticker_path": "stickers/gasp.png",
+      "source_path": "archive/chroma-key-sources/gasp.png",
+      "original_filename": "gasp.png",
+      "original_item_id": "E0u4k0yx"
+    },
+    {
+      "slug": "flailing2",
+      "filename": "flailing2.png",
+      "sticker_path": "stickers/flailing2.png",
+      "source_path": "archive/chroma-key-sources/flailing2.png",
+      "original_filename": "flailing2.png",
+      "original_item_id": "z8u4ze89"
+    },
+    {
+      "slug": "fingerguns",
+      "filename": "fingerguns.png",
+      "sticker_path": "stickers/fingerguns.png",
+      "source_path": "archive/chroma-key-sources/fingerguns.png",
+      "original_filename": "fingerguns.png",
+      "original_item_id": "E0u4k1x9"
+    },
+    {
+      "slug": "falling",
+      "filename": "falling.png",
+      "sticker_path": "stickers/falling.png",
+      "source_path": "archive/chroma-key-sources/falling.png",
+      "original_filename": "falling.png",
+      "original_item_id": "mXu5eLeg"
+    },
+    {
+      "slug": "facepalm",
+      "filename": "facepalm.png",
+      "sticker_path": "stickers/facepalm.png",
+      "source_path": "archive/chroma-key-sources/facepalm.png",
+      "original_filename": "facepalm.png",
+      "original_item_id": "yAuZOEO0"
+    },
+    {
+      "slug": "ded",
+      "filename": "ded.png",
+      "sticker_path": "stickers/ded.png",
+      "source_path": "archive/chroma-key-sources/ded.png",
+      "original_filename": "ded.png",
+      "original_item_id": "7KubO5OR"
+    },
+    {
+      "slug": "depressed2",
+      "filename": "depressed2.png",
+      "sticker_path": "stickers/depressed2.png",
+      "source_path": "archive/chroma-key-sources/depressed2.png",
+      "original_filename": "depressed2.png",
+      "original_item_id": "jkuY5wbD"
+    },
+    {
+      "slug": "crashed2",
+      "filename": "crashed2.png",
+      "sticker_path": "stickers/crashed2.png",
+      "source_path": "archive/chroma-key-sources/crashed2.png",
+      "original_filename": "crashed2.png",
+      "original_item_id": "wbuKGlEo"
     }
   ]
 }
