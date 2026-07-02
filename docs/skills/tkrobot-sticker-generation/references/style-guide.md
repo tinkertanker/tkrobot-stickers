@@ -21,7 +21,7 @@
 
 Use the original sticker library's clean 2D cartoon style: thick black outlines, simple forms, light highlights, transparent final PNGs, and sparse orange/yellow/grey motion marks.
 
-The definitive locked pack lives in `stickers/`, with the overview contact sheet at `contact-sheets/tkrobot-stickers.png`. Use those files as the current visual reference before creating more variants.
+The definitive locked pack lives in `stickers/`, with the overview contact sheet at `stickers/contact-sheet.png`. Use those files as the current visual reference before creating more variants.
 
 Use a subtle near-black-to-black gradient on the head and body so the head/torso boundary is easier to read. Keep the body recognisably black. Add a very thin 1px-style light grey shine/border along the bottom edge of the head to separate it from the body. Do not add a neck. Do not make the limbs or fingers charcoal-dark; use light grey around `#e1e1e1`.
 

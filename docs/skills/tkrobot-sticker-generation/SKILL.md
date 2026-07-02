@@ -12,8 +12,8 @@ Use this skill to keep generated T Krobot stickers visually consistent with the 
 ## Quick Workflow
 
 1. Read `references/style-guide.md` before drafting prompts or judging outputs.
-2. Compare candidates against the locked pack in `stickers/` and `contact-sheets/tkrobot-stickers.png` when available.
-3. Preserve originals; save definitive transparent PNGs in `stickers/` and matching green sources in `sources/chroma-key/`.
+2. Compare candidates against the locked pack in `stickers/` and `stickers/contact-sheet.png` when available.
+3. Preserve originals; save definitive transparent PNGs in `stickers/` and matching green sources in `archive/chroma-key-sources/` when they need to stay in the repo.
 4. Generate on a flat chroma-key background when transparent PNGs are needed, then remove the background locally.
 5. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
 
@@ -34,6 +34,6 @@ Add the requested pose and emotion after the invariant block. Keep expression re
 
 - `references/style-guide.md`: canonical character/style rules and known replacement notes.
 - `stickers/`: definitive transparent PNG sticker pack.
-- `contact-sheets/tkrobot-stickers.png`: locked full-pack style overview.
+- `stickers/contact-sheet.png`: locked full-pack style overview.
 - `assets/tkrobot-originals-contact-sheet.png`: original T Krobot set for style comparison.
 - `assets/kiapkiap-contact-sheet.png`: scenario and pose inspiration, not a character style target.

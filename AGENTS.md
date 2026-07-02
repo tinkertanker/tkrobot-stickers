@@ -2,31 +2,48 @@
 
 ## Identity
 
-You are the T Krobot sticker librarian and art-director agent. Work here when storing, reviewing, generating, or refining T Krobot sticker assets. This repo is for the mascot sticker library and its reusable generation guidance, not for general Tinkertanker brand assets.
+This repository stores T Krobot sticker assets for Tinkertanker. Work here is limited to producing, naming, documenting, verifying, and publishing transparent PNG sticker files for the company mascot. Do not add unrelated brand assets, slide decks, checkerboard previews, or loose generated scratch files to this repo.
 
-## Resources
+## Sticker Style
 
-| Resource | Read when... |
-| :---- | :---- |
-| `README.md` | You need the repo layout or current asset status. |
-| `prompts/tkrobot-sticker-guidelines.md` | You are drafting or revising image-generation prompts. |
-| `stickers/` | You need the definitive transparent sticker PNGs. |
-| `contact-sheets/tkrobot-stickers.png` | You need to review the locked full-pack style. |
-| `originals/tkrobot/manifest.json` | You need the source URL, downloaded original filenames, or CDN provenance. |
-| `references/tkrobot-originals-contact-sheet.png` | You need to compare against the original T Krobot sticker style. |
-| `references/kiapkiap-contact-sheet.png` | You need scenario or pose inspiration from the Kiap Kiap sticker set. |
-| `skills/tkrobot-sticker-generation/SKILL.md` | You are packaging reusable instructions for another Codex instance. |
+- T Krobot is a simple black robot mascot with large white glasses, softened trapezoid head and body, smooth light grey `#e1e1e1` limbs and fingers, black palm blobs, oversized black oval feet, and a flat red diamond chest mark.
+- Use the locked v11 proportions: moderately slim limbs, no neck, head top about 90% as wide as the bottom, and a thin light grey shine line under the head to separate head and body.
+- Do not draw a mouth.
+- Do not use pupils by default. Special eye marks are allowed only when they define the sticker concept, such as happy upside-down-U eyes, snooze lightning, glare slits, or knocked-out X marks.
+- Do not add joints, segmented limb rings, elbow/knee marks, bend lines, or black interior lines on arms and legs.
+- Keep motion marks sparse and readable at sticker size.
 
-## Workflow
+## File Rules
 
-1. Preserve source assets. Never overwrite files in `originals/`.
-2. Treat `stickers/` as the definitive transparent sticker pack and `sources/chroma-key/` as its matching source set.
-3. Keep T Krobot's locked v11 design fixed: softened black trapezoid head/body, big white glasses, flat red diamond chest mark, black palm blobs, light grey `#e1e1e1` fingers and limbs, black oval feet, no neck, and no mouth.
-4. Reject candidates with mouths, default pupils, segmented limbs, joint rings, elbow/knee marks, or black interior lines on arms and legs.
-5. Use flat chroma-key source renders for generation, then save final transparent PNGs into `stickers/`.
-6. Keep exploratory or rejected outputs under `generated/` only when they explain a style decision; do not point users there for final stickers.
-7. Refresh `contact-sheets/tkrobot-stickers.png` after adding or replacing definitive stickers.
+- Put final transparent PNG assets in `stickers/`.
+- Keep `stickers/` focused on the definitive pack: final PNGs, `manifest.json`, `README.md`, and `contact-sheet.png`.
+- Put historical generated attempts, original downloaded stickers, source renders, and reference copies under `archive/`.
+- Put reusable prompt guidelines and local skill material under `docs/`.
+- Put helper scripts and their dependencies under `tools/`.
+- Do not commit generated-image IDs, flattened background exports, checkerboard previews, temporary masks, or source scratch folders.
+- Keep `.DS_Store` and other OS metadata ignored.
 
-## Editorial Rules
+## Generation Workflow
 
-Use British spelling in prose. Keep asset notes concise and concrete: what changed, why it was accepted or rejected, and where the source files live.
+1. Generate one sticker at a time so filenames can map cleanly to prompts.
+2. Preserve the original generated image outside the repo when possible.
+3. Copy or export only the intended final asset into `stickers/`.
+4. If the generator returns a flattened background, convert only the outside-connected flat background to alpha. Avoid removing white or light interior details inside the mascot.
+5. Update `README.md`, `stickers/manifest.json`, and `stickers/contact-sheet.png` when adding, renaming, or removing sticker files.
+6. Run a verification pass before committing.
+
+## Verification
+
+Before committing, verify each new PNG:
+
+- It is in `stickers/`.
+- It has an alpha channel.
+- It is square and consistent with the pack size unless there is a deliberate reason to differ.
+- It has no mouth, default pupils, limb joints, accidental text, brand marks, or unwanted background.
+- It is visually consistent with the existing T Krobot stickers.
+
+## Git
+
+- Keep commits atomic and stage paths explicitly.
+- Use Conventional Commit messages, for example `feat: add tkrobot sticker pack`.
+- Push `main` after successful verification when the user asks to publish or update the GitHub repo.

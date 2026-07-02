@@ -1,6 +1,6 @@
 # T Krobot Sticker Prompt Guidelines
 
-Use these rules whenever generating or editing T Krobot stickers. The locked reference pack lives in `stickers/`, with the full overview at `contact-sheets/tkrobot-stickers.png`.
+Use these rules whenever generating or editing T Krobot stickers. The locked reference pack lives in `stickers/`, with the full overview at `stickers/contact-sheet.png`.
 
 ## Non-negotiable Character Invariants
 
