@@ -5,7 +5,7 @@
 - Black softened trapezoid head, with the top about 90% as wide as the bottom.
 - Black softened trapezoid body, not round, with larger rounded corners.
 - Large round white glasses with black rims.
-- Smooth plain light grey tube arms and legs, around `#e1e1e1`; match the `gasp-v11` anchor proportions: moderately slim, thicker than the too-thin v9/v10 attempts, still slimmer than the earliest baseline, and legs may be about 5% longer than the originals.
+- Smooth plain light grey tube arms and legs, around `#e1e1e1`; match the locked v11 anchor proportions: moderately slim, thicker than the too-thin v9/v10 attempts, still slimmer than the earliest baseline, and legs may be about 5% longer than the originals.
 - Hands use round black palm blobs with light grey `#e1e1e1` fingers and thumbs emerging from the blob's edge.
 - The black palm is the actual palm blob, not a glove wrapped around the fingers.
 - Each hand has one longer thumb and three longer rounded fingers.
@@ -20,6 +20,8 @@
 ## Visual Style
 
 Use the original sticker library's clean 2D cartoon style: thick black outlines, simple forms, light highlights, transparent final PNGs, and sparse orange/yellow/grey motion marks.
+
+The definitive locked pack lives in `stickers/`, with the overview contact sheet at `contact-sheets/tkrobot-stickers.png`. Use those files as the current visual reference before creating more variants.
 
 Use a subtle near-black-to-black gradient on the head and body so the head/torso boundary is easier to read. Keep the body recognisably black. Add a very thin 1px-style light grey shine/border along the bottom edge of the head to separate it from the body. Do not add a neck. Do not make the limbs or fingers charcoal-dark; use light grey around `#e1e1e1`.
 
