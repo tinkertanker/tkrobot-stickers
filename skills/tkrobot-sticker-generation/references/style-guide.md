@@ -5,9 +5,9 @@
 - Black rounded pill-shaped head.
 - Black oval torso.
 - Large round white glasses with black rims.
-- Smooth plain light grey tube arms and legs, around `#ccc`; legs may be about 5% longer than the originals.
-- Hands use full black palm/hand bases with light grey `#ccc` fingers and thumbs.
-- The black palm is the whole hand-without-fingers, not a tiny blob.
+- Smooth plain light grey tube arms and legs, around `#ccc`; arms and legs should be about 20% skinnier than v8, and legs may be about 5% longer than the originals.
+- Hands use round black palm blobs with light grey `#ccc` fingers and thumbs emerging from the blob's edge.
+- The black palm is the actual palm blob, not a glove wrapped around the fingers.
 - Each hand has one longer thumb and three longer rounded fingers.
 - Oversized black oval feet.
 - Flat red diamond chest mark, with no gem facets.
@@ -41,7 +41,7 @@ Accept a candidate only if:
 
 - The red diamond chest mark is visible.
 - The light grey limbs are smooth and unmarked.
-- The palms are full black hand bases, while the fingers and thumbs are longer light grey `#ccc`, not black.
+- The palms are round black blobs, while the fingers and thumbs are longer light grey `#ccc`, not black; the fingers emerge from the palm blob.
 - There is no mouth.
 - The character reads clearly at sticker size.
 - The transparent output has clean corners and no obvious green fringe.

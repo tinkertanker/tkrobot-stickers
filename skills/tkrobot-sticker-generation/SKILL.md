@@ -23,8 +23,8 @@ Start from this compact prompt shape:
 
 ```text
 Create a T Krobot sticker for "<slug>" on a perfectly flat solid #00ff00 chroma-key background.
-T Krobot is a black rounded robot with a pill-shaped black head and black oval torso using a subtle near-black-to-black gradient, plus a very thin 1px-style light grey shine line along the bottom edge of the head; large round white glasses with black rims, smooth plain light grey tube arms and legs around #ccc, hands with full black palm/hand bases plus light grey #ccc thumbs and fingers, oversized black oval feet, and a flat red diamond chest mark.
-No mouth. No neck. No joints. No segment lines. No black lines across arms or legs. Light grey limbs must be continuous plain shapes with only an outer black outline. Palms must be full black hand bases, not tiny blobs; fingers and thumbs must be light grey #ccc and longer, not stubby black bits. No pupils by default; use pupils only for special looks such as charging or happy.
+T Krobot is a black rounded robot with a pill-shaped black head and black oval torso using a subtle near-black-to-black gradient, plus a very thin 1px-style light grey shine line along the bottom edge of the head; large round white glasses with black rims, smooth plain light grey tube arms and legs around #ccc that are about 20% skinnier than v8, hands with round black palm blobs plus light grey #ccc thumbs and fingers emerging from the blob edges, oversized black oval feet, and a flat red diamond chest mark.
+No mouth. No neck. No joints. No segment lines. No black lines across arms or legs. Light grey limbs must be continuous skinny plain shapes with only an outer black outline. Palms must be round black blobs that fingers emerge from, not gloves wrapped around the fingers; fingers and thumbs must be light grey #ccc and longer, not stubby black bits. No pupils by default; use pupils only for special looks such as charging or happy.
 Use clean 2D cartoon sticker styling with thick black outlines, simple flat shapes, subtle highlights, expressive pose marks, generous padding, and no cropping.
 ```
 
