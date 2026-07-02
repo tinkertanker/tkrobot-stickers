@@ -23,8 +23,8 @@ Start from this compact prompt shape:
 
 ```text
 Create a T Krobot sticker for "<slug>" on a perfectly flat solid #00ff00 chroma-key background.
-T Krobot is a black rounded robot with a pill-shaped black head, black oval torso, large round white glasses with black rims, smooth plain white tube arms and legs, black mitten hands, oversized black oval feet, and a red diamond chest mark.
-No mouth. No joints. No segment lines. No black lines across arms or legs. White limbs must be continuous plain white shapes with only an outer black outline. No pupils by default; use pupils only for special looks such as charging or happy.
+T Krobot is a black rounded robot with a pill-shaped black head and black oval torso using a subtle near-black-to-black gradient, large round white glasses with black rims, smooth plain light grey tube arms and legs around #ccc, hands with black palm pads plus light grey #ccc thumbs and fingers, oversized black oval feet, a flat red diamond chest mark, and optionally a subtle light grey neck.
+No mouth. No joints. No segment lines. No black lines across arms or legs. Light grey limbs must be continuous plain shapes with only an outer black outline. Palms must be black; fingers and thumbs must be light grey #ccc and slightly longer, not stubby black bits. No pupils by default; use pupils only for special looks such as charging or happy.
 Use clean 2D cartoon sticker styling with thick black outlines, simple flat shapes, subtle highlights, expressive pose marks, generous padding, and no cropping.
 ```
 

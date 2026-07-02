@@ -16,10 +16,10 @@ This repo stores the source sticker library and generation guidance for T Krobot
 
 The first improved batch covered the weaker originals: `gasp`, `salute`, `yay`, `snooze`, and `shock`, but v2 is rejected because pupils became the default expression language.
 
-There is no current accepted replacement batch. Keep older generated versions in place so style decisions remain traceable.
+The current candidate batch is `generated/replacements-v7/`. It is closer to the new direction, but still needs review before becoming final canon. Keep older generated versions in place so style decisions remain traceable.
 
 ## Character Rules
 
-T Krobot is a simple black robot with large white glasses, black mitten hands, oversized black feet, smooth plain white limbs, and a red diamond chest mark.
+T Krobot is a simple black robot with large white glasses, black palms with light grey fingers, oversized black feet, smooth plain light grey limbs, and a flat red diamond chest mark. Use light grey body parts around `#ccc`; do not make them charcoal-dark. Hands have a black palm pad plus one longer light grey thumb and three longer light grey rounded fingers. A subtle near-black-to-black gradient on the head/body is useful so the head and torso separate visually. A hint of a light grey `#ccc` neck is allowed.
 
 Do not draw a mouth. Do not draw joints, segment rings, bend lines, or any black interior lines on the white arms or legs. Do not draw pupils by default; reserve pupils only for special looks where they are part of the concept, such as charging or happy.
