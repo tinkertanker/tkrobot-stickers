@@ -1,0 +1,4 @@
+interface:
+  display_name: "T Krobot Sticker Generation"
+  short_description: "Generate T Krobot stickers that preserve the mascot style."
+  default_prompt: "Generate a T Krobot sticker that matches the existing sticker library."

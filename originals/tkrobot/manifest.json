@@ -1,0 +1,227 @@
+{
+  "source": "https://tk.sg/stickerlib",
+  "collection_id": "Rzf65o",
+  "downloaded_count": 22,
+  "items": [
+    {
+      "filename": "yay.png",
+      "slug": "yay",
+      "item_id": "6quxyqll",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/6quxyqll/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/6quxyqll/65ee12c2-10c5-499a-9eb9-c640ec2caccc.png?source=thumbnail&v=49fd75c3d86911403c31556a6c9ef18e",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/6quxyqll/65ee12c2-10c5-499a-9eb9-c640ec2caccc.png",
+      "bytes": 147812,
+      "sha256": "8b7985f0d8f4cc4337f86ec24a5a9aa3523b57742f6b751fc2b537619ac03380"
+    },
+    {
+      "filename": "wrong.png",
+      "slug": "wrong",
+      "item_id": "yAuZO5Nk",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/yAuZO5Nk/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/yAuZO5Nk/54d588b9-ce8e-44f8-a257-8e7246bdb787.png?source=thumbnail&v=acaabd17cb6446da43202741c1a1444d",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/yAuZO5Nk/54d588b9-ce8e-44f8-a257-8e7246bdb787.png",
+      "bytes": 164737,
+      "sha256": "e67c3a7690f6e6247cbeaf47ed56fd472113944de99aee34383792bfa0735cb9"
+    },
+    {
+      "filename": "thumbsup.png",
+      "slug": "thumbsup",
+      "item_id": "X6u0pw1x",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/X6u0pw1x/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/X6u0pw1x/42c57bd1-ea6a-4ad3-90aa-58bea5990514.png?source=thumbnail&v=8d58ad81861f2f9551f550fe53581c37",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/X6u0pw1x/42c57bd1-ea6a-4ad3-90aa-58bea5990514.png",
+      "bytes": 157206,
+      "sha256": "c3d2a274c6bc7dc8aabcac16fa5767fea98192a44cd814aabdfc73a27e1f13c6"
+    },
+    {
+      "filename": "snooze.png",
+      "slug": "snooze",
+      "item_id": "4guOogp4",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/4guOogp4/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/4guOogp4/3314a222-9922-4684-b455-d12e5050482f.png?source=thumbnail&v=7c0ad643f0ae135fac8890c6d04e0a56",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/4guOogp4/3314a222-9922-4684-b455-d12e5050482f.png",
+      "bytes": 120159,
+      "sha256": "bb934e4fcc66120be1670bb39d9e4a82f02b050210c2da40bc15528314bb8aca"
+    },
+    {
+      "filename": "shrug4.png",
+      "slug": "shrug4",
+      "item_id": "9Zu07ZnG",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/9Zu07ZnG/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/9Zu07ZnG/9fa64d92-bfdf-4020-9e69-653a61384b5b.png?source=thumbnail&v=90bf7c08e3a82ecc13f120ad832a7f28",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/9Zu07ZnG/9fa64d92-bfdf-4020-9e69-653a61384b5b.png",
+      "bytes": 149481,
+      "sha256": "f255c787d12f4bccdd02d0b97e509df10e18284098b02c5285f3c3b69282d50f"
+    },
+    {
+      "filename": "shock.png",
+      "slug": "shock",
+      "item_id": "KoulPo6R",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/KoulPo6R/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/KoulPo6R/7a768acd-6dae-45eb-91db-1dc83a26b819.png?source=thumbnail&v=30c2d04dfbcd9a1f729df0e9f1c06f19",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/KoulPo6R/7a768acd-6dae-45eb-91db-1dc83a26b819.png",
+      "bytes": 148564,
+      "sha256": "ef6474cf92d8d8cf69d5e7f5270d3b2d65bc320b4a4721ca97f2ebe44cfe4cc3"
+    },
+    {
+      "filename": "salute.png",
+      "slug": "salute",
+      "item_id": "WnulOjn0",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/WnulOjn0/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/WnulOjn0/84e74304-fa4c-464f-9e72-347f879d0790.png?source=thumbnail&v=cfcbcd67da91848d0a0f8073a6897b36",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/WnulOjn0/84e74304-fa4c-464f-9e72-347f879d0790.png",
+      "bytes": 145063,
+      "sha256": "7d3dc549d00083fedadb0ac37520544037269dcc533299fee3c115aff46c3665"
+    },
+    {
+      "filename": "right.png",
+      "slug": "right",
+      "item_id": "WnulOjnd",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/WnulOjnd/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/WnulOjnd/d0d15c60-2a3a-4232-90e8-27427519abc9.png?source=thumbnail&v=002e1bab798455def2ad1fa1729f8bff",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/WnulOjnd/d0d15c60-2a3a-4232-90e8-27427519abc9.png",
+      "bytes": 158557,
+      "sha256": "80604645639748b5b7e950b52c0daafe40c2ae3b872ca8c4114b524667ca9ff0"
+    },
+    {
+      "filename": "pls5.png",
+      "slug": "pls5",
+      "item_id": "E0u4k0OQ",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/E0u4k0OQ/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/E0u4k0OQ/528b164d-724e-45ff-ae21-b7296839fe5f.png?source=thumbnail&v=2ea8e1aa12bc2d231d3eb16b37dd6234",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/E0u4k0OQ/528b164d-724e-45ff-ae21-b7296839fe5f.png",
+      "bytes": 159324,
+      "sha256": "24739ac5cb84c6f7868e0e6797f6aa4c03345bdf6dc6b04cfb7b9c84755c362f"
+    },
+    {
+      "filename": "ok.png",
+      "slug": "ok",
+      "item_id": "p9ur1qo8",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/p9ur1qo8/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/p9ur1qo8/0db2be8a-7373-49d3-87f7-07792a6bebc5.png?source=thumbnail&v=db702e0d17e702f89b0badc5152edefb",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/p9ur1qo8/0db2be8a-7373-49d3-87f7-07792a6bebc5.png",
+      "bytes": 152954,
+      "sha256": "a7e4c421faf3f8eaf2c3fc655b61e385864056d59296ee7ef15714c2eecbf35b"
+    },
+    {
+      "filename": "intenseglare2.png",
+      "slug": "intenseglare2",
+      "item_id": "kpuNgjZN",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/kpuNgjZN/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/kpuNgjZN/bb219099-895b-4b0f-b713-22d7a45960dd.png?source=thumbnail&v=ab4441934057c7221aaa44bc2194ec85",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/kpuNgjZN/bb219099-895b-4b0f-b713-22d7a45960dd.png",
+      "bytes": 199449,
+      "sha256": "ba3a2fcf2f2ec6e9e92f20c68cf45d61d79ca08545d8752ed4d64190944974c0"
+    },
+    {
+      "filename": "heart.png",
+      "slug": "heart",
+      "item_id": "geuoL97k",
+      "page": 1,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/geuoL97k/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/geuoL97k/09e2ae67-20fb-470d-adb8-23be491e10e5.png?source=thumbnail&v=d5f1f106cf47452cbc429c25068a3b82",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/geuoL97k/09e2ae67-20fb-470d-adb8-23be491e10e5.png",
+      "bytes": 133676,
+      "sha256": "3cce6b1dbc9fd8fe9a33cd51a80f071c291fa038076268a1ebf629c338953a49"
+    },
+    {
+      "filename": "handraise4.png",
+      "slug": "handraise4",
+      "item_id": "KoulPoEb",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/KoulPoEb/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/KoulPoEb/361e9cf4-dcf3-4cb8-ab1c-d982137d41bc.png?source=thumbnail&v=ede85a159d1b10fc06f819cc4d863fc6",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/KoulPoEb/361e9cf4-dcf3-4cb8-ab1c-d982137d41bc.png",
+      "bytes": 134213,
+      "sha256": "ce1c4e33a90a200e473c309281081c3149436b118c5d12404ad4ccbd42bddfa7"
+    },
+    {
+      "filename": "greetings.png",
+      "slug": "greetings",
+      "item_id": "6quxyqNx",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/6quxyqNx/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/6quxyqNx/72ff0551-6af8-41a8-bc11-0a2514e2fe14.png?source=thumbnail&v=588c321f1fb9571e7ffd353edd9ed880",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/6quxyqNx/72ff0551-6af8-41a8-bc11-0a2514e2fe14.png",
+      "bytes": 1614979,
+      "sha256": "73897e835aa678be36089c2a09cf2f5c564bc38115b36439e1ac018ff8ac86f6"
+    },
+    {
+      "filename": "gasp.png",
+      "slug": "gasp",
+      "item_id": "E0u4k0yx",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/E0u4k0yx/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/E0u4k0yx/c005fe25-9d4a-4208-9033-4f73e1da4a31.png?source=thumbnail&v=c2002fec35bdc73165b7eccac074e66a",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/E0u4k0yx/c005fe25-9d4a-4208-9033-4f73e1da4a31.png",
+      "bytes": 158139,
+      "sha256": "9175d9c51781cf2d2e890d4d3214bb1c28f3118cc35f48472a9c0efb6f20576a"
+    },
+    {
+      "filename": "flailing2.png",
+      "slug": "flailing2",
+      "item_id": "z8u4ze89",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/z8u4ze89/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/z8u4ze89/382007e8-3918-4907-9bf9-9a934bad1664.png?source=thumbnail&v=68dc0aa5cf084dfa2238a1137833ad44",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/z8u4ze89/382007e8-3918-4907-9bf9-9a934bad1664.png",
+      "bytes": 214822,
+      "sha256": "50ede6c33928f3eb6224d12ee39ea04d4a8d9c594c3971b1b9ab0b2b1ff19121"
+    },
+    {
+      "filename": "fingerguns.png",
+      "slug": "fingerguns",
+      "item_id": "E0u4k1x9",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/E0u4k1x9/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/E0u4k1x9/e7a1fe15-ee9e-4d74-80ee-8e494603ddad.png?source=thumbnail&v=b243b52d9428245e592bd65f722982e0",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/E0u4k1x9/e7a1fe15-ee9e-4d74-80ee-8e494603ddad.png",
+      "bytes": 145627,
+      "sha256": "57c66a7dd3d2cecf8c7d3190222343c9f7c9f065662d91a2f8750079ede45d6b"
+    },
+    {
+      "filename": "falling.png",
+      "slug": "falling",
+      "item_id": "mXu5eLeg",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/mXu5eLeg/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/mXu5eLeg/a196e1ae-c15f-4310-9554-f6062ad99081.png?source=thumbnail&v=e438d19763f2b3fd97ec6382d98f23c2",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/mXu5eLeg/a196e1ae-c15f-4310-9554-f6062ad99081.png",
+      "bytes": 799449,
+      "sha256": "55078470e726f7233e30ec122802339f712295200d0352b41218a4f876450b58"
+    },
+    {
+      "filename": "facepalm.png",
+      "slug": "facepalm",
+      "item_id": "yAuZOEO0",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/yAuZOEO0/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/yAuZOEO0/449dd680-fb00-418e-ae7a-59a00499e83e.png?source=thumbnail&v=6d59e7d82950654f96c449d279252a0d",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/yAuZOEO0/449dd680-fb00-418e-ae7a-59a00499e83e.png",
+      "bytes": 136334,
+      "sha256": "05235e94edccbb80230e5ca2339fdcc8f47a975de91ad6b8c201ebeba5a58afc"
+    },
+    {
+      "filename": "ded.png",
+      "slug": "ded",
+      "item_id": "7KubO5OR",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/7KubO5OR/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/7KubO5OR/14c46699-db78-466d-9221-4d90c28b5c5c.png?source=thumbnail&v=a593abe82c4f0f70e7865f049eb49798",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/7KubO5OR/14c46699-db78-466d-9221-4d90c28b5c5c.png",
+      "bytes": 117034,
+      "sha256": "56a41140e2ef785284b6b53c1c762841765b5f9ad3a425050b08e4db3fa1254b"
+    },
+    {
+      "filename": "depressed2.png",
+      "slug": "depressed2",
+      "item_id": "jkuY5wbD",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/jkuY5wbD/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/jkuY5wbD/c2f97051-42e5-43c8-8ab6-ee37b5c6dad1.png?source=thumbnail&v=017620b1db576fc514e7513984af245e",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/jkuY5wbD/c2f97051-42e5-43c8-8ab6-ee37b5c6dad1.png",
+      "bytes": 160469,
+      "sha256": "46a5a2e8dc90d2b063eed53fd4ee1f4664db99c19abe33d1f955775942c3abd1"
+    },
+    {
+      "filename": "crashed2.png",
+      "slug": "crashed2",
+      "item_id": "wbuKGlEo",
+      "page": 2,
+      "thumbnail_url": "https://thumbnail.cdn.zight.com/i/wbuKGlEo/0x400/p-81FpyM.t0.n0.cdn.zight.com/items/wbuKGlEo/3f6a0ef2-e1b1-40c1-9205-db0826b21897.png?source=thumbnail&v=d27d13549dfdf29f7498c557283c7587",
+      "original_url": "https://p-81FpyM.t0.n0.cdn.zight.com/items/wbuKGlEo/3f6a0ef2-e1b1-40c1-9205-db0826b21897.png",
+      "bytes": 179052,
+      "sha256": "985742193fe07f332cf02db3695e95f2c9fe56ae2383f4851ded94008361236b"
+    }
+  ]
+}
