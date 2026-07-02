@@ -1,6 +1,6 @@
-# Replacement v9 Notes
+# Rejected v9 Notes
 
-Current candidate direction:
+Rejected direction:
 
 - Moves `v8` into rejected history because the hands read too much like gloves.
 - Uses 20% skinnier arms and legs than v8.
@@ -12,3 +12,4 @@ Current candidate direction:
 Known caveat:
 
 - The exact one-thumb, three-finger construction is strongest in `yay-v9.png` and `snooze-v9.png`; review the other poses for hand readability before finalising.
+- Superseded by `generated/replacements-v11/`, which uses the preferred `gasp-v11` anchor proportions and light grey `#e1e1e1` body parts.
