@@ -9,7 +9,8 @@
 - Hands use round black palm blobs with light grey `#e1e1e1` fingers and thumbs emerging from the blob's edge.
 - The black palm is the actual palm blob, not a glove wrapped around the fingers.
 - Each hand has exactly one thumb and exactly three fingers. This is very important; do not draw four fingers plus one thumb.
-- Fingers should read as flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
+- Current hand-size anchor: use `archive/generated-iterations/v1-size-blocky-fingers/contact-sheet.png`. Keep the large rejected-v1 palm and finger scale; do not shrink toward the smaller `hand-scale-v2` rectangular batch.
+- Fingers should read as large flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
 - Oversized black oval feet.
 - Flat red diamond chest mark, with no gem facets.
 - No neck.
@@ -44,7 +45,7 @@ Accept a candidate only if:
 
 - The red diamond chest mark is visible.
 - The light grey limbs are smooth and unmarked.
-- The palms are round black blobs, while the fingers and thumbs are light grey `#e1e1e1`, not black; each hand has exactly three fingers plus one thumb; the fingers emerge from the palm blob as flat rectangular tabs.
+- The palms are round black blobs, while the fingers and thumbs are light grey `#e1e1e1`, not black; each hand has exactly three fingers plus one thumb; the fingers emerge from the palm blob as large flat rectangular tabs at the rejected-v1 hand scale.
 - There is no mouth.
 - The character reads clearly at sticker size.
 - The transparent output has clean corners and no obvious green fringe.

@@ -9,7 +9,8 @@ This repository stores T Krobot sticker assets for Tinkertanker. Work here is li
 - T Krobot is a simple black robot mascot with large white glasses, softened trapezoid head and body, smooth light grey `#e1e1e1` limbs and fingers, black palm blobs, oversized black oval feet, and a flat red diamond chest mark.
 - Use the locked v11 proportions: moderately slim limbs, no neck, head top about 90% as wide as the bottom, and a thin light grey shine line under the head to separate head and body.
 - Hands must have exactly three fingers plus one thumb. This is very important. Do not generate four fingers plus one thumb.
-- Fingers should read as flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
+- Use `archive/generated-iterations/v1-size-blocky-fingers/contact-sheet.png` as the current hand-size anchor: keep the large rejected-v1 palm and finger scale, but use flatter rectangular-tab fingers. Do not shrink fingers toward the smaller v2 rectangular batch.
+- Fingers should read as large flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
 - Do not draw a mouth.
 - Do not use pupils by default. Special eye marks are allowed only when they define the sticker concept, such as happy upside-down-U eyes, snooze lightning, glare slits, or knocked-out X marks.
 - Do not add joints, segmented limb rings, elbow/knee marks, bend lines, or black interior lines on arms and legs.
