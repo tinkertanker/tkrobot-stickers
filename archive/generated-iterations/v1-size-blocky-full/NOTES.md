@@ -19,3 +19,4 @@ Review notes:
 - Watch the highly dynamic poses (`crashed`, `ded`, `falling`, `flailing`, `shock`, `yay`) for individual hand readability and digit count at sticker size.
 - `gasp` is still the copied candidate from `v1-size-blocky-fingers`; its hand count and scale are useful, but it still has unwanted internal arm crease lines.
 - `greetings` and `handraise` were updated after review so they no longer share the same silhouette: `greetings` uses a wider side-wave arm angle, while `handraise` uses a near-vertical raised arm and tip-toe/stretch posture.
+- `wrong` was updated after review to make the pose carry the meaning: both arms cross in front of the body, with the red X kept off to the side as emphasis.
