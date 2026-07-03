@@ -18,3 +18,4 @@ Review notes:
 - Do not promote wholesale until the contact sheet is reviewed; the visible direction is intentionally captured here for iteration.
 - Watch the highly dynamic poses (`crashed`, `ded`, `falling`, `flailing`, `shock`, `yay`) for individual hand readability and digit count at sticker size.
 - `gasp` is still the copied candidate from `v1-size-blocky-fingers`; its hand count and scale are useful, but it still has unwanted internal arm crease lines.
+- `greetings` and `handraise` were updated after review so they no longer share the same silhouette: `greetings` uses a wider side-wave arm angle, while `handraise` uses a near-vertical raised arm and tip-toe/stretch posture.
