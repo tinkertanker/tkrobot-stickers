@@ -4,26 +4,27 @@ Transparent PNG sticker assets for T Krobot, Tinkertanker's robot mascot with gl
 
 ## Files
 
-All definitive stickers are in `stickers/` as 1254 x 1254 transparent PNGs.
+All definitive rectangular-finger stickers are in `stickers/` as 1254 x 1254 transparent PNGs.
 
-- `crashed2.png`
+- `crashed.png`
 - `ded.png`
-- `depressed2.png`
+- `depressed.png`
 - `facepalm.png`
 - `falling.png`
 - `fingerguns.png`
-- `flailing2.png`
+- `flailing.png`
 - `gasp.png`
 - `greetings.png`
-- `handraise4.png`
+- `handraise.png`
 - `heart.png`
-- `intenseglare2.png`
+- `intenseglare.png`
 - `ok.png`
-- `pls5.png`
+- `pls.png`
 - `right.png`
 - `salute.png`
 - `shock.png`
-- `shrug4.png`
+- `shrug.png`
+- `sixseven.png`
 - `snooze.png`
 - `thumbsup.png`
 - `wrong.png`
