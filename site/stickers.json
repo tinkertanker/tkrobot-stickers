@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "count": 25,
+  "count": 26,
   "items": [
     {
       "slug": "crashed",
@@ -133,6 +133,12 @@
       "filename": "snooze.png",
       "path": "/stickers/snooze.png?v=8bb9563d7230",
       "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "thumbsdown",
+      "filename": "thumbsdown.png",
+      "path": "/stickers/thumbsdown.png?v=4311ebe1c519",
+      "updated_at": "2026-07-16"
     },
     {
       "slug": "thumbsup",

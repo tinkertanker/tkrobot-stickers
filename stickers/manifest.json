@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v1-size-blocky-full-rectangular-fingers",
-  "count": 25,
+  "count": 26,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -179,6 +179,14 @@
       "source_path": "archive/chroma-key-sources/snooze.png",
       "original_filename": "snooze.png",
       "original_item_id": "4guOogp4"
+    },
+    {
+      "slug": "thumbsdown",
+      "filename": "thumbsdown.png",
+      "sticker_path": "stickers/thumbsdown.png",
+      "source_path": "archive/chroma-key-sources/thumbsdown.png",
+      "original_filename": null,
+      "note": "New dejected thumbs-down sticker, generated after the original tk.sg/stickerlib scrape."
     },
     {
       "slug": "thumbsup",
