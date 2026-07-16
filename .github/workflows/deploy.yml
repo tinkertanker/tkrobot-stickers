@@ -1,0 +1,59 @@
+name: Deploy sticker library
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+concurrency:
+  group: sticker-library-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Deploy tagged release over SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            set -euo pipefail
+
+            DEPLOY_PATH="${{ vars.DEPLOY_PATH }}"
+            if [ -z "$DEPLOY_PATH" ]; then
+              DEPLOY_PATH="/home/tinkertanker-server/Docker/tkrobot-stickers"
+            fi
+
+            if [ ! -d "$DEPLOY_PATH/.git" ]; then
+              rm -rf "$DEPLOY_PATH"
+              git clone "git@github.com:${{ github.repository }}.git" "$DEPLOY_PATH"
+            fi
+
+            cd "$DEPLOY_PATH"
+            git fetch --prune --tags origin
+            git checkout --detach "${{ github.ref_name }}"
+
+            docker compose up -d --build --remove-orphans
+            docker compose ps
+
+            container_id="$(docker compose ps -q stickers)"
+            for attempt in 1 2 3 4 5 6; do
+              health="$(docker inspect --format '{{if .State.Health}}{{.State.Health.Status}}{{else}}{{.State.Status}}{{end}}' "$container_id")"
+              [ "$health" = "healthy" ] && break
+              [ "$health" = "unhealthy" ] && docker compose logs --tail=100 stickers && exit 1
+              sleep 2
+            done
+
+            health="$(docker inspect --format '{{if .State.Health}}{{.State.Health.Status}}{{else}}{{.State.Status}}{{end}}' "$container_id")"
+            [ "$health" = "healthy" ] || { docker compose logs --tail=100 stickers; exit 1; }
+
+      - name: Verify public site
+        run: curl --fail --show-error --silent --retry 6 --retry-delay 5 https://stickers.tk.sg/healthz

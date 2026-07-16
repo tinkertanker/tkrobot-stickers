@@ -1,0 +1,15 @@
+archive/
+docs/
+tools/**
+!tools/scripts/
+!tools/scripts/build_site_manifest.py
+stickers/contact-sheet.png
+stickers/README.md
+README.md
+CLAUDE.md
+AGENTS.md
+.github/
+.DS_Store
+__pycache__/
+*.pyc
+*.zip

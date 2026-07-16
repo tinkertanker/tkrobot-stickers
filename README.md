@@ -2,6 +2,8 @@
 
 Transparent PNG sticker assets for T Krobot, Tinkertanker's robot mascot with glasses.
 
+Browse and download the pack at [stickers.tk.sg](https://stickers.tk.sg).
+
 ## Files
 
 All definitive rectangular-finger stickers are in `stickers/` as 1254 x 1254 transparent PNGs.
@@ -38,3 +40,9 @@ All definitive rectangular-finger stickers are in `stickers/` as 1254 x 1254 tra
 - Historical generated attempts, original downloaded files, source renders, and reference copies live under `archive/`.
 - Reusable generation guidance and the local skill live under `docs/`.
 - No licence is granted by default; treat these as Tinkertanker mascot assets unless separately approved.
+
+## Website
+
+The static gallery lives in `site/`. It shows each PNG without cropping, supports direct single downloads and separate multi-file downloads, and derives each sticker's updated date from Git history during the container build.
+
+Run `python3 tools/scripts/build_site_manifest.py` to refresh local site metadata. Production releases deploy automatically when a `v*` tag is pushed; `./deploy.sh` can deploy a chosen ref manually with `REF=<tag-or-commit>`.

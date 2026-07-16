@@ -1,0 +1,150 @@
+{
+  "name": "T Krobot definitive sticker pack",
+  "count": 24,
+  "items": [
+    {
+      "slug": "crashed",
+      "filename": "crashed.png",
+      "path": "/stickers/crashed.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "face",
+      "filename": "face.png",
+      "path": "/stickers/face.png",
+      "updated_at": "2026-07-16"
+    },
+    {
+      "slug": "ded",
+      "filename": "ded.png",
+      "path": "/stickers/ded.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "depressed",
+      "filename": "depressed.png",
+      "path": "/stickers/depressed.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "facepalm",
+      "filename": "facepalm.png",
+      "path": "/stickers/facepalm.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "falling",
+      "filename": "falling.png",
+      "path": "/stickers/falling.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "fingerguns",
+      "filename": "fingerguns.png",
+      "path": "/stickers/fingerguns.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "flailing",
+      "filename": "flailing.png",
+      "path": "/stickers/flailing.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "gasp",
+      "filename": "gasp.png",
+      "path": "/stickers/gasp.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "greetings",
+      "filename": "greetings.png",
+      "path": "/stickers/greetings.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "handraise",
+      "filename": "handraise.png",
+      "path": "/stickers/handraise.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "heart",
+      "filename": "heart.png",
+      "path": "/stickers/heart.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "intenseglare",
+      "filename": "intenseglare.png",
+      "path": "/stickers/intenseglare.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "ok",
+      "filename": "ok.png",
+      "path": "/stickers/ok.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "pls",
+      "filename": "pls.png",
+      "path": "/stickers/pls.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "right",
+      "filename": "right.png",
+      "path": "/stickers/right.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "salute",
+      "filename": "salute.png",
+      "path": "/stickers/salute.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "shock",
+      "filename": "shock.png",
+      "path": "/stickers/shock.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "shrug",
+      "filename": "shrug.png",
+      "path": "/stickers/shrug.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "sixseven",
+      "filename": "sixseven.png",
+      "path": "/stickers/sixseven.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "snooze",
+      "filename": "snooze.png",
+      "path": "/stickers/snooze.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "thumbsup",
+      "filename": "thumbsup.png",
+      "path": "/stickers/thumbsup.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "wrong",
+      "filename": "wrong.png",
+      "path": "/stickers/wrong.png",
+      "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "yay",
+      "filename": "yay.png",
+      "path": "/stickers/yay.png",
+      "updated_at": "2026-07-08"
+    }
+  ]
+}
