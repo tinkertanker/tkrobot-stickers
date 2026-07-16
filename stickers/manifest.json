@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v1-size-blocky-full-rectangular-fingers",
-  "count": 23,
+  "count": 24,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -11,6 +11,13 @@
       "source_path": "archive/chroma-key-sources/crashed.png",
       "original_filename": "crashed2.png",
       "original_item_id": "wbuKGlEo"
+    },
+    {
+      "slug": "face",
+      "filename": "face.png",
+      "sticker_path": "stickers/face.png",
+      "source_path": "archive/chroma-key-sources/face.png",
+      "original_filename": "face.png"
     },
     {
       "slug": "ded",
