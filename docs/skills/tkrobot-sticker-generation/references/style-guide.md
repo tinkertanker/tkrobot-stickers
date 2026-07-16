@@ -4,7 +4,7 @@
 
 - Black softened trapezoid head, with the top about 90% as wide as the bottom.
 - Black softened trapezoid body, not round, with larger rounded corners.
-- Large round white glasses with black rims.
+- Large round white glasses with black rims. Preserve their locked wide round proportions independently of the head taper. Never shrink or horizontally compress the glasses to fit inside the trapezoidal head; the frames may extend beyond the head's side boundaries.
 - Smooth plain light grey tube arms and legs, around `#e1e1e1`; match the locked v11 anchor proportions: moderately slim, thicker than the too-thin v9/v10 attempts, still slimmer than the earliest baseline, and legs may be about 5% longer than the originals.
 - Hands use round black palm blobs with light grey `#e1e1e1` fingers and thumbs emerging from the blob's edge.
 - The black palm is the actual palm blob, not a glove wrapped around the fingers.
