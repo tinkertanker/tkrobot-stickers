@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v1-size-blocky-full-rectangular-fingers",
-  "count": 26,
+  "count": 27,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -90,6 +90,14 @@
       "source_path": "archive/chroma-key-sources/handraise.png",
       "original_filename": "handraise4.png",
       "original_item_id": "KoulPoEb"
+    },
+    {
+      "slug": "hands-on-hips",
+      "filename": "hands-on-hips.png",
+      "sticker_path": "stickers/hands-on-hips.png",
+      "source_path": "archive/chroma-key-sources/hands-on-hips.png",
+      "original_filename": null,
+      "note": "New confident arms-akimbo sticker, generated after the original tk.sg/stickerlib scrape."
     },
     {
       "slug": "heart",

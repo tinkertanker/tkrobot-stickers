@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "count": 26,
+  "count": 27,
   "items": [
     {
       "slug": "crashed",
@@ -67,6 +67,12 @@
       "filename": "handraise.png",
       "path": "/stickers/handraise.png?v=4bcc536dbfb9",
       "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "hands-on-hips",
+      "filename": "hands-on-hips.png",
+      "path": "/stickers/hands-on-hips.png?v=aa41de834c12",
+      "updated_at": "2026-07-16"
     },
     {
       "slug": "heart",
