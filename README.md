@@ -22,7 +22,8 @@ All definitive rectangular-finger stickers are in `stickers/` as 1254 x 1254 tra
 - `intenseglare.png`
 - `ok.png`
 - `pls.png`
-- `right.png`
+- `point-left.png`
+- `point-right.png`
 - `salute.png`
 - `shock.png`
 - `shrug.png`

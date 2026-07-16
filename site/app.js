@@ -6,7 +6,6 @@ const selectAll = document.querySelector("#select-all");
 const clearSelection = document.querySelector("#clear-selection");
 const downloadSelection = document.querySelector("#download-selection");
 const downloadNotice = document.querySelector("#download-notice");
-const stickerCount = document.querySelector("#sticker-count");
 const loadError = document.querySelector("#load-error");
 
 const selected = new Set();
@@ -143,7 +142,6 @@ fetch("/stickers.json")
   })
   .then((data) => {
     stickers = data.items;
-    stickerCount.textContent = stickers.length;
     stickers.forEach(renderSticker);
   })
   .catch((error) => {

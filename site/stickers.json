@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "count": 24,
+  "count": 25,
   "items": [
     {
       "slug": "crashed",
@@ -93,10 +93,16 @@
       "updated_at": "2026-07-08"
     },
     {
-      "slug": "right",
-      "filename": "right.png",
-      "path": "/stickers/right.png",
-      "updated_at": "2026-07-08"
+      "slug": "point-left",
+      "filename": "point-left.png",
+      "path": "/stickers/point-left.png",
+      "updated_at": "2026-07-16"
+    },
+    {
+      "slug": "point-right",
+      "filename": "point-right.png",
+      "path": "/stickers/point-right.png",
+      "updated_at": "2026-07-16"
     },
     {
       "slug": "salute",

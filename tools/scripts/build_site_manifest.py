@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -22,9 +23,14 @@ def last_updated(path: str) -> str:
         text=True,
     )
     date = result.stdout.strip()
-    if not date:
-        raise RuntimeError(f"No Git history found for {path}")
-    return date
+    if date:
+        return date
+
+    source = ROOT / path
+    if not source.exists():
+        raise RuntimeError(f"No Git history or source file found for {path}")
+
+    return datetime.fromtimestamp(source.stat().st_mtime, timezone.utc).date().isoformat()
 
 
 def main() -> None:

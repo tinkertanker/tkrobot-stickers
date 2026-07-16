@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 WORKDIR /build
 COPY .git .git
-COPY stickers/manifest.json stickers/manifest.json
+COPY stickers stickers
 COPY tools/scripts/build_site_manifest.py tools/scripts/build_site_manifest.py
 COPY site site
 
@@ -16,7 +16,7 @@ USER root
 
 COPY --chmod=644 nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder --chmod=644 /build/site /usr/share/nginx/html
-COPY --chmod=644 stickers /usr/share/nginx/html/stickers
+COPY --from=builder --chmod=644 /build/stickers /usr/share/nginx/html/stickers
 
 RUN chmod 755 /usr/share/nginx/html/stickers
 

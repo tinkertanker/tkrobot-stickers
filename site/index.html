@@ -11,55 +11,31 @@
     <title>T Krobot Stickers</title>
     <link rel="icon" type="image/png" href="/stickers/face.png" />
     <link rel="preload" href="/stickers/face.png" as="image" />
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/app.js" defer></script>
+    <link rel="stylesheet" href="/styles.css?v=20260716-2" />
+    <script src="/app.js?v=20260716-2" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#sticker-grid">Skip to stickers</a>
 
     <header class="site-header">
       <a class="brand" href="/" aria-label="T Krobot Stickers home">
-        <span class="brand-mark" aria-hidden="true">
-          <span></span><span></span>
-        </span>
+        <img
+          class="brand-face"
+          src="/stickers/face.png"
+          alt=""
+          width="42"
+          height="42"
+        />
         <span>T Krobot</span>
       </a>
-      <p class="site-label">Sticker library</p>
+      <label class="select-all">
+        <input id="select-all" type="checkbox" />
+        <span>Select all</span>
+      </label>
     </header>
 
     <main>
-      <section class="collection-intro" aria-labelledby="page-title">
-        <div class="intro-copy">
-          <p class="eyebrow">Tinkertanker mascot pack</p>
-          <h1 id="page-title">Stickers for every kind of day.</h1>
-          <p class="lede">
-            Transparent, full-resolution PNGs. Pick one or select a handful.
-          </p>
-        </div>
-        <img
-          class="intro-sticker"
-          src="/stickers/face.png"
-          alt="T Krobot face sticker"
-          width="1254"
-          height="1254"
-        />
-      </section>
-
-      <section class="collection" aria-labelledby="collection-heading">
-        <div class="collection-toolbar">
-          <div>
-            <p class="toolbar-kicker">The collection</p>
-            <h2 id="collection-heading">
-              <span id="sticker-count">24</span> stickers
-            </h2>
-          </div>
-
-          <label class="select-all">
-            <input id="select-all" type="checkbox" />
-            <span>Select all</span>
-          </label>
-        </div>
-
+      <section class="collection" aria-label="T Krobot sticker collection">
         <div id="sticker-grid" class="sticker-grid" aria-live="polite"></div>
 
         <p id="load-error" class="load-error" hidden>

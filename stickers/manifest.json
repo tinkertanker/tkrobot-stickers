@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v1-size-blocky-full-rectangular-fingers",
-  "count": 24,
+  "count": 25,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -124,9 +124,18 @@
       "original_item_id": "E0u4k0OQ"
     },
     {
-      "slug": "right",
-      "filename": "right.png",
-      "sticker_path": "stickers/right.png",
+      "slug": "point-left",
+      "filename": "point-left.png",
+      "sticker_path": "stickers/point-left.png",
+      "source_path": "archive/chroma-key-sources/right.png",
+      "original_filename": "right.png",
+      "original_item_id": "WnulOjnd",
+      "note": "Horizontally mirrored from point-right.png."
+    },
+    {
+      "slug": "point-right",
+      "filename": "point-right.png",
+      "sticker_path": "stickers/point-right.png",
       "source_path": "archive/chroma-key-sources/right.png",
       "original_filename": "right.png",
       "original_item_id": "WnulOjnd"
