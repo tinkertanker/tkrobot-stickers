@@ -7,3 +7,6 @@ Historical and source material lives here so the repo root can stay focused on t
 - `generated-iterations/` contains earlier generated attempts and style calibration history.
 - `references/` contains copied visual references used during generation.
 
+Notable generated batches:
+
+- `generated-iterations/hatch-pet-v1/` contains representative transparent frames recovered from the validated T Krobot Codex Hatch Pet atlas, plus normalised sticker candidates and a proposal shortlist.

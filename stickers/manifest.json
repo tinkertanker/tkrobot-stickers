@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v1-size-blocky-full-rectangular-fingers",
-  "count": 27,
+  "count": 35,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -219,6 +219,70 @@
       "source_path": "archive/chroma-key-sources/yay.png",
       "original_filename": "yay.png",
       "original_item_id": "6quxyqll"
+    },
+    {
+      "slug": "failed-sitting",
+      "filename": "failed-sitting.png",
+      "sticker_path": "stickers/failed-sitting.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/failed-sitting.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet failed-sitting concept."
+    },
+    {
+      "slug": "happy",
+      "filename": "happy.png",
+      "sticker_path": "stickers/happy.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/happy.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet happy concept."
+    },
+    {
+      "slug": "jumping-for-joy",
+      "filename": "jumping-for-joy.png",
+      "sticker_path": "stickers/jumping-for-joy.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/jumping-for-joy.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet jumping concept with happy eyes."
+    },
+    {
+      "slug": "palm-open",
+      "filename": "palm-open.png",
+      "sticker_path": "stickers/palm-open.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/palm-open.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet open-palm concept."
+    },
+    {
+      "slug": "rubbing-tummy",
+      "filename": "rubbing-tummy.png",
+      "sticker_path": "stickers/rubbing-tummy.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/rubbing-tummy.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet tummy-rubbing concept with happy eyes."
+    },
+    {
+      "slug": "running-left",
+      "filename": "running-left.png",
+      "sticker_path": "stickers/running-left.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/running-left.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet left-running concept."
+    },
+    {
+      "slug": "running-right",
+      "filename": "running-right.png",
+      "sticker_path": "stickers/running-right.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/running-right.png",
+      "original_filename": null,
+      "note": "Mirrored from the approved full-resolution running-left redraw."
+    },
+    {
+      "slug": "sus",
+      "filename": "sus.png",
+      "sticker_path": "stickers/sus.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/sus.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet suspicious review concept."
     }
   ]
 }

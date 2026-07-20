@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "count": 27,
+  "count": 35,
   "items": [
     {
       "slug": "crashed",
@@ -163,6 +163,54 @@
       "filename": "yay.png",
       "path": "/stickers/yay.png?v=b69935270585",
       "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "failed-sitting",
+      "filename": "failed-sitting.png",
+      "path": "/stickers/failed-sitting.png?v=8e7ebe8f856a",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "happy",
+      "filename": "happy.png",
+      "path": "/stickers/happy.png?v=3816e7a34cfd",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "jumping-for-joy",
+      "filename": "jumping-for-joy.png",
+      "path": "/stickers/jumping-for-joy.png?v=d0f642f2a818",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "palm-open",
+      "filename": "palm-open.png",
+      "path": "/stickers/palm-open.png?v=c255e1d1f01c",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "rubbing-tummy",
+      "filename": "rubbing-tummy.png",
+      "path": "/stickers/rubbing-tummy.png?v=1287392c046a",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "running-left",
+      "filename": "running-left.png",
+      "path": "/stickers/running-left.png?v=b31e0f86b739",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "running-right",
+      "filename": "running-right.png",
+      "path": "/stickers/running-right.png?v=ac176ab8b7b4",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "sus",
+      "filename": "sus.png",
+      "path": "/stickers/sus.png?v=26016f6b76c2",
+      "updated_at": "2026-07-20"
     }
   ]
 }
