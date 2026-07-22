@@ -12,8 +12,8 @@ MANIFEST = ROOT / "stickers" / "manifest.json"
 STICKERS_README = ROOT / "stickers" / "README.md"
 
 
-def main() -> None:
-    manifest = json.loads(MANIFEST.read_text())
+def render_stickers_readme(manifest: dict) -> str:
+    """Return the canonical stickers/README.md text for a manifest."""
     items = sorted(manifest["items"], key=lambda item: item["slug"])
     width, height = manifest.get("pack_size", [1254, 1254])
 
@@ -36,8 +36,15 @@ def main() -> None:
         description = item.get("description", "").strip() or "No description yet."
         lines.append(f"- `{item['filename']}` — {description} _{tags}_")
     lines.append("")
-    STICKERS_README.write_text("\n".join(lines))
-    print(f"Synced stickers/README.md for {len(items)} stickers")
+    return "\n".join(lines)
+
+
+def main() -> None:
+    """Write stickers/README.md from the definitive pack manifest."""
+    manifest = json.loads(MANIFEST.read_text())
+    text = render_stickers_readme(manifest)
+    STICKERS_README.write_text(text)
+    print(f"Synced stickers/README.md for {len(manifest['items'])} stickers")
 
 
 if __name__ == "__main__":
