@@ -9,12 +9,6 @@
       "updated_at": "2026-07-16"
     },
     {
-      "slug": "face",
-      "filename": "face.png",
-      "path": "/stickers/face.png?v=b3bc68ebcb9a",
-      "updated_at": "2026-07-16"
-    },
-    {
       "slug": "ded",
       "filename": "ded.png",
       "path": "/stickers/ded.png?v=0fb1a5620932",
@@ -27,10 +21,22 @@
       "updated_at": "2026-07-08"
     },
     {
+      "slug": "face",
+      "filename": "face.png",
+      "path": "/stickers/face.png?v=b3bc68ebcb9a",
+      "updated_at": "2026-07-16"
+    },
+    {
       "slug": "facepalm",
       "filename": "facepalm.png",
       "path": "/stickers/facepalm.png?v=814365d34f77",
       "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "failed-sitting",
+      "filename": "failed-sitting.png",
+      "path": "/stickers/failed-sitting.png?v=8e7ebe8f856a",
+      "updated_at": "2026-07-20"
     },
     {
       "slug": "falling",
@@ -75,6 +81,12 @@
       "updated_at": "2026-07-16"
     },
     {
+      "slug": "happy",
+      "filename": "happy.png",
+      "path": "/stickers/happy.png?v=3816e7a34cfd",
+      "updated_at": "2026-07-20"
+    },
+    {
       "slug": "heart",
       "filename": "heart.png",
       "path": "/stickers/heart.png?v=9112bade77eb",
@@ -87,10 +99,22 @@
       "updated_at": "2026-07-08"
     },
     {
+      "slug": "jumping-for-joy",
+      "filename": "jumping-for-joy.png",
+      "path": "/stickers/jumping-for-joy.png?v=d0f642f2a818",
+      "updated_at": "2026-07-20"
+    },
+    {
       "slug": "ok",
       "filename": "ok.png",
       "path": "/stickers/ok.png?v=84d1cc3b7748",
       "updated_at": "2026-07-08"
+    },
+    {
+      "slug": "palm-open",
+      "filename": "palm-open.png",
+      "path": "/stickers/palm-open.png?v=c255e1d1f01c",
+      "updated_at": "2026-07-20"
     },
     {
       "slug": "pls",
@@ -109,6 +133,24 @@
       "filename": "point-right.png",
       "path": "/stickers/point-right.png?v=ba20dffe9a13",
       "updated_at": "2026-07-16"
+    },
+    {
+      "slug": "rubbing-tummy",
+      "filename": "rubbing-tummy.png",
+      "path": "/stickers/rubbing-tummy.png?v=1287392c046a",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "running-left",
+      "filename": "running-left.png",
+      "path": "/stickers/running-left.png?v=b31e0f86b739",
+      "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "running-right",
+      "filename": "running-right.png",
+      "path": "/stickers/running-right.png?v=ac176ab8b7b4",
+      "updated_at": "2026-07-20"
     },
     {
       "slug": "salute",
@@ -141,6 +183,12 @@
       "updated_at": "2026-07-08"
     },
     {
+      "slug": "sus",
+      "filename": "sus.png",
+      "path": "/stickers/sus.png?v=26016f6b76c2",
+      "updated_at": "2026-07-20"
+    },
+    {
       "slug": "thumbsdown",
       "filename": "thumbsdown.png",
       "path": "/stickers/thumbsdown.png?v=4311ebe1c519",
@@ -163,54 +211,6 @@
       "filename": "yay.png",
       "path": "/stickers/yay.png?v=b69935270585",
       "updated_at": "2026-07-08"
-    },
-    {
-      "slug": "failed-sitting",
-      "filename": "failed-sitting.png",
-      "path": "/stickers/failed-sitting.png?v=8e7ebe8f856a",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "happy",
-      "filename": "happy.png",
-      "path": "/stickers/happy.png?v=3816e7a34cfd",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "jumping-for-joy",
-      "filename": "jumping-for-joy.png",
-      "path": "/stickers/jumping-for-joy.png?v=d0f642f2a818",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "palm-open",
-      "filename": "palm-open.png",
-      "path": "/stickers/palm-open.png?v=c255e1d1f01c",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "rubbing-tummy",
-      "filename": "rubbing-tummy.png",
-      "path": "/stickers/rubbing-tummy.png?v=1287392c046a",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "running-left",
-      "filename": "running-left.png",
-      "path": "/stickers/running-left.png?v=b31e0f86b739",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "running-right",
-      "filename": "running-right.png",
-      "path": "/stickers/running-right.png?v=ac176ab8b7b4",
-      "updated_at": "2026-07-20"
-    },
-    {
-      "slug": "sus",
-      "filename": "sus.png",
-      "path": "/stickers/sus.png?v=26016f6b76c2",
-      "updated_at": "2026-07-20"
     }
   ]
 }
