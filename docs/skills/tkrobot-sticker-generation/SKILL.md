@@ -1,21 +1,25 @@
 ---
 name: tkrobot-sticker-generation
-description: Generate, review, and refine T Krobot sticker assets for the Tinkertanker mascot. Use when Codex is asked to create new T Krobot stickers, replace weak stickers from the sticker library, write image-generation prompts for T Krobot, check generated candidates against the mascot style, or preserve/version sticker assets in the tkrobot-stickers repo.
+description: Generate, review, and refine T Krobot sticker assets for the Tinkertanker mascot. Use when asked to create new T Krobot stickers, replace weak stickers, write image-generation prompts for T Krobot, check candidates against the mascot style, or version sticker assets in this repo.
 ---
 
 # T Krobot Sticker Generation
 
 ## Overview
 
-Use this skill to keep generated T Krobot stickers visually consistent with the existing sticker library.
+Keep generated T Krobot stickers visually consistent with the definitive pack in `stickers/`.
+
+Repo map and commit checklist: root `AGENTS.md`.
 
 ## Quick Workflow
 
-1. Read `references/style-guide.md` before drafting prompts or judging outputs.
-2. Compare candidates against the locked pack in `stickers/` and `stickers/contact-sheet.png` when available.
-3. Preserve originals; save definitive transparent PNGs in `stickers/` and matching green sources in `archive/chroma-key-sources/` when they need to stay in the repo.
-4. Generate on a flat chroma-key background when transparent PNGs are needed, then remove the background locally.
-5. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
+1. Scan `stickers/manifest.json` for existing slugs, descriptions, and tags so you do not duplicate a pose.
+2. Read `references/style-guide.md` before drafting prompts or judging outputs.
+3. Compare candidates against `stickers/contact-sheet.png` and the hand-size lock at `docs/references/hand-size-anchor.png`.
+4. Generate one sticker at a time on a flat `#00ff00` chroma-key background when transparent PNGs are needed, then remove the background locally.
+5. Save the definitive 1254×1254 transparent PNG in `stickers/<slug>.png`, record it in `stickers/manifest.json`, and refresh contact sheet / READMEs / site manifest via `tools/scripts/`.
+6. Run `python3 tools/scripts/verify_pack.py` before committing.
+7. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
 
 ## Prompting Rules
 
@@ -30,10 +34,14 @@ Use clean 2D cartoon sticker styling with thick black outlines, simple flat shap
 
 Add the requested pose and emotion after the invariant block. Keep expression readable through pose, blank glasses, and motion marks rather than through a mouth or default pupils.
 
+For the longer prompt skeleton and pose-specific notes, use `docs/prompts/tkrobot-sticker-guidelines.md`.
+
 ## Resources
 
 - `references/style-guide.md`: canonical character/style rules and known replacement notes.
+- `docs/references/hand-size-anchor.png`: locked hand and finger scale.
 - `stickers/`: definitive transparent PNG sticker pack.
+- `stickers/manifest.json`: slug catalogue with descriptions and tags.
 - `stickers/contact-sheet.png`: locked full-pack style overview.
 - `assets/tkrobot-originals-contact-sheet.png`: original T Krobot set for style comparison.
 - `assets/kiapkiap-contact-sheet.png`: scenario and pose inspiration, not a character style target.

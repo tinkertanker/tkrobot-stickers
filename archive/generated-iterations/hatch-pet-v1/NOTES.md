@@ -9,19 +9,19 @@ These concepts were recovered from the validated T Krobot Codex Hatch Pet v2 atl
 - `stickers/` contains the clean square `1254 x 1254` transparent PNG redraws.
 - `contact-sheet.png` previews the eight regenerated candidates.
 
-These remain archived candidates rather than members of the definitive pack. They now use the locked sticker style and full-resolution linework, ready for selection and promotion in a separate pack update.
+Several of these concepts were promoted into the definitive pack in `stickers/` (`sus`, `running-left`, `running-right`, `palm-open`, `rubbing-tummy`, `failed-sitting`, `jumping-for-joy`, `happy`). Treat this folder as provenance and composition reference for those pack entries, not as a second working set.
 
-## Recommended additions
+## Historical shortlist (now mostly promoted)
 
-| Priority | Proposed slug | Candidate | Why it adds something new |
+| Priority | Proposed slug | Candidate | Outcome |
 | --- | --- | --- | --- |
-| 1 | `sus` | `sus.png` | A suspicious, hand-to-chin reaction that is not covered by the current pack. |
-| 2 | `on-my-way` | `running-right.png` | Useful directional movement for replies, logistics, and quick status updates. |
-| 3 | `palm-open` | `palm-open.png` | An open-palm, expectant pose for approvals and hand-offs. |
-| 4 | `rubbing-tummy` | `rubbing-tummy.png` | A contented tummy-rubbing reaction using the approved happy-eye treatment. |
-| 5 | `wiped-out` | `failed-sitting.png` | A seated slump that reads as exhausted rather than dead or crashed. |
+| 1 | `sus` | `sus.png` | Promoted into `stickers/sus.png`. |
+| 2 | `on-my-way` | `running-right.png` | Promoted as `running-right` (with `running-left` pair). |
+| 3 | `palm-open` | `palm-open.png` | Promoted into `stickers/palm-open.png`. |
+| 4 | `rubbing-tummy` | `rubbing-tummy.png` | Promoted into `stickers/rubbing-tummy.png`. |
+| 5 | `wiped-out` | `failed-sitting.png` | Promoted as `failed-sitting`. |
 
-Lower-priority candidates are `jumping-for-joy.png` and `happy.png`, because their meanings overlap the existing `yay.png` sticker. Both `jumping-for-joy.png` and `rubbing-tummy.png` deliberately reuse the same upside-down-U happy eyes as `happy.png`. `running-left.png` is useful as the paired directional version if `on-my-way` is promoted. The waving frame was reviewed but not retained because it overlaps `greetings.png`.
+`jumping-for-joy.png` and `happy.png` were also promoted despite some overlap with `yay.png`. Both deliberately reuse the same upside-down-U happy eyes. The waving frame was reviewed but not retained because it overlaps `greetings.png`.
 
 ## Selected atlas pose references
 

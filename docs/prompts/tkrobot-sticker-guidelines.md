@@ -1,23 +1,22 @@
 # T Krobot Sticker Prompt Guidelines
 
-Use these rules whenever generating or editing T Krobot stickers. The locked reference pack lives in `stickers/`, with the full overview at `stickers/contact-sheet.png`.
+Use these rules whenever generating or editing T Krobot stickers.
+
+- Locked pack: `stickers/` + overview `stickers/contact-sheet.png`
+- Catalogue: `stickers/manifest.json` (descriptions and tags)
+- Full character invariants: `docs/skills/tkrobot-sticker-generation/references/style-guide.md`
+- Hand-size anchor: `docs/references/hand-size-anchor.png`
 
 ## Non-negotiable Character Invariants
 
-- Black softened trapezoid head, with the top about 90% as wide as the bottom.
-- Black softened trapezoid body, not round, with larger rounded corners.
-- Large round white glasses with black rims. Preserve their locked wide round proportions independently of the head taper: never shrink or horizontally compress the glasses to fit inside the trapezoidal head. The frames may extend beyond the head's side boundaries.
-- Smooth plain light grey tube arms and legs, around `#e1e1e1`; match the locked v11 anchor proportions: moderately slim, thicker than the too-thin v9/v10 attempts, still slimmer than the earliest baseline, and legs may be about 5% longer than the originals.
-- Hands use a round black palm blob with light grey `#e1e1e1` fingers and thumbs emerging from the blob's edge. The black part is the palm itself, not a glove wrapped around the fingers. Each hand has exactly one thumb and exactly three fingers. This is very important: do not draw four fingers plus one thumb.
-- Current hand-size anchor: use `archive/generated-iterations/v1-size-blocky-fingers/contact-sheet.png`. Keep the large rejected-v1 palm and finger scale; do not shrink toward the smaller `hand-scale-v2` rectangular batch.
-- Fingers should read as large flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
-- Oversized black oval feet.
-- Flat red diamond chest mark, centred on the torso; no gem facets.
-- No neck.
-- No mouth, smile, open mouth, teeth, tongue, or face hole.
-- No joints, segment rings, elbow marks, knee marks, bend lines, or black interior lines on white arms or legs.
-- No pupils by default. Use plain white glasses for normal expressions.
-- Pupils are allowed only for special looks where they are part of the concept, such as charging, happy, or snooze lightning, and must stay inside the white glasses.
+Keep prompts aligned with the style guide. The short form agents must not drop:
+
+- Black softened trapezoid head/body; head top about 90% as wide as the bottom; thin light grey shine under the head; no neck.
+- Large round white glasses that may overhang the head sides — never shrink or horizontally compress them to fit.
+- Light grey `#e1e1e1` limbs; round black palm blobs; exactly three fingers plus one thumb as large flat rectangular tabs.
+- Hand scale from `docs/references/hand-size-anchor.png` (large v1 palm scale, not the smaller v2 batch).
+- Flat red diamond chest mark; oversized black oval feet.
+- No mouth. No default pupils. No joints / segment rings / black interior limb lines.
 
 ## Style
 
@@ -34,7 +33,7 @@ Use case: stylized-concept
 Asset type: T Krobot transparent chat sticker candidate, square PNG
 Primary request: Create a T Krobot sticker for "<slug>" on a perfectly flat solid #00ff00 chroma-key background for background removal.
 Subject: T Krobot, Tinkertanker company mascot: black softened trapezoid head matching the locked v11 anchor proportions, not wide or rectangular, with the top edge about 90% as wide as the bottom edge; black softened trapezoid body with larger rounded corners; head and body both using a subtle near-black-to-black gradient, plus a very thin 1px-style light grey shine line along the bottom edge of the head; large round white glasses with black rims, kept at their locked wide round proportions independently of the head taper and allowed to extend beyond the head's side boundaries; smooth plain light grey tube arms and smooth plain light grey tube legs around #e1e1e1, moderately slim, thicker than the too-thin v9/v10 attempts and still slimmer than the earliest baseline; hands with round black palm blobs plus light grey #e1e1e1 thumbs and fingers emerging from the blob edges; oversized black oval feet; flat red diamond chest mark; no neck.
-Critical hand anchor: match `archive/generated-iterations/v1-size-blocky-fingers/contact-sheet.png` for hand scale. The large rejected-v1 palm and finger size is correct; only the finger shape should be corrected into rectangular tabs. Do not shrink the fingers toward `hand-scale-v2`.
+Critical hand anchor: match `docs/references/hand-size-anchor.png` for hand scale. The large rejected-v1 palm and finger size is correct; only the finger shape should be corrected into rectangular tabs. Do not shrink the fingers toward the smaller historical `hand-scale-v2` batch.
 Critical character invariants: NO mouth. NO neck. NO joints. NO segment lines. NO black lines across arms or legs. Light grey limbs must be completely plain continuous shapes with only an outer black outline. Palms must be round black blobs that fingers emerge from, not gloves wrapped around the fingers; each visible hand must have exactly three fingers plus one thumb; fingers and thumbs must be light grey #e1e1e1, large flat rectangular tabs with hard sides and flat or slightly rounded corners, not sausage-like tubes. Keep the glasses wide and round; NEVER shrink or horizontally compress them to fit the tapered head, and allow the frames to overhang the head sides. Centre diamond must be flat red, not faceted. NO pupils by default; only use pupils for special looks such as charging, happy, and snooze lightning.
 Style/medium: clean polished 2D cartoon sticker matching original T Krobot stickers; thick outer black outlines, simple flat shapes with subtle highlight only, not 3D, no metallic detail.
 Composition/framing: centred character, generous padding, no cropping. <pose and expression details>

@@ -4,53 +4,21 @@ Transparent PNG sticker assets for T Krobot, Tinkertanker's robot mascot with gl
 
 Browse and download the pack at [stickers.tk.sg](https://stickers.tk.sg).
 
+**Agents:** start at `AGENTS.md`. The definitive pack is `stickers/`; the catalogue is `stickers/manifest.json`.
+
 ## Files
 
 All definitive rectangular-finger stickers are in `stickers/` as 1254 x 1254 transparent PNGs.
-
-- `crashed.png`
-- `ded.png`
-- `depressed.png`
-- `face.png`
-- `facepalm.png`
-- `failed-sitting.png`
-- `falling.png`
-- `fingerguns.png`
-- `flailing.png`
-- `gasp.png`
-- `greetings.png`
-- `happy.png`
-- `handraise.png`
-- `hands-on-hips.png`
-- `heart.png`
-- `intenseglare.png`
-- `jumping-for-joy.png`
-- `ok.png`
-- `pls.png`
-- `point-left.png`
-- `point-right.png`
-- `palm-open.png`
-- `rubbing-tummy.png`
-- `running-left.png`
-- `running-right.png`
-- `salute.png`
-- `shock.png`
-- `shrug.png`
-- `sixseven.png`
-- `snooze.png`
-- `sus.png`
-- `thumbsdown.png`
-- `thumbsup.png`
-- `wrong.png`
-- `yay.png`
+The authoritative catalogue is `stickers/manifest.json`; do not maintain a second handwritten inventory.
 
 ## Notes
 
 - `stickers/contact-sheet.png` is the full-pack overview.
-- `stickers/manifest.json` maps each final sticker to its source slug and archived source file.
-- The working set intentionally keeps the final sticker pack in `stickers/`.
-- Historical generated attempts, original downloaded files, source renders, and reference copies live under `archive/`.
+- `stickers/manifest.json` maps each sticker to its description, tags, and source path.
+- `docs/references/hand-size-anchor.png` is the locked hand/finger scale for new generations.
+- Historical generated attempts, original downloads, and reference copies live under `archive/` — ignore them unless a manifest `source_path` points there.
 - Reusable generation guidance and the local skill live under `docs/`.
+- Helper scripts (`verify_pack`, contact sheet, README sync, site manifest) live under `tools/scripts/`.
 - No licence is granted by default; treat these as Tinkertanker mascot assets unless separately approved.
 
 ## Website
