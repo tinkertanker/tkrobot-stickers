@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "style": "locked-v1-size-blocky-full-rectangular-fingers",
+  "style": "locked-v11-rectangular-fingers",
   "count": 35,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
@@ -10,14 +10,12 @@
       "sticker_path": "stickers/crashed.png",
       "source_path": "archive/chroma-key-sources/crashed.png",
       "original_filename": "crashed2.png",
-      "original_item_id": "wbuKGlEo"
-    },
-    {
-      "slug": "face",
-      "filename": "face.png",
-      "sticker_path": "stickers/face.png",
-      "source_path": "archive/chroma-key-sources/face.png",
-      "original_filename": "face.png"
+      "original_item_id": "wbuKGlEo",
+      "description": "Lying crashed with cracked-glass look after a hard fail.",
+      "tags": [
+        "state",
+        "fail"
+      ]
     },
     {
       "slug": "ded",
@@ -25,7 +23,12 @@
       "sticker_path": "stickers/ded.png",
       "source_path": "archive/chroma-key-sources/ded.png",
       "original_filename": "ded.png",
-      "original_item_id": "7KubO5OR"
+      "original_item_id": "7KubO5OR",
+      "description": "Flat on its back, knocked out with X-mark eyes.",
+      "tags": [
+        "state",
+        "fail"
+      ]
     },
     {
       "slug": "depressed",
@@ -33,7 +36,23 @@
       "sticker_path": "stickers/depressed.png",
       "source_path": "archive/chroma-key-sources/depressed.png",
       "original_filename": "depressed2.png",
-      "original_item_id": "jkuY5wbD"
+      "original_item_id": "jkuY5wbD",
+      "description": "Slumped sad pose with drooping posture.",
+      "tags": [
+        "emotion",
+        "sad"
+      ]
+    },
+    {
+      "slug": "face",
+      "filename": "face.png",
+      "sticker_path": "stickers/face.png",
+      "source_path": "archive/chroma-key-sources/face.png",
+      "original_filename": "face.png",
+      "description": "Close-up face / portrait crop of T Krobot.",
+      "tags": [
+        "portrait"
+      ]
     },
     {
       "slug": "facepalm",
@@ -41,7 +60,25 @@
       "sticker_path": "stickers/facepalm.png",
       "source_path": "archive/chroma-key-sources/facepalm.png",
       "original_filename": "facepalm.png",
-      "original_item_id": "yAuZOEO0"
+      "original_item_id": "yAuZOEO0",
+      "description": "Hand to face in exasperation.",
+      "tags": [
+        "gesture",
+        "reaction"
+      ]
+    },
+    {
+      "slug": "failed-sitting",
+      "filename": "failed-sitting.png",
+      "sticker_path": "stickers/failed-sitting.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/failed-sitting.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet failed-sitting concept.",
+      "description": "Seated slump that reads as wiped out rather than dead.",
+      "tags": [
+        "state",
+        "fail"
+      ]
     },
     {
       "slug": "falling",
@@ -49,7 +86,11 @@
       "sticker_path": "stickers/falling.png",
       "source_path": "archive/chroma-key-sources/falling.png",
       "original_filename": "falling.png",
-      "original_item_id": "mXu5eLeg"
+      "original_item_id": "mXu5eLeg",
+      "description": "Mid-air tumble / falling pose.",
+      "tags": [
+        "motion"
+      ]
     },
     {
       "slug": "fingerguns",
@@ -57,7 +98,12 @@
       "sticker_path": "stickers/fingerguns.png",
       "source_path": "archive/chroma-key-sources/fingerguns.png",
       "original_filename": "fingerguns.png",
-      "original_item_id": "E0u4k1x9"
+      "original_item_id": "E0u4k1x9",
+      "description": "Playful finger-guns gesture.",
+      "tags": [
+        "gesture",
+        "fun"
+      ]
     },
     {
       "slug": "flailing",
@@ -65,7 +111,12 @@
       "sticker_path": "stickers/flailing.png",
       "source_path": "archive/chroma-key-sources/flailing.png",
       "original_filename": "flailing2.png",
-      "original_item_id": "z8u4ze89"
+      "original_item_id": "z8u4ze89",
+      "description": "Panicked flailing limbs.",
+      "tags": [
+        "motion",
+        "reaction"
+      ]
     },
     {
       "slug": "gasp",
@@ -73,7 +124,12 @@
       "sticker_path": "stickers/gasp.png",
       "source_path": "archive/chroma-key-sources/gasp.png",
       "original_filename": "gasp.png",
-      "original_item_id": "E0u4k0yx"
+      "original_item_id": "E0u4k0yx",
+      "description": "Surprise with hands on cheeks and exclamation marks.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ]
     },
     {
       "slug": "greetings",
@@ -81,7 +137,12 @@
       "sticker_path": "stickers/greetings.png",
       "source_path": "archive/chroma-key-sources/greetings.png",
       "original_filename": "greetings.png",
-      "original_item_id": "6quxyqNx"
+      "original_item_id": "6quxyqNx",
+      "description": "Friendly wave / hello.",
+      "tags": [
+        "gesture",
+        "social"
+      ]
     },
     {
       "slug": "handraise",
@@ -89,7 +150,12 @@
       "sticker_path": "stickers/handraise.png",
       "source_path": "archive/chroma-key-sources/handraise.png",
       "original_filename": "handraise4.png",
-      "original_item_id": "KoulPoEb"
+      "original_item_id": "KoulPoEb",
+      "description": "Raised hand as if volunteering or asking a question.",
+      "tags": [
+        "gesture",
+        "social"
+      ]
     },
     {
       "slug": "hands-on-hips",
@@ -97,7 +163,25 @@
       "sticker_path": "stickers/hands-on-hips.png",
       "source_path": "archive/chroma-key-sources/hands-on-hips.png",
       "original_filename": null,
-      "note": "New confident arms-akimbo sticker, generated after the original tk.sg/stickerlib scrape."
+      "note": "New confident arms-akimbo sticker, generated after the original tk.sg/stickerlib scrape.",
+      "description": "Confident arms-akimbo stance.",
+      "tags": [
+        "gesture",
+        "pose"
+      ]
+    },
+    {
+      "slug": "happy",
+      "filename": "happy.png",
+      "sticker_path": "stickers/happy.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/happy.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet happy concept.",
+      "description": "Happy expression with upside-down-U eyes.",
+      "tags": [
+        "emotion",
+        "happy"
+      ]
     },
     {
       "slug": "heart",
@@ -105,7 +189,12 @@
       "sticker_path": "stickers/heart.png",
       "source_path": "archive/chroma-key-sources/heart.png",
       "original_filename": "heart.png",
-      "original_item_id": "geuoL97k"
+      "original_item_id": "geuoL97k",
+      "description": "Holding or presenting a heart.",
+      "tags": [
+        "emotion",
+        "social"
+      ]
     },
     {
       "slug": "intenseglare",
@@ -113,7 +202,25 @@
       "sticker_path": "stickers/intenseglare.png",
       "source_path": "archive/chroma-key-sources/intenseglare.png",
       "original_filename": "intenseglare2.png",
-      "original_item_id": "kpuNgjZN"
+      "original_item_id": "kpuNgjZN",
+      "description": "Narrow glare slits for stern focus.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ]
+    },
+    {
+      "slug": "jumping-for-joy",
+      "filename": "jumping-for-joy.png",
+      "sticker_path": "stickers/jumping-for-joy.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/jumping-for-joy.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet jumping concept with happy eyes.",
+      "description": "Jumping celebration with happy eyes.",
+      "tags": [
+        "motion",
+        "happy"
+      ]
     },
     {
       "slug": "ok",
@@ -121,7 +228,25 @@
       "sticker_path": "stickers/ok.png",
       "source_path": "archive/chroma-key-sources/ok.png",
       "original_filename": "ok.png",
-      "original_item_id": "p9ur1qo8"
+      "original_item_id": "p9ur1qo8",
+      "description": "OK / acknowledgement hand sign.",
+      "tags": [
+        "gesture",
+        "approval"
+      ]
+    },
+    {
+      "slug": "palm-open",
+      "filename": "palm-open.png",
+      "sticker_path": "stickers/palm-open.png",
+      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/palm-open.png",
+      "original_filename": null,
+      "note": "Full-resolution redraw of the approved Hatch Pet open-palm concept.",
+      "description": "Open palm, expectant hand-off or waiting pose.",
+      "tags": [
+        "gesture",
+        "social"
+      ]
     },
     {
       "slug": "pls",
@@ -129,7 +254,12 @@
       "sticker_path": "stickers/pls.png",
       "source_path": "archive/chroma-key-sources/pls.png",
       "original_filename": "pls5.png",
-      "original_item_id": "E0u4k0OQ"
+      "original_item_id": "E0u4k0OQ",
+      "description": "Pleading / please pose.",
+      "tags": [
+        "gesture",
+        "emotion"
+      ]
     },
     {
       "slug": "point-left",
@@ -138,7 +268,12 @@
       "source_path": "archive/chroma-key-sources/right.png",
       "original_filename": "right.png",
       "original_item_id": "WnulOjnd",
-      "note": "Horizontally mirrored from point-right.png."
+      "note": "Horizontally mirrored from point-right.png.",
+      "description": "Pointing left; mirrored pair of point-right.",
+      "tags": [
+        "gesture",
+        "direction"
+      ]
     },
     {
       "slug": "point-right",
@@ -146,111 +281,12 @@
       "sticker_path": "stickers/point-right.png",
       "source_path": "archive/chroma-key-sources/right.png",
       "original_filename": "right.png",
-      "original_item_id": "WnulOjnd"
-    },
-    {
-      "slug": "salute",
-      "filename": "salute.png",
-      "sticker_path": "stickers/salute.png",
-      "source_path": "archive/chroma-key-sources/salute.png",
-      "original_filename": "salute.png",
-      "original_item_id": "WnulOjn0"
-    },
-    {
-      "slug": "shock",
-      "filename": "shock.png",
-      "sticker_path": "stickers/shock.png",
-      "source_path": "archive/chroma-key-sources/shock.png",
-      "original_filename": "shock.png",
-      "original_item_id": "KoulPo6R"
-    },
-    {
-      "slug": "shrug",
-      "filename": "shrug.png",
-      "sticker_path": "stickers/shrug.png",
-      "source_path": "archive/chroma-key-sources/shrug.png",
-      "original_filename": "shrug4.png",
-      "original_item_id": "9Zu07ZnG"
-    },
-    {
-      "slug": "sixseven",
-      "filename": "sixseven.png",
-      "sticker_path": "stickers/sixseven.png",
-      "source_path": "archive/chroma-key-sources/sixseven.png",
-      "original_filename": null,
-      "note": "New 6-7 meme sticker, generated after the original tk.sg/stickerlib scrape."
-    },
-    {
-      "slug": "snooze",
-      "filename": "snooze.png",
-      "sticker_path": "stickers/snooze.png",
-      "source_path": "archive/chroma-key-sources/snooze.png",
-      "original_filename": "snooze.png",
-      "original_item_id": "4guOogp4"
-    },
-    {
-      "slug": "thumbsdown",
-      "filename": "thumbsdown.png",
-      "sticker_path": "stickers/thumbsdown.png",
-      "source_path": "archive/chroma-key-sources/thumbsdown.png",
-      "original_filename": null,
-      "note": "New dejected thumbs-down sticker, generated after the original tk.sg/stickerlib scrape."
-    },
-    {
-      "slug": "thumbsup",
-      "filename": "thumbsup.png",
-      "sticker_path": "stickers/thumbsup.png",
-      "source_path": "archive/chroma-key-sources/thumbsup.png",
-      "original_filename": "thumbsup.png",
-      "original_item_id": "X6u0pw1x"
-    },
-    {
-      "slug": "wrong",
-      "filename": "wrong.png",
-      "sticker_path": "stickers/wrong.png",
-      "source_path": "archive/chroma-key-sources/wrong.png",
-      "original_filename": "wrong.png",
-      "original_item_id": "yAuZO5Nk"
-    },
-    {
-      "slug": "yay",
-      "filename": "yay.png",
-      "sticker_path": "stickers/yay.png",
-      "source_path": "archive/chroma-key-sources/yay.png",
-      "original_filename": "yay.png",
-      "original_item_id": "6quxyqll"
-    },
-    {
-      "slug": "failed-sitting",
-      "filename": "failed-sitting.png",
-      "sticker_path": "stickers/failed-sitting.png",
-      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/failed-sitting.png",
-      "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet failed-sitting concept."
-    },
-    {
-      "slug": "happy",
-      "filename": "happy.png",
-      "sticker_path": "stickers/happy.png",
-      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/happy.png",
-      "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet happy concept."
-    },
-    {
-      "slug": "jumping-for-joy",
-      "filename": "jumping-for-joy.png",
-      "sticker_path": "stickers/jumping-for-joy.png",
-      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/jumping-for-joy.png",
-      "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet jumping concept with happy eyes."
-    },
-    {
-      "slug": "palm-open",
-      "filename": "palm-open.png",
-      "sticker_path": "stickers/palm-open.png",
-      "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/palm-open.png",
-      "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet open-palm concept."
+      "original_item_id": "WnulOjnd",
+      "description": "Pointing right.",
+      "tags": [
+        "gesture",
+        "direction"
+      ]
     },
     {
       "slug": "rubbing-tummy",
@@ -258,7 +294,12 @@
       "sticker_path": "stickers/rubbing-tummy.png",
       "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/rubbing-tummy.png",
       "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet tummy-rubbing concept with happy eyes."
+      "note": "Full-resolution redraw of the approved Hatch Pet tummy-rubbing concept with happy eyes.",
+      "description": "Content tummy-rub with happy eyes.",
+      "tags": [
+        "gesture",
+        "happy"
+      ]
     },
     {
       "slug": "running-left",
@@ -266,7 +307,12 @@
       "sticker_path": "stickers/running-left.png",
       "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/running-left.png",
       "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet left-running concept."
+      "note": "Full-resolution redraw of the approved Hatch Pet left-running concept.",
+      "description": "Running left; directional pair of running-right.",
+      "tags": [
+        "motion",
+        "direction"
+      ]
     },
     {
       "slug": "running-right",
@@ -274,7 +320,78 @@
       "sticker_path": "stickers/running-right.png",
       "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/running-right.png",
       "original_filename": null,
-      "note": "Mirrored from the approved full-resolution running-left redraw."
+      "note": "Mirrored from the approved full-resolution running-left redraw.",
+      "description": "Running right / on-my-way energy.",
+      "tags": [
+        "motion",
+        "direction"
+      ]
+    },
+    {
+      "slug": "salute",
+      "filename": "salute.png",
+      "sticker_path": "stickers/salute.png",
+      "source_path": "archive/chroma-key-sources/salute.png",
+      "original_filename": "salute.png",
+      "original_item_id": "WnulOjn0",
+      "description": "Salute with both arms present.",
+      "tags": [
+        "gesture",
+        "social"
+      ]
+    },
+    {
+      "slug": "shock",
+      "filename": "shock.png",
+      "sticker_path": "stickers/shock.png",
+      "source_path": "archive/chroma-key-sources/shock.png",
+      "original_filename": "shock.png",
+      "original_item_id": "KoulPo6R",
+      "description": "Recoil shock with blank widened glasses.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ]
+    },
+    {
+      "slug": "shrug",
+      "filename": "shrug.png",
+      "sticker_path": "stickers/shrug.png",
+      "source_path": "archive/chroma-key-sources/shrug.png",
+      "original_filename": "shrug4.png",
+      "original_item_id": "9Zu07ZnG",
+      "description": "Shrugging uncertainty.",
+      "tags": [
+        "gesture",
+        "reaction"
+      ]
+    },
+    {
+      "slug": "sixseven",
+      "filename": "sixseven.png",
+      "sticker_path": "stickers/sixseven.png",
+      "source_path": "archive/chroma-key-sources/sixseven.png",
+      "original_filename": null,
+      "note": "New 6-7 meme sticker, generated after the original tk.sg/stickerlib scrape.",
+      "description": "6-7 meme gesture sticker.",
+      "tags": [
+        "gesture",
+        "fun",
+        "meme"
+      ]
+    },
+    {
+      "slug": "snooze",
+      "filename": "snooze.png",
+      "sticker_path": "stickers/snooze.png",
+      "source_path": "archive/chroma-key-sources/snooze.png",
+      "original_filename": "snooze.png",
+      "original_item_id": "4guOogp4",
+      "description": "Sleeping with yellow lightning pupils.",
+      "tags": [
+        "state",
+        "emotion"
+      ]
     },
     {
       "slug": "sus",
@@ -282,7 +399,69 @@
       "sticker_path": "stickers/sus.png",
       "source_path": "archive/generated-iterations/hatch-pet-v1/pet-sources/sus.png",
       "original_filename": null,
-      "note": "Full-resolution redraw of the approved Hatch Pet suspicious review concept."
+      "note": "Full-resolution redraw of the approved Hatch Pet suspicious review concept.",
+      "description": "Suspicious hand-to-chin review look.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ]
+    },
+    {
+      "slug": "thumbsdown",
+      "filename": "thumbsdown.png",
+      "sticker_path": "stickers/thumbsdown.png",
+      "source_path": "archive/chroma-key-sources/thumbsdown.png",
+      "original_filename": null,
+      "note": "New dejected thumbs-down sticker, generated after the original tk.sg/stickerlib scrape.",
+      "description": "Dejected thumbs-down.",
+      "tags": [
+        "gesture",
+        "disapproval"
+      ]
+    },
+    {
+      "slug": "thumbsup",
+      "filename": "thumbsup.png",
+      "sticker_path": "stickers/thumbsup.png",
+      "source_path": "archive/chroma-key-sources/thumbsup.png",
+      "original_filename": "thumbsup.png",
+      "original_item_id": "X6u0pw1x",
+      "description": "Thumbs-up approval.",
+      "tags": [
+        "gesture",
+        "approval"
+      ]
+    },
+    {
+      "slug": "wrong",
+      "filename": "wrong.png",
+      "sticker_path": "stickers/wrong.png",
+      "source_path": "archive/chroma-key-sources/wrong.png",
+      "original_filename": "wrong.png",
+      "original_item_id": "yAuZO5Nk",
+      "description": "Wrong / incorrect reaction.",
+      "tags": [
+        "reaction",
+        "fail"
+      ]
+    },
+    {
+      "slug": "yay",
+      "filename": "yay.png",
+      "sticker_path": "stickers/yay.png",
+      "source_path": "archive/chroma-key-sources/yay.png",
+      "original_filename": "yay.png",
+      "original_item_id": "6quxyqll",
+      "description": "Upright celebration with raised arms.",
+      "tags": [
+        "emotion",
+        "happy"
+      ]
     }
-  ]
+  ],
+  "pack_size": [
+    1254,
+    1254
+  ],
+  "hand_size_anchor": "docs/references/hand-size-anchor.png"
 }

@@ -9,7 +9,7 @@
 - Hands use round black palm blobs with light grey `#e1e1e1` fingers and thumbs emerging from the blob's edge.
 - The black palm is the actual palm blob, not a glove wrapped around the fingers.
 - Each hand has exactly one thumb and exactly three fingers. This is very important; do not draw four fingers plus one thumb.
-- Current hand-size anchor: use `archive/generated-iterations/v1-size-blocky-fingers/contact-sheet.png`. Keep the large rejected-v1 palm and finger scale; do not shrink toward the smaller `hand-scale-v2` rectangular batch.
+- Current hand-size anchor: use `docs/references/hand-size-anchor.png` (stable copy of the locked v1-size blocky-fingers sheet). Keep the large rejected-v1 palm and finger scale; do not shrink toward the smaller historical `hand-scale-v2` rectangular batch.
 - Fingers should read as large flat rectangular tabs with hard sides and flat or slightly rounded corners, not soft sausage-like tubes.
 - Oversized black oval feet.
 - Flat red diamond chest mark, with no gem facets.
