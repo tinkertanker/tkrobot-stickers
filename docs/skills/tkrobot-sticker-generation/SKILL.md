@@ -16,12 +16,11 @@ Repo map and commit checklist: root `AGENTS.md`.
 1. Scan `stickers/manifest.json` for existing slugs, descriptions, and tags so you do not duplicate a pose.
 2. Read `references/style-guide.md` before drafting prompts or judging outputs.
 3. Compare candidates against `stickers/contact-sheet.png` and the hand-size lock at `docs/references/hand-size-anchor.png`.
-4. Generate one sticker at a time on a flat `#00ff00` chroma-key background when transparent PNGs are needed.
-5. Preserve the flat generation original under `archive/` (for example `archive/chroma-key-sources/<slug>.png`) **before** background removal, then convert only the outside-connected flat background to alpha.
-6. Save the definitive 1254×1254 transparent PNG in `stickers/<slug>.png`, and record the archived original via `source_path` in `stickers/manifest.json` together with `description` and `tags`.
-7. Refresh contact sheet / `stickers/README.md` / site manifest via `tools/scripts/`.
-8. Run `python3 tools/scripts/verify_pack.py` before committing.
-9. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
+4. Generate one sticker at a time on a flat `#00ff00` chroma-key background when transparent PNGs are needed, then remove the background locally.
+5. Save the definitive 1254×1254 transparent PNG in `stickers/<slug>.png` and record it in `stickers/manifest.json` with a non-empty `source_path`, `description`, and `tags`; preserve the referenced source under `archive/` when useful.
+6. Refresh the contact sheet / sticker README / site manifest via `tools/scripts/`.
+7. Run `python3 tools/scripts/verify_pack.py` before committing.
+8. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
 
 ## Prompting Rules
 
