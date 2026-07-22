@@ -17,9 +17,10 @@ Repo map and commit checklist: root `AGENTS.md`.
 2. Read `references/style-guide.md` before drafting prompts or judging outputs.
 3. Compare candidates against `stickers/contact-sheet.png` and the hand-size lock at `docs/references/hand-size-anchor.png`.
 4. Generate one sticker at a time on a flat `#00ff00` chroma-key background when transparent PNGs are needed, then remove the background locally.
-5. Save the definitive 1254×1254 transparent PNG in `stickers/<slug>.png`, record it in `stickers/manifest.json`, and refresh the contact sheet / sticker README / site manifest via `tools/scripts/`.
-6. Run `python3 tools/scripts/verify_pack.py` before committing.
-7. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
+5. Save the definitive 1254×1254 transparent PNG in `stickers/<slug>.png` and record it in `stickers/manifest.json` with a non-empty `source_path`, `description`, and `tags`; preserve the referenced source under `archive/` when useful.
+6. Refresh the contact sheet / sticker README / site manifest via `tools/scripts/`.
+7. Run `python3 tools/scripts/verify_pack.py` before committing.
+8. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
 
 ## Prompting Rules
 

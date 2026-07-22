@@ -98,8 +98,8 @@ def main() -> int:
         return 1
 
     try:
-        manifest = json.loads(MANIFEST.read_text())
-    except (OSError, json.JSONDecodeError) as error:
+        manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
         print(f"error: could not read manifest: {error}", file=sys.stderr)
         return 1
     if not isinstance(manifest, dict):
@@ -112,6 +112,14 @@ def main() -> int:
     name = manifest.get("name")
     if not isinstance(name, str) or not name.strip():
         fail(errors, "manifest.name must be a non-empty string")
+
+    contact_sheet = manifest.get("contact_sheet")
+    expected_contact_sheet = CONTACT_SHEET.relative_to(ROOT).as_posix()
+    if contact_sheet != expected_contact_sheet:
+        fail(
+            errors,
+            f"manifest.contact_sheet must be {expected_contact_sheet!r}, got {contact_sheet!r}",
+        )
 
     pack_size = manifest.get("pack_size")
     if pack_size != list(EXPECTED_SIZE):
@@ -177,16 +185,17 @@ def main() -> int:
     if not STICKERS_README.is_file():
         fail(errors, "missing stickers/README.md")
 
-    if not CONTACT_SHEET.is_file():
-        fail(errors, "missing stickers/contact-sheet.png")
+    contact_sheet_path = ROOT / contact_sheet
+    if not contact_sheet_path.is_file():
+        fail(errors, f"missing {contact_sheet}")
     else:
         try:
-            with Image.open(CONTACT_SHEET) as image:
+            with Image.open(contact_sheet_path) as image:
                 if image.format != "PNG":
                     fail(errors, f"contact sheet must be PNG, got {image.format}")
                 image.verify()
-        except OSError as error:
-            fail(errors, f"could not read stickers/contact-sheet.png: {error}")
+        except (OSError, Image.DecompressionBombError) as error:
+            fail(errors, f"could not read {contact_sheet}: {error}")
 
     for item in valid_items:
         slug = item["slug"]
@@ -216,7 +225,7 @@ def main() -> int:
                             errors,
                             f"{slug}: fully opaque export; transparent background required",
                         )
-        except OSError as error:
+        except (OSError, Image.DecompressionBombError) as error:
             fail(errors, f"{slug}: could not read PNG: {error}")
 
         if isinstance(source_path, str) and source_path.strip():
