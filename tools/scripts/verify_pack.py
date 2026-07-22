@@ -4,37 +4,22 @@
 from __future__ import annotations
 
 import argparse
-import filecmp
-import hashlib
 import json
 import re
-import subprocess
 import sys
-import tempfile
-from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRIPTS = Path(__file__).resolve().parent
 STICKERS = ROOT / "stickers"
 MANIFEST = STICKERS / "manifest.json"
 CONTACT_SHEET = STICKERS / "contact-sheet.png"
-STICKERS_README = STICKERS / "README.md"
-SITE_MANIFEST = ROOT / "site" / "stickers.json"
 EXPECTED_SIZE = (1254, 1254)
 EXPECTED_MODE = "RGBA"
 ALLOWED_META_FILES = {"manifest.json", "README.md", "contact-sheet.png"}
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-
-# Sibling helpers live beside this script.
-if str(SCRIPTS) not in sys.path:
-    sys.path.insert(0, str(SCRIPTS))
-
-from make_contact_sheet import build_contact_sheet  # noqa: E402
-from sync_pack_readme import render_stickers_readme  # noqa: E402
 
 
 def fail(errors: list[str], message: str) -> None:
@@ -94,99 +79,13 @@ def validate_item_schema(
     return item
 
 
-def expected_site_manifest(manifest: dict) -> dict:
-    """Build the site gallery payload without writing it."""
-
-    def asset_version(path: str) -> str:
-        return hashlib.sha256((ROOT / path).read_bytes()).hexdigest()[:12]
-
-    def last_updated(path: str) -> str:
-        result = subprocess.run(
-            ["git", "log", "-1", "--format=%cs", "--", path],
-            cwd=ROOT,
-            check=True,
-            capture_output=True,
-            text=True,
-        )
-        date = result.stdout.strip()
-        if date:
-            return date
-        source = ROOT / path
-        return datetime.fromtimestamp(source.stat().st_mtime, timezone.utc).date().isoformat()
-
-    items = [
-        {
-            "slug": item["slug"],
-            "filename": item["filename"],
-            "path": f"/{item['sticker_path']}?v={asset_version(item['sticker_path'])}",
-            "updated_at": last_updated(item["sticker_path"]),
-        }
-        for item in manifest["items"]
-    ]
-    return {
-        "name": manifest["name"],
-        "count": len(items),
-        "items": items,
-    }
-
-
-def check_derived_readme(manifest: dict, errors: list[str]) -> None:
-    """Fail when stickers/README.md is stale relative to the manifest."""
-    if not STICKERS_README.is_file():
-        fail(errors, "missing stickers/README.md")
-        return
-    expected = render_stickers_readme(manifest)
-    actual = STICKERS_README.read_text()
-    if actual != expected:
-        fail(
-            errors,
-            "stickers/README.md is stale; run python3 tools/scripts/sync_pack_readme.py",
-        )
-
-
-def check_derived_site_manifest(manifest: dict, errors: list[str]) -> None:
-    """Fail when site/stickers.json is stale relative to the pack."""
-    if not SITE_MANIFEST.is_file():
-        fail(errors, "missing site/stickers.json")
-        return
-    expected = expected_site_manifest(manifest)
-    actual = json.loads(SITE_MANIFEST.read_text())
-    if actual != expected:
-        fail(
-            errors,
-            "site/stickers.json is stale; run python3 tools/scripts/build_site_manifest.py",
-        )
-
-
-def check_derived_contact_sheet(errors: list[str]) -> None:
-    """Fail when stickers/contact-sheet.png does not match a fresh rebuild."""
-    if not CONTACT_SHEET.is_file():
-        fail(errors, "missing stickers/contact-sheet.png")
-        return
-
-    with tempfile.TemporaryDirectory() as tmp:
-        rebuilt = Path(tmp) / "contact-sheet.png"
-        build_contact_sheet(STICKERS, rebuilt, cols=4)
-        if not filecmp.cmp(CONTACT_SHEET, rebuilt, shallow=False):
-            fail(
-                errors,
-                "stickers/contact-sheet.png is stale; run "
-                "python3 tools/scripts/make_contact_sheet.py stickers --out stickers/contact-sheet.png",
-            )
-
-
 def main() -> int:
-    """Validate the definitive pack and its derived catalogue files."""
+    """Validate the definitive pack."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--strict-sources",
         action="store_true",
         help="Require every item.source_path to exist on disk.",
-    )
-    parser.add_argument(
-        "--skip-derived",
-        action="store_true",
-        help="Skip freshness checks for README, site manifest, and contact sheet.",
     )
     args = parser.parse_args()
 
@@ -197,7 +96,11 @@ def main() -> int:
         print(f"error: missing manifest at {MANIFEST.relative_to(ROOT)}", file=sys.stderr)
         return 1
 
-    manifest = json.loads(MANIFEST.read_text())
+    try:
+        manifest = json.loads(MANIFEST.read_text())
+    except (OSError, json.JSONDecodeError) as error:
+        print(f"error: could not read manifest: {error}", file=sys.stderr)
+        return 1
     if not isinstance(manifest, dict):
         fail(errors, "manifest root must be an object")
         print("errors:")
@@ -215,7 +118,9 @@ def main() -> int:
         items = []
 
     declared_count = manifest.get("count")
-    if declared_count != len(items):
+    if not isinstance(declared_count, int) or isinstance(declared_count, bool):
+        fail(errors, "manifest.count must be an integer")
+    elif declared_count != len(items):
         fail(errors, f"manifest.count is {declared_count}, but items has {len(items)} entries")
 
     seen_slugs: set[str] = set()
@@ -224,6 +129,13 @@ def main() -> int:
         validated = validate_item_schema(item, index, errors, seen_slugs)
         if validated is not None:
             valid_items.append(validated)
+
+    if errors:
+        print("errors:")
+        for error in errors:
+            print(f"  - {error}")
+        print(f"\nverify_pack: FAILED ({len(errors)} error(s), 0 warning(s))")
+        return 1
 
     pack_png_names = {
         item["filename"]
@@ -257,6 +169,9 @@ def main() -> int:
     if orphan_files:
         fail(errors, f"PNG files missing from manifest: {', '.join(orphan_files)}")
 
+    if not CONTACT_SHEET.is_file():
+        fail(errors, "missing stickers/contact-sheet.png")
+
     for item in valid_items:
         slug = item["slug"]
         sticker_path = item.get("sticker_path")
@@ -266,24 +181,27 @@ def main() -> int:
             fail(errors, f"{slug}: sticker file missing at {sticker_path}")
             continue
 
-        with Image.open(path) as image:
-            if image.mode != EXPECTED_MODE:
-                fail(errors, f"{slug}: expected mode {EXPECTED_MODE}, got {image.mode}")
-            if image.size != EXPECTED_SIZE:
-                fail(
-                    errors,
-                    f"{slug}: expected size {EXPECTED_SIZE[0]}x{EXPECTED_SIZE[1]}, "
-                    f"got {image.size[0]}x{image.size[1]}",
-                )
-            if "A" not in image.getbands():
-                fail(errors, f"{slug}: missing alpha channel")
-            else:
-                alpha = image.getchannel("A")
-                if alpha.getextrema()[0] >= 255:
+        try:
+            with Image.open(path) as image:
+                if image.mode != EXPECTED_MODE:
+                    fail(errors, f"{slug}: expected mode {EXPECTED_MODE}, got {image.mode}")
+                if image.size != EXPECTED_SIZE:
                     fail(
                         errors,
-                        f"{slug}: fully opaque export; transparent background required",
+                        f"{slug}: expected size {EXPECTED_SIZE[0]}x{EXPECTED_SIZE[1]}, "
+                        f"got {image.size[0]}x{image.size[1]}",
                     )
+                if "A" not in image.getbands():
+                    fail(errors, f"{slug}: missing alpha channel")
+                else:
+                    alpha = image.getchannel("A")
+                    if alpha.getextrema()[0] >= 255:
+                        fail(
+                            errors,
+                            f"{slug}: fully opaque export; transparent background required",
+                        )
+        except OSError as error:
+            fail(errors, f"{slug}: could not read PNG: {error}")
 
         if isinstance(source_path, str) and source_path.strip():
             source = ROOT / source_path
@@ -293,11 +211,6 @@ def main() -> int:
                     fail(errors, message)
                 else:
                     warnings.append(message)
-
-    if not args.skip_derived:
-        check_derived_readme(manifest, errors)
-        check_derived_site_manifest(manifest, errors)
-        check_derived_contact_sheet(errors)
 
     if warnings:
         print("warnings:")

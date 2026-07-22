@@ -59,8 +59,8 @@ Full detail: `docs/skills/tkrobot-sticker-generation/references/style-guide.md`.
 1. Choose a kebab-case slug that is not already in `stickers/manifest.json`.
 2. Read the style guide and prompt guidelines under `docs/`.
 3. Generate **one** sticker at a time on a flat `#00ff00` chroma-key background when you need local background removal.
-4. Preserve that generation original under `archive/` (typically `archive/chroma-key-sources/<slug>.png`) before cleanup.
-5. Export a square **1254×1254** transparent RGBA PNG to `stickers/<slug>.png`.
+4. Export a square **1254×1254** transparent RGBA PNG to `stickers/<slug>.png`.
+5. Preserve the generation source outside the working pack when useful (for example under `archive/…`) and point `source_path` at it in the manifest.
 6. Append a manifest item with `slug`, `filename`, `sticker_path`, `source_path`, `description`, and `tags`.
 7. Refresh derived files:
    - `python3 tools/scripts/make_contact_sheet.py stickers --out stickers/contact-sheet.png`
