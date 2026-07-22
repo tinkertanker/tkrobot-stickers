@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STICKERS = ROOT / "stickers"
 MANIFEST = STICKERS / "manifest.json"
 CONTACT_SHEET = STICKERS / "contact-sheet.png"
+STICKERS_README = STICKERS / "README.md"
 EXPECTED_SIZE = (1254, 1254)
 EXPECTED_MODE = "RGBA"
 ALLOWED_META_FILES = {"manifest.json", "README.md", "contact-sheet.png"}
@@ -108,6 +109,10 @@ def main() -> int:
             print(f"  - {error}")
         return 1
 
+    name = manifest.get("name")
+    if not isinstance(name, str) or not name.strip():
+        fail(errors, "manifest.name must be a non-empty string")
+
     pack_size = manifest.get("pack_size")
     if pack_size != list(EXPECTED_SIZE):
         fail(errors, f"manifest.pack_size must be {list(EXPECTED_SIZE)}, got {pack_size!r}")
@@ -169,8 +174,19 @@ def main() -> int:
     if orphan_files:
         fail(errors, f"PNG files missing from manifest: {', '.join(orphan_files)}")
 
+    if not STICKERS_README.is_file():
+        fail(errors, "missing stickers/README.md")
+
     if not CONTACT_SHEET.is_file():
         fail(errors, "missing stickers/contact-sheet.png")
+    else:
+        try:
+            with Image.open(CONTACT_SHEET) as image:
+                if image.format != "PNG":
+                    fail(errors, f"contact sheet must be PNG, got {image.format}")
+                image.verify()
+        except OSError as error:
+            fail(errors, f"could not read stickers/contact-sheet.png: {error}")
 
     for item in valid_items:
         slug = item["slug"]
