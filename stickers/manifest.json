@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v11-rectangular-fingers",
-  "count": 35,
+  "count": 36,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -220,6 +220,19 @@
       "tags": [
         "motion",
         "happy"
+      ]
+    },
+    {
+      "slug": "lobster-claws",
+      "filename": "lobster-claws.png",
+      "sticker_path": "stickers/lobster-claws.png",
+      "source_path": "archive/chroma-key-sources/lobster-claws.png",
+      "note": "New red mechanical lobster-claw pose, generated to extend the locked pack.",
+      "description": "Raising red mechanical lobster claws to either side.",
+      "tags": [
+        "gesture",
+        "fun",
+        "mechanical"
       ]
     },
     {

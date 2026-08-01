@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "count": 35,
+  "count": 36,
   "items": [
     {
       "slug": "crashed",
@@ -103,6 +103,12 @@
       "filename": "jumping-for-joy.png",
       "path": "/stickers/jumping-for-joy.png?v=d0f642f2a818",
       "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "lobster-claws",
+      "filename": "lobster-claws.png",
+      "path": "/stickers/lobster-claws.png?v=0bf7645e7d59",
+      "updated_at": "2026-08-01"
     },
     {
       "slug": "ok",
