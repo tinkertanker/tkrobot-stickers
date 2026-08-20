@@ -2,13 +2,17 @@
 
 One image per generation call. Fill the variables; never collage several ideas.
 
-Attach both character lock sheets as reference images on the same call
+Attach these lock sheets as reference images on the same call
 (`reference_image_paths` or the equivalent), in this order:
 
 1. `docs/skills/tkrobot-illustrations/assets/character-lock-canonical.png`
 2. `docs/skills/tkrobot-illustrations/assets/character-lock-sketch.png`
+3. `docs/skills/tkrobot-illustrations/assets/hand-lock-canonical.png`
+4. `docs/skills/tkrobot-illustrations/assets/hand-lock-sketch.png`
 
-Copy T Krobot from those sheets. Do not invent a black stick-figure stand-in.
+Copy T Krobot — and especially the hands — from those sheets. Do not invent
+a black stick-figure or cartoon gloves. If the tool only accepts a few
+references, keep the two hand sheets.
 
 ```text
 Generate one standalone 16:9 horizontal article body illustration.
@@ -34,7 +38,12 @@ MUST match the lock sheets:
   bars, not on the shoulder.
 - Arms and legs: light grey (#e1e1e1) smooth tubes with a thin black outline.
   Moderately slim. NEVER solid black. NEVER hair-thin stick lines. No joints.
-- Hands: round black palm blobs; short light-grey tab fingers or a mitten.
+- Hands (copy the hand-lock sheets): each visible hand is a ROUND SOLID BLACK
+  PALM BLOB with exactly FOUR light-grey rectangular tabs growing from its
+  edge — three fingers in a row plus one thumb set apart. Tabs are LARGE flat
+  rectangles with hard sides, not sausages, not nubs. The black blob is the
+  palm, not a glove. Never five digits. Never white Mickey gloves. Never
+  all-black hands. Never a mitten with white stripes.
 - Feet: oversized solid black ovals.
 - No mouth, no eyebrows, no blush. Deadpan.
 
@@ -96,7 +105,9 @@ Regenerate with the same core meaning and layout, but make T Krobot central
 to the conceptual action — doing the strange work that explains the idea, not
 standing beside the diagram. Keep it clean, sparse, hand-drawn, not cute.
 Keep T Krobot on-model: grey tube limbs, trapezoid black head and body, empty
-round white glasses, red chest diamond. Not an all-black stick figure.
+round white glasses, red chest diamond, black palm blobs with four large
+grey rectangular tabs (three fingers plus thumb). Not an all-black stick
+figure. Not cartoon gloves.
 ```
 
 Fix an off-model T Krobot (keep the scene):
@@ -108,4 +119,15 @@ round white glasses, flat red diamond centred on the chest, light grey tube
 limbs with thin black outlines, black oval feet, no mouth, no pupils. Do not
 turn the limbs black. Do not turn the head into a pill. Preserve the scene,
 labels, and layout.
+```
+
+Fix the hands only (keep the rest):
+
+```text
+Edit the provided image. Fix only T Krobot's hands to match the attached
+hand-lock sheets. Each visible hand: a round solid-black palm blob, with
+exactly three light-grey rectangular finger tabs plus one grey thumb tab
+growing from the blob's edge. Large flat tabs, hard sides. Not white gloves,
+not five digits, not sausages, not all-black fists, not striped mittens.
+Leave the head, body, scene, and labels untouched.
 ```

@@ -13,6 +13,10 @@ Reject or edit when any of these appear.
 - Chest diamond missing, turned into bars, or moved to the shoulder.
 - Mouth, eyebrows, blush, or a cute face.
 - Thick sticker outlines or flat sticker shading on a sketch page.
+- Hands off-model (check every visible hand against the hand-lock sheets):
+  white gloves; five digits; four fingers plus a thumb; four equal fingers
+  with no thumb; sausage or tube fingers; all-black hands; missing palm
+  blob; tiny nubs; a mitten with white/grey stripes; stick-figure hooks.
 
 ## Page
 
