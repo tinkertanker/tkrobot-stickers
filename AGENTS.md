@@ -23,6 +23,7 @@ Do **not** add unrelated brand assets, slide decks, checkerboard previews, or lo
 | `docs/references/hand-size-anchor.png` | Locked hand/finger scale reference |
 | `docs/prompts/tkrobot-sticker-guidelines.md` | Prompt skeleton + pose notes for generation |
 | `docs/skills/tkrobot-sticker-generation/` | Local generation skill (style guide + prompt) |
+| `docs/skills/tkrobot-illustrations/` | Body-illustration skill: 16:9 white-bg hand-drawn explainer images with sketch-mode T Krobot (adapted from ian-xiaohei-illustrations, MIT) |
 | `docs/ios-app-migration.md` | Remaining App Store relist and 2021-repo rename/archive checklist |
 | `tools/scripts/` | Pack helpers: verify, contact sheet, site manifest, README sync, `export_chat_pack.py` |
 | `archive/` | Historical sources and rejected iterations — **not** the working pack |
@@ -33,6 +34,7 @@ Do **not** add unrelated brand assets, slide decks, checkerboard previews, or lo
 1. **Find existing stickers** → `stickers/` and `stickers/manifest.json` (filter by `tags` / `description`).
 2. **See the whole pack** → `stickers/contact-sheet.png`.
 3. **Match style before generating** → `docs/skills/tkrobot-sticker-generation/references/style-guide.md` and `docs/prompts/tkrobot-sticker-guidelines.md`.
+3b. **Article/tutorial body illustrations** (not stickers) → `docs/skills/tkrobot-illustrations/SKILL.md` — hand-drawn 16:9 explainer images where sketch-mode T Krobot performs the concept.
 4. **Match hand size** → `docs/references/hand-size-anchor.png`.
 5. **Ignore by default** → almost everything under `archive/generated-iterations/` except when a manifest `source_path` or note points there.
 
