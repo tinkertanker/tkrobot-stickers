@@ -9,6 +9,13 @@ never a manual.
 Like someone who builds AI tools and teaches coding sketched an explanation on
 a blank sheet — quickly, precisely, and slightly absurdly.
 
+## Character
+
+T Krobot is the sticker mascot in thin-line form. Light grey tube limbs, black
+trapezoid head and body, empty round white glasses, red chest diamond. See
+`tkrobot-sketch-mode.md` and the two lock sheets. If the robot is an all-black
+stick figure, the page is wrong even when the layout is right.
+
 ## Must
 
 - 16:9 landscape body illustration.

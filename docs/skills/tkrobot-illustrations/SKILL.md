@@ -21,13 +21,17 @@ This is distinct from the sticker pack (transparent chat stickers) and from
 banner composition (deterministic hero scenes). This skill produces editorial
 body images for articles, tutorials, proposals, and course-page prose.
 
-## Read these references as needed
+## Read before generating
 
-- `references/style-dna.md` — visual DNA, colours, lettering, hard bans.
-- `references/tkrobot-sketch-mode.md` — how the canonical character translates
-  to thin-line sketch form. The invariants that survive, and the ones that relax.
-- `references/composition-patterns.md` — structure types, the metaphor
-  invention method, and the no-recycling rule.
+Always read `references/tkrobot-sketch-mode.md` and look at both lock sheets
+before the first `image_gen` call. T Krobot is the sticker mascot with **light
+grey tube limbs**, not an all-black Xiaohei stick figure.
+
+- `assets/character-lock-canonical.png` — anatomy and colours.
+- `assets/character-lock-sketch.png` — the same character in thin-line form.
+- `references/style-dna.md` — page DNA, colours, lettering, hard bans.
+- `references/composition-patterns.md` — structure types, metaphor invention,
+  no-recycling rule.
 - `references/prompt-template.md` — the per-image generation prompt.
 - `references/qa-checklist.md` — post-generation checks and edit prompts.
 
@@ -51,16 +55,19 @@ Default 3–6 images; short pieces 1–2. Enough is enough.
 ### 3. Generate one image at a time
 
 If the user asks to generate, generate — one `image_gen` call per image, using
-`references/prompt-template.md`. Never collage multiple ideas into one image.
-Invent a fresh metaphor from *this* text each time; never reuse a previous
-composition (see the no-recycling rule).
+`references/prompt-template.md`. Attach both lock sheets as
+`reference_image_paths` on that call. Never collage multiple ideas into one
+image. Invent a fresh metaphor from *this* text each time; never reuse a
+previous composition (see the no-recycling rule).
 
 ### 4. Check and iterate
 
-Run `references/qa-checklist.md`. Regenerate or edit if: T Krobot is mere
-decoration; the canvas is crowded; it reads as a flowchart or slide; the
-annotations are long or numerous; a type-title appears in a corner; the style
-went cute or went vector; the background isn't clean white.
+Run `references/qa-checklist.md`. Check the character against the lock sheets
+before anything else. Regenerate or edit if: the robot drifted into Xiaohei
+(black stick limbs, pill head, dotted eyes); T Krobot is mere decoration; the
+canvas is crowded; it reads as a flowchart or slide; the annotations are long
+or numerous; a type-title appears in a corner; the style went cute or went
+vector; the background isn't clean white.
 
 ### 5. Deliver
 
