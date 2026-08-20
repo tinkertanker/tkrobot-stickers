@@ -20,7 +20,8 @@ Repo map and commit checklist: root `AGENTS.md`.
 5. Save the definitive 1254×1254 transparent PNG in `stickers/<slug>.png` and record it in `stickers/manifest.json` with a non-empty `source_path`, `description`, and `tags`; preserve the referenced source under `archive/` when useful.
 6. Refresh the contact sheet / sticker README / site manifest via `tools/scripts/`.
 7. Run `python3 tools/scripts/verify_pack.py` before committing.
-8. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
+8. If `ios/` is present, add the slug to `ios/pack-config.json` (emoji and one WhatsApp pack), then run `python3 tools/scripts/export_chat_pack.py`. Do not invent poses inside `ios/` or resize masters by hand.
+9. Reject candidates that break the mascot invariants: mouths, default pupils, segmented limbs, joint rings, or black interior lines on white limbs.
 
 ## Prompting Rules
 

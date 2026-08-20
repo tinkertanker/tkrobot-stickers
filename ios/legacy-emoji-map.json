@@ -1,0 +1,26 @@
+{
+  "source": "tinkertanker/Tinkertanker-Stickers TT Stickers/sticker_packs.wasticker",
+  "note": "2021 WhatsApp emoji map. right.png is not mapped onto today's ok.png; ok already had its own emoji.",
+  "stickers": [
+    {"slug": "crashed", "emojis": ["💥", "💻"]},
+    {"slug": "ded", "emojis": ["⚰️", "🪦"]},
+    {"slug": "depressed", "emojis": ["😭", "😔"]},
+    {"slug": "facepalm", "emojis": ["🤦‍♂️", "🤦‍♀️"]},
+    {"slug": "falling", "emojis": ["🤕", "🍌"]},
+    {"slug": "fingerguns", "emojis": ["🔫", "👈"]},
+    {"slug": "flailing", "emojis": ["‼️", "⚠️"]},
+    {"slug": "gasp", "emojis": ["😱", "😳"]},
+    {"slug": "handraise", "emojis": ["🙋‍♂️", "🙌"]},
+    {"slug": "heart", "emojis": ["❤️", "🥰"]},
+    {"slug": "intenseglare", "emojis": ["😡", "😠"]},
+    {"slug": "ok", "emojis": ["👌", "👍"]},
+    {"slug": "pls", "emojis": ["🥺", "🙏"]},
+    {"slug": "salute", "emojis": ["🖖", "👏"]},
+    {"slug": "shock", "emojis": ["‼️", "😨"]},
+    {"slug": "shrug", "emojis": ["🤷‍♂️", "❓"]},
+    {"slug": "snooze", "emojis": ["😴", "🛌"]},
+    {"slug": "thumbsup", "emojis": ["👍", "✅"]},
+    {"slug": "wrong", "emojis": ["👎", "❌"]},
+    {"slug": "yay", "emojis": ["🎉", "🥳"]}
+  ]
+}

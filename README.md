@@ -1,6 +1,6 @@
 # T Krobot Stickers
 
-Transparent PNG sticker assets for T Krobot, Tinkertanker's robot mascot with glasses.
+Transparent PNG sticker assets for T Krobot, Tinkertanker's robot mascot with glasses, and the TT Stickers iOS app that ships them.
 
 Browse and download the pack at [stickers.tk.sg](https://stickers.tk.sg).
 
@@ -18,9 +18,20 @@ The authoritative catalogue is `stickers/manifest.json`; do not maintain a secon
 - `docs/references/hand-size-anchor.png` is the locked hand/finger scale for new generations.
 - Historical generated attempts, original downloads, and reference copies live under `archive/` — ignore them unless a manifest `source_path` points there.
 - Reusable generation guidance and the local skill live under `docs/`.
-- The 2021 TT Stickers iOS app is planned to move here; see `docs/ios-app-migration.md`.
-- Helper scripts (`verify_pack`, contact sheet, README sync, site manifest) live under `tools/scripts/`.
+- Helper scripts (`verify_pack`, contact sheet, README sync, site manifest, chat export) live under `tools/scripts/`.
 - No licence is granted by default; treat these as Tinkertanker mascot assets unless separately approved.
+
+## iOS app
+
+The TT Stickers iOS app (iMessage + WhatsApp) lives in `ios/`. Open `ios/README.md` for Xcode setup and bundle IDs.
+
+Chat-sized assets are generated, not committed. After changing the pack, run:
+
+```sh
+python3 tools/scripts/export_chat_pack.py
+```
+
+That writes 512 WebP/PNG files into `ios/Derived/` from the 1254×1254 masters. Remaining App Store and 2021-repo work is listed in `docs/ios-app-migration.md`.
 
 ## Website
 
