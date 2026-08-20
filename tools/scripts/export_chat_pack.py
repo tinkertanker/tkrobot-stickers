@@ -412,7 +412,6 @@ def main() -> int:
 
     derived = {
         "publisher": pack_config.get("publisher"),
-        "telegram_url": pack_config.get("telegram_url"),
         "ios_app_store_id": pack_config.get("ios_app_store_id"),
         "tray_slug": tray_slug,
         "source_manifest": repo_path(STICKER_MANIFEST),

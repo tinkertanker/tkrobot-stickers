@@ -14,7 +14,6 @@ Do not copy the 2021 project into `ios/` and “refresh” it. The rewrite is al
 | README on the 2021 GitHub repo | Done ([tinkertanker/Tinkertanker-Stickers README](https://github.com/tinkertanker/Tinkertanker-Stickers/blob/main/README.md)) |
 | Rename 2021 repo to `tt-stickers-ios-legacy`, then archive | **Outstanding** (GitHub UI; org admin) |
 | App Store relist under Apple ID `1551965798` | Outstanding |
-| Telegram hosted-set refresh | Follow-up, not blocking relist |
 
 ## Why this repo owns the app
 
@@ -60,7 +59,6 @@ Reuse from the 2021 app:
 | Messages extension bundle ID | `com.tinkertanker.stickers.StickerPackExtension` |
 | Signing team | `PQ6U5ESLN2` (confirm in App Store Connect before the first archive) |
 | WhatsApp pack identifier | `sg.tk.tinkertanker.stickers` |
-| Telegram set | [t.me/addstickers/Tinkertanker](https://t.me/addstickers/Tinkertanker) |
 | Emoji map | `ios/legacy-emoji-map.json` for slugs that still exist |
 
 Rewrite (in tree under `ios/`):
@@ -92,7 +90,7 @@ Split lives in `ios/pack-config.json` (adjust there, not by hand-resizing PNGs):
 
 Carry emoji over where the slug matches `ios/legacy-emoji-map.json`. Assign new emoji for stickers that did not exist in 2021 (`greetings`, `happy`, `sixseven`, and so on). The old file’s `right.png` maps to today’s `ok` only if the art still means “correct”; do not assume that from the filename.
 
-Telegram is a hosted set, not something the iOS binary ships. Treat a Telegram refresh as a follow-up (Bot API upload of the same 512 WebP files). Until then, the app can keep linking the existing set.
+The 2021 Telegram set (`t.me/addstickers/Tinkertanker`) is not reused. Delete it in [@stickers](https://t.me/stickers) if you still have access. The iOS app does not link to Telegram.
 
 ## Rename the old repo (still outstanding)
 
@@ -142,17 +140,18 @@ In App Store Connect, restore Apple ID `1551965798` if it is still in a removed 
 
 Confirm the developer team `PQ6U5ESLN2` still belongs to Tinkertanker before the first signed build.
 
-Host app expectations: grid of the current pack, Add to WhatsApp (per pack), Add to Telegram (link), short note that iMessage stickers install with the app. Same bundle IDs as the 2021 app so App Store Connect can restore TT Stickers rather than creating a second listing.
+Host app expectations: grid of the current pack, Add to WhatsApp (per pack), short note that iMessage stickers install with the app. Same bundle IDs as the 2021 app so App Store Connect can restore TT Stickers rather than creating a second listing.
 
 ## Follow-ups (not blocking relist)
 
-- Re-upload `ios/Derived/whatsapp/**/*.webp` to Telegram via [@stickers](https://t.me/stickers) (or Bot API) so [t.me/addstickers/Tinkertanker](https://t.me/addstickers/Tinkertanker) matches the locked pack. Do **not** use Telegram’s per-user import SDK for this; that creates a private pack each time. Telegram can hold all 36 stickers in one set.
+- Delete the 2021 Telegram set in [@stickers](https://t.me/stickers) if you still own it (`t.me/addstickers/Tinkertanker`). Do not republish it.
 - Mention the iOS app on `stickers.tk.sg` once it is live again
 - Point Tapplet and any other consumers at this repo only (they already do)
 - Android WhatsApp users need a separate Play Store sticker app (out of scope)
 
 ## Out of scope
 
+- Telegram sticker set (the 2021 hosted pack is retired; do not republish)
 - Android / Play Store WhatsApp sticker app
 - Changing the 1254×1254 master size
 - Checkerboard previews or flattened marketing exports in `stickers/`

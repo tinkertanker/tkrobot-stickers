@@ -3,7 +3,6 @@ import UIKit
 
 struct PackConfig: Decodable, Equatable {
     let publisher: String
-    let telegramURL: URL
     let iosAppStoreID: String
     let traySlug: String
     let emojis: [String: [String]]
@@ -11,7 +10,6 @@ struct PackConfig: Decodable, Equatable {
 
     enum CodingKeys: String, CodingKey {
         case publisher
-        case telegramURL = "telegram_url"
         case iosAppStoreID = "ios_app_store_id"
         case traySlug = "tray_slug"
         case emojis

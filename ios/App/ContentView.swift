@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.openURL) private var openURL
     @State private var library: PackLibrary?
     @State private var loadError: String?
     @State private var alertTitle = "WhatsApp"
@@ -50,15 +49,6 @@ struct ContentView: View {
                 }
 
                 VStack(alignment: .leading, spacing: 12) {
-                    Button("Add to Telegram") {
-                        openURL(library.config.telegramURL)
-                    }
-                    .buttonStyle(.bordered)
-
-                    Text("Add to Telegram installs the published Telegram set, not a pack bundled in this app.")
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-
                     Text("iMessage stickers install with this app (Messages extension).")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
