@@ -55,6 +55,10 @@ struct ContentView: View {
                     }
                     .buttonStyle(.bordered)
 
+                    Text("Add to Telegram installs the published Telegram set, not a pack bundled in this app.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+
                     Text("iMessage stickers install with this app (Messages extension).")
                         .font(.footnote)
                         .foregroundStyle(.secondary)

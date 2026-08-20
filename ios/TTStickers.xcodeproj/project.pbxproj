@@ -15,6 +15,7 @@
 		A10000000000000000000205 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000106 /* PrivacyInfo.xcprivacy */; };
 		A10000000000000000000206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000107 /* Assets.xcassets */; };
 		A10000000000000000000207 /* StickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000109 /* StickerBrowserViewController.swift */; };
+		A1000000000000000000020C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000010D /* MessagesViewController.swift */; };
 		A10000000000000000000208 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000106 /* PrivacyInfo.xcprivacy */; };
 		A10000000000000000000209 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1000000000000000000010A /* Messages.framework */; };
 		A1000000000000000000020A /* StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -57,6 +58,7 @@
 		A10000000000000000000107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10000000000000000000108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A10000000000000000000109 /* StickerBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBrowserViewController.swift; sourceTree = "<group>"; };
+		A1000000000000000000010D /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		A1000000000000000000010A /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		A1000000000000000000010B /* copy-derived-resources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "copy-derived-resources.sh"; sourceTree = "<group>"; };
 		A1000000000000000000010C /* pack-config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pack-config.json"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		A10000000000000000000006 /* StickerPackExtension */ = {
 			isa = PBXGroup;
 			children = (
+				A1000000000000000000010D /* MessagesViewController.swift */,
 				A10000000000000000000109 /* StickerBrowserViewController.swift */,
 				A10000000000000000000108 /* Info.plist */,
 			);
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1000000000000000000020C /* MessagesViewController.swift in Sources */,
 				A10000000000000000000207 /* StickerBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = PQ6U5ESLN2;
@@ -545,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = PQ6U5ESLN2;

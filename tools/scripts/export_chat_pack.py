@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import shutil
 import sys
@@ -232,8 +233,35 @@ def print_failures(errors: list[str]) -> int:
     return 1
 
 
+def newest_mtime(paths: list[Path]) -> float:
+    """Return the latest modification time among existing paths."""
+    mtimes = [path.stat().st_mtime for path in paths if path.is_file()]
+    return max(mtimes) if mtimes else 0.0
+
+
+def derived_is_fresh(master_paths: list[Path]) -> bool:
+    """True when ios/Derived/manifest.json is newer than config, masters, and this script."""
+    if not DERIVED_MANIFEST.is_file():
+        return False
+    sources = [
+        Path(__file__).resolve(),
+        STICKER_MANIFEST,
+        PACK_CONFIG,
+        *master_paths,
+    ]
+    return DERIVED_MANIFEST.stat().st_mtime >= newest_mtime(sources)
+
+
 def main() -> int:
     """Build gitignored chat-sized derivatives under ios/Derived/."""
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Rebuild even if ios/Derived/ is newer than the masters and pack config.",
+    )
+    args = parser.parse_args()
+
     errors: list[str] = []
 
     webp_error = confirm_webp()
@@ -273,6 +301,12 @@ def main() -> int:
     packs = validate_pack_config(pack_config, manifest_slugs, errors)
     if errors:
         return print_failures(errors)
+
+    master_files = [ROOT / path for path in masters.values()]
+    if not args.force and derived_is_fresh(master_files):
+        print("export_chat_pack: skip (ios/Derived is newer than masters and pack-config)")
+        print("  pass --force to rebuild")
+        return 0
 
     tray_slug = pack_config["tray_slug"]
     emojis_map = pack_config.get("emojis")

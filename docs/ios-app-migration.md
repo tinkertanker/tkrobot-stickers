@@ -146,9 +146,10 @@ Host app expectations: grid of the current pack, Add to WhatsApp (per pack), Add
 
 ## Follow-ups (not blocking relist)
 
-- Upload the same 512 WebP files to Telegram so the hosted set matches the site
+- Re-upload `ios/Derived/whatsapp/**/*.webp` to Telegram via [@stickers](https://t.me/stickers) (or Bot API) so [t.me/addstickers/Tinkertanker](https://t.me/addstickers/Tinkertanker) matches the locked pack. Do **not** use Telegram’s per-user import SDK for this; that creates a private pack each time. Telegram can hold all 36 stickers in one set.
 - Mention the iOS app on `stickers.tk.sg` once it is live again
 - Point Tapplet and any other consumers at this repo only (they already do)
+- Android WhatsApp users need a separate Play Store sticker app (out of scope)
 
 ## Out of scope
 

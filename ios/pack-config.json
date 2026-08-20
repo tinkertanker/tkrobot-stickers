@@ -1,6 +1,7 @@
 {
   "publisher": "Tinkertanker",
   "telegram_url": "https://t.me/addstickers/Tinkertanker",
+  "telegram_note": "Hosted Telegram set. Re-upload from ios/Derived via @stickers. Do not use TelegramStickersImport; that creates a private pack per user.",
   "ios_app_store_id": "1551965798",
   "tray_slug": "greetings",
   "emojis": {

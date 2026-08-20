@@ -5,15 +5,33 @@ SwiftUI host app and Messages sticker extension for the locked T Krobot pack. Ma
 App Store name: **TT Stickers**
 Apple ID (listing to restore): `1551965798`
 
+## Chat apps
+
+The three destinations do **not** share one shipping mechanism.
+
+| App | How stickers get there | What this repo does |
+| --- | --- | --- |
+| **iMessage** | Bundled Messages extension. Installing TT Stickers installs the sticker pack in Messages. | Copies 512 PNG from `ios/Derived/imessage/` into the extension at build time. |
+| **WhatsApp** | In-app import. Each pack is written to the pasteboard as JSON (`net.whatsapp.third-party.sticker-pack`) and WhatsApp is opened with `whatsapp://stickerPack`. The user taps Add. | `export_chat_pack.py` makes 512 WebP (≤100 KB) plus a 96px tray PNG. The host app sends **one pack at a time** (WhatsApp’s rule). Two packs: T Krobot (30) and T Krobot extra (6). |
+| **Telegram** | A **published set on Telegram’s servers**. The iOS button only opens `https://t.me/addstickers/Tinkertanker`. There is no “add this bundled pack” API for a company set. Telegram’s import SDK creates a *new private pack per user* and must not be used to distribute our art. | Same 512 WebP files can be uploaded with [@stickers](https://t.me/stickers) (or Bot API) to refresh the hosted set. Telegram allows 120 static stickers, so both WhatsApp packs can live in **one** Telegram set. |
+
+WhatsApp also needs a **Play Store app** for Android users. That is out of scope here.
+
+Test WhatsApp import on a physical iPhone with WhatsApp installed. The simulator cannot complete the handoff.
+
+After restoring the App Store listing, add the keyword `WAStickers` in App Store Connect so WhatsApp’s sticker-app search can find it. Apple often rejects apps whose only job is exporting stickers; the Messages extension and catalogue UI are the extra surface. Still expect review questions.
+
+The live Telegram set is still the 2021 21-sticker art until someone re-uploads from `ios/Derived/`. Until then the in-app Telegram button installs that older set.
+
 ## How to open and ship
 
-1. From the repo root, generate derived chat assets (optional locally; Xcode also runs this):
+1. From the repo root, generate derived chat assets (optional locally; Xcode also runs this, and skips if `ios/Derived/` is already newer than the masters):
 
    ```bash
    python3 tools/scripts/export_chat_pack.py
    ```
 
-   Needs Python 3 and Pillow with WebP (`pip install -r tools/requirements.txt`). The Xcode Run Script phase runs the same command, so that install must be on the Mac that builds the app.
+   Needs Python 3 and Pillow with WebP (`pip install -r tools/requirements.txt`). The Xcode Run Script phase runs the same command, so that install must be on the Mac that builds the app. Pass `--force` to rebuild.
 
 2. On a Mac, open `ios/TTStickers.xcodeproj`.
 
@@ -34,7 +52,7 @@ Apple ID (listing to restore): `1551965798`
 | `ios/Derived/whatsapp/<pack-id>/*.webp` plus `tray.png` | Copied into the app as `WhatsAppStickers/` |
 | `ios/Derived/imessage/*.png` | Copied into the app as `PreviewStickers/` and into the Messages extension as `Stickers/` |
 
-The host app Run Script phase runs `python3 tools/scripts/export_chat_pack.py` from the repo root, then copies those folders and `ios/pack-config.json` into the built products. The extension target runs the same export and copies the iMessage PNGs.
+The host app Run Script phase runs `python3 tools/scripts/export_chat_pack.py` from the repo root, then copies those folders and `ios/pack-config.json` into the built products. The extension target runs the same export (skip-if-fresh) and copies the iMessage PNGs.
 
 ## App icon
 
@@ -44,11 +62,11 @@ The asset catalogue has a placeholder iOS universal 1024 slot and no artwork. In
 
 ```
 ios/
-  pack-config.json          # WhatsApp pack split + emoji (committed)
+  pack-config.json          # WhatsApp pack split + emoji + Telegram URL (committed)
   legacy-emoji-map.json     # 2021 emoji map (committed; not bundled)
   Derived/                  # gitignored export output
   App/                      # SwiftUI host app
-  StickerPackExtension/     # MSStickerBrowserViewController
+  StickerPackExtension/     # iMessage app wrapping MSStickerBrowserViewController
   TTStickers.xcodeproj/
 ```
 

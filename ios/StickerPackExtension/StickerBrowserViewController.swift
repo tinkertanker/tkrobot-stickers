@@ -5,6 +5,15 @@ import UIKit
 final class StickerBrowserViewController: MSStickerBrowserViewController {
     private var stickers: [MSSticker] = []
 
+    init() {
+        super.init(stickerSize: .regular)
+    }
+
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) is unused")
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         loadStickers()

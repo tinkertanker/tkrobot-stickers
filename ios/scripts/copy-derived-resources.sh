@@ -15,6 +15,12 @@ if ! command -v python3 >/dev/null 2>&1; then
   exit 1
 fi
 
+if ! python3 -c "from PIL import Image, features; raise SystemExit(0 if features.check('webp') else 1)" >/dev/null 2>&1; then
+  echo "error: Pillow with WebP is required. From the repo root run:" >&2
+  echo "  pip3 install -r tools/requirements.txt" >&2
+  exit 1
+fi
+
 python3 tools/scripts/export_chat_pack.py
 
 WHATSAPP_SRC="${SRCROOT}/Derived/whatsapp"
