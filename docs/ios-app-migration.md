@@ -90,7 +90,7 @@ Split lives in `ios/pack-config.json` (adjust there, not by hand-resizing PNGs):
 
 Carry emoji over where the slug matches `ios/legacy-emoji-map.json`. Assign new emoji for stickers that did not exist in 2021 (`greetings`, `happy`, `sixseven`, and so on). The old file’s `right.png` maps to today’s `ok` only if the art still means “correct”; do not assume that from the filename.
 
-The 2021 Telegram set (`t.me/addstickers/Tinkertanker`) is not reused. Delete it in [@stickers](https://t.me/stickers) if you still have access. The iOS app does not link to Telegram.
+Telegram is out. The 2021 set at [t.me/addstickers/Tinkertanker](https://t.me/addstickers/Tinkertanker) is leftover older poses. Do not republish it. Delete it in Telegram: message [@stickers](https://t.me/stickers), send `/delpack`, choose **TT Stickers**. Only the account that created the pack can do that. The iOS app does not link to Telegram.
 
 ## Rename the old repo (still outstanding)
 
@@ -113,10 +113,12 @@ The README that is already on the 2021 repo:
 ```markdown
 # TT Stickers iOS app (2021, legacy)
 
-This is the February 2021 TT Stickers iOS app (iMessage + WhatsApp + Telegram).
+This is the February 2021 TT Stickers iOS app.
 It is **not** the current T Krobot sticker pack.
 
-- Current artwork, catalogue, and site: https://github.com/tinkertanker/tkrobot-stickers
+The in-app Telegram button pointed at t.me/addstickers/Tinkertanker. That set is leftover 2021 poses and should be deleted in @stickers (`/delpack`). Do not republish it.
+
+- Current artwork, catalogue, site, and iOS app: https://github.com/tinkertanker/tkrobot-stickers
 - Browse / download: https://stickers.tk.sg
 - App Store listing (TT Stickers, Apple ID 1551965798) was removed in June 2024
 
@@ -144,7 +146,7 @@ Host app expectations: grid of the current pack, Add to WhatsApp (per pack), sho
 
 ## Follow-ups (not blocking relist)
 
-- Delete the 2021 Telegram set in [@stickers](https://t.me/stickers) if you still own it (`t.me/addstickers/Tinkertanker`). Do not republish it.
+- Delete the live 2021 Telegram set. Message [@stickers](https://t.me/stickers) as the account that created it, send `/delpack`, choose **TT Stickers** (`t.me/addstickers/Tinkertanker`). Do not republish it.
 - Mention the iOS app on `stickers.tk.sg` once it is live again
 - Point Tapplet and any other consumers at this repo only (they already do)
 - Android WhatsApp users need a separate Play Store sticker app (out of scope)

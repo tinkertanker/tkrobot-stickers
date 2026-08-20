@@ -12,7 +12,7 @@ Apple ID (listing to restore): `1551965798`
 | **iMessage** | Bundled Messages extension. Installing TT Stickers installs the sticker pack in Messages. | Copies 512 PNG from `ios/Derived/imessage/` into the extension at build time. |
 | **WhatsApp** | In-app import. Each pack is written to the pasteboard as JSON (`net.whatsapp.third-party.sticker-pack`) and WhatsApp is opened with `whatsapp://stickerPack`. The user taps Add. | `export_chat_pack.py` makes 512 WebP (≤100 KB) plus a 96px tray PNG. The host app sends **one pack at a time** (WhatsApp’s rule). Two packs: T Krobot (30) and T Krobot extra (6). |
 
-Telegram is not in the app. The 2021 `t.me/addstickers/Tinkertanker` set is retired; whoever still has access in [@stickers](https://t.me/stickers) can delete it. A new hosted set is not required for iMessage or WhatsApp.
+Telegram is not in the app, and we are not publishing a replacement set. The leftover 2021 pack at [t.me/addstickers/Tinkertanker](https://t.me/addstickers/Tinkertanker) is older poses. Delete it in Telegram: message [@stickers](https://t.me/stickers), send `/delpack`, choose **TT Stickers**. Only the Telegram account that created the pack can do that.
 
 WhatsApp also needs a **Play Store app** for Android users. That is out of scope here.
 
