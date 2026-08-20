@@ -13,9 +13,9 @@ Pick ONE structure per image.
 - **Concept metaphor** — one memorable odd contraption; minimal inputs, one
   output.
 - **Layered method** — stacked boxes, hand-drawn not a formal pyramid;
-  T Krobot hauling bricks or building a layer.
+  T Krobot standing on a layer or pointing at the next brick.
 - **Route map** — a bending path with few nodes; T Krobot walking it or
-  pulling a thread along it.
+  pointing along it.
 - **Mini comic** — 2–4 panels, one action per panel.
 
 ## Inventing the metaphor (every time)
@@ -25,8 +25,9 @@ Pick ONE structure per image.
 2. Convert the system into a **low-tech object**: broken machine, cardboard
    box, drawer, pipe, postbox, dial, scale, well, ladder, clothesline, gate,
    odd workstation. Pick 1–2, never a pile.
-3. Give T Krobot the action: not standing beside it — jammed in it, pulling
-   it, guarding it, weighing it, mending it, feeding it.
+3. Give T Krobot a **body** action: jammed in it, leaning on it, standing
+   on it, guarding it, pointing at the break, pushing with an open palm.
+   Do not solve the action with a grip. Hands stay open or pointing.
 
 Education-flavoured objects are welcome when the text calls for them
 (classroom conveyor, marking stamp, kit crate, block bin) but avoid literal

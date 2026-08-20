@@ -11,13 +11,13 @@
 Hands are the most common miss. Attach these as well, and prefer them if the
 image tool only accepts a few references.
 
-- `hand-lock-canonical.png` — locked v1 palm/tabs from
-  `docs/references/hand-size-anchor.png` plus palm-open, thumbs-up, point, OK.
-- `hand-lock-sketch.png` — the same construction in thin-line form.
+- `hand-lock-canonical.png` — open-palm and pointing only (palm-open,
+  point-left, point-right, greetings, handraise).
+- `hand-lock-sketch.png` — the same two poses in thin-line form.
 
 Round black palm blob. Exactly three light-grey rectangular finger tabs plus
-one grey thumb tab, growing from the blob's edge. Large flat tabs, not
-gloves, not five digits, not sausages.
+one grey thumb tab. **Open or point only** — no grips, holds, thumbs-up, or
+OK. If the tool only accepts a few references, keep these two sheets.
 
 ## Examples (page density only)
 

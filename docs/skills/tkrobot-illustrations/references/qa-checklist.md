@@ -14,9 +14,13 @@ Reject or edit when any of these appear.
 - Mouth, eyebrows, blush, or a cute face.
 - Thick sticker outlines or flat sticker shading on a sketch page.
 - Hands off-model (check every visible hand against the hand-lock sheets):
-  white gloves; five digits; four fingers plus a thumb; four equal fingers
-  with no thumb; sausage or tube fingers; all-black hands; missing palm
-  blob; tiny nubs; a mitten with white/grey stripes; stick-figure hooks.
+  white gloves; five digits; four fingers plus a thumb; sausage or tube
+  fingers; all-black hands; missing palm blob; tiny nubs; a mitten with
+  white/grey stripes; stick-figure hooks.
+- Hands gripping or holding: wrapped around a crank, stamp, handle, needle,
+  magnifying glass, wheelbarrow, bucket, or any other object. Visible hands
+  may only be **open** or **pointing**. If you need a grip to tell the
+  story, change the pose instead of editing the fingers.
 
 ## Page
 

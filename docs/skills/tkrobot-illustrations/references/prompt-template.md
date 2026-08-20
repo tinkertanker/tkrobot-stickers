@@ -41,9 +41,11 @@ MUST match the lock sheets:
 - Hands (copy the hand-lock sheets): each visible hand is a ROUND SOLID BLACK
   PALM BLOB with exactly FOUR light-grey rectangular tabs growing from its
   edge — three fingers in a row plus one thumb set apart. Tabs are LARGE flat
-  rectangles with hard sides, not sausages, not nubs. The black blob is the
-  palm, not a glove. Never five digits. Never white Mickey gloves. Never
-  all-black hands. Never a mitten with white stripes.
+  rectangles with hard sides.
+  Allowed poses only: OPEN (palm toward us, hanging, waving, or flat against
+  a surface) or POINT (one tab out). Never grip, hold, wrap, crank, stamp,
+  carry, pinch, thumbs-up, OK, or fist. If a hand is curled around an object,
+  redraw the pose — have T Krobot push, lean, stand in, or point instead.
 - Feet: oversized solid black ovals.
 - No mouth, no eyebrows, no blush. Deadpan.
 
@@ -65,7 +67,8 @@ Core idea:
 {the one thing this image must say}
 
 Composition:
-{where T Krobot is, what it is doing, the main object, how information flows}
+{where T Krobot is, the body action — not a grip — the main object, how
+information flows. Hands are open or pointing only.}
 
 Suggested elements:
 {element1} / {element2} / {element3}
@@ -85,7 +88,7 @@ at least 35% blank white. At most 5-8 short handwritten labels. No title in
 any corner. Do not write the structure type on the image. Not a formal
 diagram, slide, or dense explainer. Clear but not instructional, interesting
 but not childish, strange but clean. No extra type on props (no "STAMPED",
-no "WEEKLY BRIEFING" headings).
+no "WEEKLY BRIEFING" headings). Hands open or pointing only — no grips.
 ```
 
 ## Edit prompts
@@ -106,8 +109,8 @@ to the conceptual action — doing the strange work that explains the idea, not
 standing beside the diagram. Keep it clean, sparse, hand-drawn, not cute.
 Keep T Krobot on-model: grey tube limbs, trapezoid black head and body, empty
 round white glasses, red chest diamond, black palm blobs with four large
-grey rectangular tabs (three fingers plus thumb). Not an all-black stick
-figure. Not cartoon gloves.
+grey rectangular tabs. Hands open or pointing only — no gripping. Not an
+all-black stick figure. Not cartoon gloves.
 ```
 
 Fix an off-model T Krobot (keep the scene):
@@ -127,7 +130,9 @@ Fix the hands only (keep the rest):
 Edit the provided image. Fix only T Krobot's hands to match the attached
 hand-lock sheets. Each visible hand: a round solid-black palm blob, with
 exactly three light-grey rectangular finger tabs plus one grey thumb tab
-growing from the blob's edge. Large flat tabs, hard sides. Not white gloves,
-not five digits, not sausages, not all-black fists, not striped mittens.
-Leave the head, body, scene, and labels untouched.
+growing from the blob's edge. Large flat tabs, hard sides. Each hand is
+OPEN or POINTING — if it is wrapped around a handle, uncurl it into an
+open palm or a point and move the object so it is not being held. Not
+white gloves, not five digits, not sausages, not all-black fists, not
+striped mittens. Leave the head, body, scene, and labels untouched.
 ```

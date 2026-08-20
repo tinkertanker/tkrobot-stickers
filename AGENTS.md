@@ -34,7 +34,7 @@ Do **not** add unrelated brand assets, slide decks, checkerboard previews, or lo
 1. **Find existing stickers** → `stickers/` and `stickers/manifest.json` (filter by `tags` / `description`).
 2. **See the whole pack** → `stickers/contact-sheet.png`.
 3. **Match style before generating** → `docs/skills/tkrobot-sticker-generation/references/style-guide.md` and `docs/prompts/tkrobot-sticker-guidelines.md`.
-3b. **Article/tutorial body illustrations** (not stickers) → `docs/skills/tkrobot-illustrations/SKILL.md`. Attach the character lock sheets and the hand lock sheets on every generation call. Hands are a round black palm blob with three grey rectangular finger tabs plus one thumb; reject gloves, five digits, and all-black Xiaohei stick figures.
+3b. **Article/tutorial body illustrations** (not stickers) → `docs/skills/tkrobot-illustrations/SKILL.md`. Attach the character and hand lock sheets on every generation call. Hands are a black palm blob with three grey rectangular tabs plus a thumb, **open or pointing only** — no gripping. Reject gloves, five digits, and all-black Xiaohei stick figures.
 4. **Match hand size** → `docs/references/hand-size-anchor.png`.
 5. **Ignore by default** → almost everything under `archive/generated-iterations/` except when a manifest `source_path` or note points there.
 

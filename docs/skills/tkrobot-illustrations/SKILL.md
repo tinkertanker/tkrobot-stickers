@@ -13,9 +13,10 @@ not PPT infographics, not cute mascot posters — a clean, whimsical,
 product-sketch-feeling drawing where **T Krobot does the strange work that
 explains the idea**.
 
-T Krobot must participate in the core action — hauling, sorting, cranking,
-guarding, falling into the hole. Never standing beside the diagram as
-decoration.
+T Krobot must participate in the core action — standing in the machine,
+leaning on the gate, pointing at the break, pushing with an open palm.
+Never standing beside the diagram as decoration. Hands stay **open or
+pointing**; do not grip or hold objects (those poses collapse).
 
 This is distinct from the sticker pack (transparent chat stickers) and from
 banner composition (deterministic hero scenes). This skill produces editorial
@@ -25,8 +26,9 @@ body images for articles, tutorials, proposals, and course-page prose.
 
 Always read `references/tkrobot-sketch-mode.md` and look at the lock sheets
 before the first `image_gen` call. T Krobot is the sticker mascot with **light
-grey tube limbs** and **black palm + grey tab hands**, not an all-black
-Xiaohei stick figure and not cartoon gloves.
+grey tube limbs** and **black palm + grey tab hands** that only **open or
+point**. Not an all-black Xiaohei stick figure, not cartoon gloves, not a
+grip.
 
 - `assets/character-lock-canonical.png` — anatomy and colours.
 - `assets/character-lock-sketch.png` — the same character in thin-line form.
@@ -68,7 +70,8 @@ time; never reuse a previous composition (see the no-recycling rule).
 Run `references/qa-checklist.md`. Check the character — then every visible
 hand — against the lock sheets before anything else. Regenerate or edit if:
 the robot drifted into Xiaohei (black stick limbs, pill head, dotted eyes);
-hands drifted into gloves, five digits, sausages, or black fists; T Krobot is
+hands drifted into gloves, five digits, sausages, grips, or black fists;
+T Krobot is
 mere decoration; the canvas is crowded; it reads as a flowchart or slide; the
 annotations are long or numerous; a type-title appears in a corner; the style
 went cute or went vector; the background isn't clean white.

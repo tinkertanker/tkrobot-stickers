@@ -17,9 +17,9 @@ order:
 1. `assets/character-lock-canonical.png` — anatomy and colours from the sticker
    masters (wave, hands-on-hips, OK, face).
 2. `assets/character-lock-sketch.png` — the same character in thin-line form.
-3. `assets/hand-lock-canonical.png` — locked v1 hands: black palm blob, grey
-   rectangular tabs. Also `docs/references/hand-size-anchor.png`.
-4. `assets/hand-lock-sketch.png` — the same hands in thin-line form.
+3. `assets/hand-lock-canonical.png` — open-palm and pointing poses only.
+   Also `docs/references/hand-size-anchor.png`.
+4. `assets/hand-lock-sketch.png` — the same two poses in thin-line form.
 
 Hands are the most common miss. If a call can only take a few references,
 keep the two **hand** sheets. Do **not** pass `assets/examples/*.png` as
@@ -45,7 +45,16 @@ These do not relax. If any one is missing, regenerate.
 - Oversized **black oval feet**.
 - No mouth, no eyebrows, no blush, no nose. Blank, deadpan.
 
-## Hands (do not improvise)
+## Hands (open or point — never grip)
+
+Grips are the failure mode. Visible hands may only do **two** poses:
+
+- **Open** — palm toward us, hanging at the side, waving, or flat against a
+  surface (pushing). All four tabs readable.
+- **Point** — one grey finger tab out, grey thumb, two tabs along the palm.
+
+Do not invent a third pose. No holding, wrapping, cranking, stamping,
+carrying, pinching, thumbs-up, OK, fists, or gear-like sunbursts of tabs.
 
 Locked construction, from `docs/references/hand-size-anchor.png`:
 
@@ -55,17 +64,21 @@ Locked construction, from `docs/references/hand-size-anchor.png`:
   with hard sides and flat or slightly rounded corners. They grow out of the
   **edge** of the black blob.
 - Count the grey tabs: **three fingers plus one thumb**. Four tabs total.
-  Never four fingers plus a thumb (five tabs). Never four equal fingers with
-  no thumb. Never five digits.
-- Tabs stay **large** — the locked v1 blocky scale, roughly as long as the
-  palm is wide. Not tiny nubs, not the smaller v2 batch, not sausages.
+  Never four fingers plus a thumb (five tabs). Never five digits.
+- Tabs stay **large** — the locked v1 blocky scale. Not tiny nubs, not
+  sausages.
 - The grey arm tube meets the black palm. No extra ring.
 
-A hand that is fully hidden (in a pocket, behind a crate) may vanish. A hand
-that is visible enough to count must be this construction.
+A hand that is fully hidden may vanish. A hand that is visible enough to
+count must be open or pointing, in this construction.
+
+The **body** does the work: stand inside the machine, lean on the gate, sit
+on the crate, push with an open palm, point at the flow. Objects may rest
+*on* an open palm. They must not be gripped.
 
 Never: white Mickey gloves, all-black hands, stick-figure hooks, sausage
-fingers, fingernails, knuckle lines, or a mitten with white bars.
+fingers, fingernails, knuckle lines, a mitten with white bars, or any wrap
+around a handle.
 
 ## What relaxes
 
@@ -78,9 +91,9 @@ fingers, fingernails, knuckle lines, or a mitten with white bars.
 ## Character in the scene
 
 T Krobot is a serious, deadpan worker doing an absurd-but-coherent job. It
-must perform the image's core action: stuck inside the machine, pulling the
-wrong cable, guarding the gate, hauling the crate, weighing the ideas,
-patching the pipe, feeding pages into a strange device.
+must perform the image's core action with its **body**, not a grip: stuck
+inside the machine, leaning on the gate, standing on the crate, pointing at
+the leak, pushing the box with an open palm.
 
 Multiple T Krobots are allowed (2–3 max) when the structure needs stations —
 each doing one job. Never a crowd, never a mascot lineup.

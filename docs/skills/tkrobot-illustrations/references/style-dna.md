@@ -14,9 +14,9 @@ a blank sheet — quickly, precisely, and slightly absurdly.
 T Krobot is the sticker mascot in thin-line form. Light grey tube limbs, black
 trapezoid head and body, empty round white glasses, red chest diamond, hands
 that are a black palm blob with three grey rectangular finger tabs plus a
-thumb. See `tkrobot-sketch-mode.md` and the lock sheets. If the robot is an
-all-black stick figure, or the hands are gloves, the page is wrong even when
-the layout is right.
+thumb, open or pointing only. See `tkrobot-sketch-mode.md` and the lock
+sheets. If the robot is an all-black stick figure, or the hands are gloves
+or wrapped around a handle, the page is wrong even when the layout is right.
 
 ## Must
 
