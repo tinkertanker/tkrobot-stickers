@@ -7,5 +7,6 @@ Agent-facing generation material lives here. Start with root `AGENTS.md`, then u
 | `references/hand-size-anchor.png` | Locked hand and finger scale for new stickers |
 | `prompts/tkrobot-sticker-guidelines.md` | Prompt skeleton and per-pose notes |
 | `skills/tkrobot-sticker-generation/` | Local skill: workflow, style guide, comparison contact sheets |
+| `ios-app-migration.md` | Plan to move TT Stickers into this repo and rename the 2021 iOS app |
 
 Do not treat `archive/` as documentation. Historical calibration notes belong there; current instructions belong here.

@@ -4,6 +4,8 @@
 
 This repository stores **T Krobot** sticker assets for Tinkertanker. Work is limited to producing, naming, documenting, verifying, and publishing transparent PNG sticker files for the company mascot.
 
+The 2021 TT Stickers iOS app is not in this tree yet. The plan to host it here and rename the old repo is `docs/ios-app-migration.md`.
+
 Do **not** add unrelated brand assets, slide decks, checkerboard previews, or loose generated scratch files.
 
 ### Where things live
@@ -16,6 +18,7 @@ Do **not** add unrelated brand assets, slide decks, checkerboard previews, or lo
 | `docs/references/hand-size-anchor.png` | Locked hand/finger scale reference |
 | `docs/prompts/tkrobot-sticker-guidelines.md` | Prompt skeleton + pose notes for generation |
 | `docs/skills/tkrobot-sticker-generation/` | Local generation skill (style guide + prompt) |
+| `docs/ios-app-migration.md` | Plan to host the TT Stickers iOS app here and retire the 2021 repo |
 | `tools/scripts/` | Pack helpers: verify, contact sheet, site manifest, README sync |
 | `archive/` | Historical sources and rejected iterations — **not** the working pack |
 | `site/` | Public gallery for stickers.tk.sg |

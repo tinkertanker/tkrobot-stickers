@@ -18,6 +18,7 @@ The authoritative catalogue is `stickers/manifest.json`; do not maintain a secon
 - `docs/references/hand-size-anchor.png` is the locked hand/finger scale for new generations.
 - Historical generated attempts, original downloads, and reference copies live under `archive/` — ignore them unless a manifest `source_path` points there.
 - Reusable generation guidance and the local skill live under `docs/`.
+- The 2021 TT Stickers iOS app is planned to move here; see `docs/ios-app-migration.md`.
 - Helper scripts (`verify_pack`, contact sheet, README sync, site manifest) live under `tools/scripts/`.
 - No licence is granted by default; treat these as Tinkertanker mascot assets unless separately approved.
 
