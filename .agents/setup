@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$repo_root"
+
+run_step() {
+  local label="$1"
+  shift
+  local started_at=$SECONDS
+  printf '\n==> %s\n' "$label"
+  "$@"
+  printf '<== %s (%ss)\n' "$label" "$((SECONDS - started_at))"
+}
+
+ensure_python_dependencies() {
+  if python3 - 2>/dev/null <<'PY'
+from PIL import features
+
+raise SystemExit(0 if features.check("webp") else 1)
+PY
+  then
+    echo "Pillow with WebP support is already available."
+    return
+  fi
+
+  python3 -m pip install \
+    --user \
+    --disable-pip-version-check \
+    --requirement tools/requirements.txt
+
+  python3 - <<'PY'
+from PIL import features
+
+if not features.check("webp"):
+    raise SystemExit("Pillow was installed without required WebP support")
+PY
+}
+
+run_step "Install Python dependencies" ensure_python_dependencies
+run_step "Verify sticker pack" python3 tools/scripts/verify_pack.py
+
+printf '\nOrb setup complete.\n'

@@ -10,3 +10,4 @@ ios/Derived/
 xcuserdata/
 *.xcuserstate
 DerivedData/
+.amp/portals/
