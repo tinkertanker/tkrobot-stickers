@@ -22,8 +22,11 @@ order:
 4. `assets/hand-lock-sketch.png` — the same poses in thin-line form.
 
 Hands are the most common miss. If a call can only take a few references,
-keep the two **hand** sheets. Do **not** pass `assets/examples/*.png` as
-character references.
+keep the two **hand** sheets. When the pose already exists as a sticker,
+attach that PNG as well (`stickers/thumbsup.png`, `point-right.png`, …).
+Do **not** pass `assets/examples/*.png` as character references.
+
+Prefer GPT's latest image model. Do not default to Grok.
 
 ## Invariants that survive sketch mode
 

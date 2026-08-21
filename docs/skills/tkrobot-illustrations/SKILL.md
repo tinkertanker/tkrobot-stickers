@@ -62,14 +62,22 @@ Default 3–6 images; short pieces 1–2. Enough is enough.
 
 If the user asks to generate, generate — one `image_gen` call per image, using
 `references/prompt-template.md`. Attach the character lock sheets **and** the
-hand lock sheets as `reference_image_paths` on that call. Never collage
-multiple ideas into one image. Invent a fresh metaphor from *this* text each
-time; never reuse a previous composition (see the no-recycling rule).
+hand lock sheets as `reference_image_paths` on that call. Prefer **GPT's
+latest image model** whenever the tool lets you pick (today: a GPT-5.6-class
+caller). Do not default to Grok. Only run a Grok pair when the user asks
+for an eval.
 
-When the user is choosing a look, or asks for an eval, run the **same**
-filled prompt on both Grok image gen and a GPT image model (one call per
-image per model). Keep the lock sheets attached. Do not mix the two
-outputs in one collage — deliver them as a pair.
+Never collage multiple ideas into one image. Invent a fresh *scene* metaphor
+from *this* text each time (see the no-recycling rule). Do **not** invent a
+new T Krobot gesture or slogan to carry it.
+
+**Steal poses from the sticker pack.** Before filling the prompt, open
+`stickers/manifest.json` and `stickers/contact-sheet.png`. If a locked
+sticker already is the action — `thumbsup`, `point-right`, `palm-open`,
+`greetings`, `hands-on-hips` — use that pose and attach the sticker PNG as
+an extra reference. Do not write cheerleading labels like "job done" on the
+page; the existing thumbs-up already says it. The metaphor lives in the
+objects and the flow, not in a new catchphrase or a made-up hand.
 
 ### 4. Check and iterate
 
@@ -77,10 +85,10 @@ Run `references/qa-checklist.md`. Check the character — then every visible
 hand — against the lock sheets before anything else. Regenerate or edit if:
 the robot drifted into Xiaohei (black stick limbs, pill head, dotted eyes);
 hands drifted into gloves, five digits, sausages, grips, or black fists;
-T Krobot is
-mere decoration; the canvas is crowded; it reads as a flowchart or slide; the
-annotations are long or numerous; a type-title appears in a corner; the style
-went cute or went vector; the background isn't clean white.
+a slogan like "job done" landed on the page; T Krobot is mere decoration;
+the canvas is crowded; it reads as a flowchart or slide; the annotations
+are long or numerous; a type-title appears in a corner; the style went cute
+or went vector; the background isn't clean white.
 
 ### 5. Deliver
 

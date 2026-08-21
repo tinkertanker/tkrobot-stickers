@@ -32,6 +32,10 @@ Reject or edit when any of these appear.
 - Annotations: more than 8, longer than ~5 words, misspelt, American spelling,
   or a type-title in a corner ("Workflow", "Roadmap"...).
 - Extra type on props ("STAMPED", "WEEKLY BRIEFING", checkbox rows).
+- Cheerleading slogans the pose already says ("job done", "nailed it",
+  "success"). Name objects and flow only.
+- An invented T Krobot gesture when a locked sticker already is that pose
+  (`thumbsup`, `point-right`, `palm-open`, …).
 - Style drifted cute/childish, or mechanical/vector.
 - More than one core idea in one image.
 - A recycled composition from the examples or previous shots.

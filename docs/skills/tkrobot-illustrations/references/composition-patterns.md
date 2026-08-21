@@ -25,10 +25,13 @@ Pick ONE structure per image.
 2. Convert the system into a **low-tech object**: broken machine, cardboard
    box, drawer, pipe, postbox, dial, scale, well, ladder, clothesline, gate,
    odd workstation. Pick 1–2, never a pile.
-3. Give T Krobot a **body** action: jammed in it, leaning on it, standing
-   on it, guarding it, pointing at the break, pushing with an open palm,
-   signalling thumbs-up. Do not solve the action with a grip. Hands stay
-   open, pointing, thumbs-up (palm-closed), or closed at rest.
+3. Give T Krobot a **body** action borrowed from an existing sticker
+   wherever one fits: jammed in it, leaning on it, standing on it,
+   guarding it, pointing (`point-right` / `point-left`), pushing with an
+   open palm (`palm-open`), signalling thumbs-up (`thumbsup`). Do not
+   invent a new gesture or a slogan to explain the pose. Do not solve the
+   action with a grip. Hands stay open, pointing, thumbs-up (palm-closed),
+   or closed at rest.
 
 Education-flavoured objects are welcome when the text calls for them
 (classroom conveyor, marking stamp, kit crate, block bin) but avoid literal

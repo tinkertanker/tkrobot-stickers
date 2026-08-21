@@ -14,6 +14,10 @@ Copy T Krobot — and especially the hands — from those sheets. Do not invent
 a black stick-figure or cartoon gloves. If the tool only accepts a few
 references, keep the two hand sheets.
 
+When a locked sticker already is the pose (`stickers/thumbsup.png`,
+`point-right.png`, `palm-open.png`, …), attach that PNG too. Prefer GPT's
+latest image model; do not default to Grok.
+
 ```text
 Generate one standalone 16:9 horizontal article body illustration.
 
@@ -81,6 +85,10 @@ Suggested elements:
 
 Handwritten labels (English, British spelling, 1-5 words each):
 {label1} / {label2} / {label3} / {label4}
+Name the objects or the flow only ("our files", "still yours to check").
+Never a cheerleading slogan the pose already says ("job done", "nailed it",
+"success"). If the pose is the existing thumbs-up sticker, leave that
+hand unlabelled.
 
 Colour use:
 Black for line art and T Krobot's head/body; limbs stay light grey. The chest
@@ -95,7 +103,7 @@ any corner. Do not write the structure type on the image. Not a formal
 diagram, slide, or dense explainer. Clear but not instructional, interesting
 but not childish, strange but clean. No extra type on props (no "STAMPED",
 no "WEEKLY BRIEFING" headings). Hands: open, point, thumbs-up (palm-closed),
-or closed at rest — no grips.
+or closed at rest — no grips. No slogans like "job done".
 ```
 
 ## Edit prompts
