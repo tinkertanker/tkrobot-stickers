@@ -14,9 +14,10 @@ product-sketch-feeling drawing where **T Krobot does the strange work that
 explains the idea**.
 
 T Krobot must participate in the core action — standing in the machine,
-leaning on the gate, pointing at the break, pushing with an open palm.
-Never standing beside the diagram as decoration. Hands stay **open or
-pointing**; do not grip or hold objects (those poses collapse).
+leaning on the gate, pointing at the break, pushing with an open palm,
+signalling thumbs-up. Never standing beside the diagram as decoration.
+Hands may be **open**, **pointing**, **thumbs-up (palm-closed)**, or
+**closed at rest**. Do not grip or hold objects (those poses collapse).
 
 This is distinct from the sticker pack (transparent chat stickers) and from
 banner composition (deterministic hero scenes). This skill produces editorial
@@ -26,9 +27,9 @@ body images for articles, tutorials, proposals, and course-page prose.
 
 Always read `references/tkrobot-sketch-mode.md` and look at the lock sheets
 before the first `image_gen` call. T Krobot is the sticker mascot with **light
-grey tube limbs** and **black palm + grey tab hands** that only **open or
-point**. Not an all-black Xiaohei stick figure, not cartoon gloves, not a
-grip.
+grey tube limbs** and **black palm + grey tab hands** that **open, point,
+thumbs-up (palm-closed), or close at rest**. Not an all-black Xiaohei stick
+figure, not cartoon gloves, not a grip.
 
 - `assets/character-lock-canonical.png` — anatomy and colours.
 - `assets/character-lock-sketch.png` — the same character in thin-line form.
@@ -64,6 +65,11 @@ If the user asks to generate, generate — one `image_gen` call per image, using
 hand lock sheets as `reference_image_paths` on that call. Never collage
 multiple ideas into one image. Invent a fresh metaphor from *this* text each
 time; never reuse a previous composition (see the no-recycling rule).
+
+When the user is choosing a look, or asks for an eval, run the **same**
+filled prompt on both Grok image gen and a GPT image model (one call per
+image per model). Keep the lock sheets attached. Do not mix the two
+outputs in one collage — deliver them as a pair.
 
 ### 4. Check and iterate
 

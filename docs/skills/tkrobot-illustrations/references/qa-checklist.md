@@ -19,8 +19,10 @@ Reject or edit when any of these appear.
   white/grey stripes; stick-figure hooks.
 - Hands gripping or holding: wrapped around a crank, stamp, handle, needle,
   magnifying glass, wheelbarrow, bucket, or any other object. Visible hands
-  may only be **open** or **pointing**. If you need a grip to tell the
-  story, change the pose instead of editing the fingers.
+  may be **open**, **pointing**, **thumbs-up (palm-closed)**, or **closed
+  at rest**. If you need a grip to tell the story, change the pose.
+- Thumbs-up drawn as an open fan with a thumb. The palm must be closed:
+  three grey stubs tucked on the blob, one thumb tab up.
 
 ## Page
 

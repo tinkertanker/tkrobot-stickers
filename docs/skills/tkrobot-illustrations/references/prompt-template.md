@@ -42,10 +42,16 @@ MUST match the lock sheets:
   PALM BLOB with exactly FOUR light-grey rectangular tabs growing from its
   edge — three fingers in a row plus one thumb set apart. Tabs are LARGE flat
   rectangles with hard sides.
-  Allowed poses only: OPEN (palm toward us, hanging, waving, or flat against
-  a surface) or POINT (one tab out). Never grip, hold, wrap, crank, stamp,
-  carry, pinch, thumbs-up, OK, or fist. If a hand is curled around an object,
-  redraw the pose — have T Krobot push, lean, stand in, or point instead.
+  Allowed poses only:
+  OPEN — four tabs fanned, palm toward us, waving, or flat on a surface.
+  POINT — one grey finger tab out, grey thumb, two tabs along the palm.
+  THUMBS-UP — palm CLOSED: black blob as a closed palm, three grey finger
+  tabs tucked as short stubs on the blob, one grey thumb tab straight up.
+  CLOSED — palm closed at rest: black blob at the side or on a hip, all
+  grey tabs tucked as stubs, not fanned.
+  Never grip, hold, wrap, crank, stamp, carry, pinch, or OK. If a hand is
+  curled around an object, redraw — push, lean, stand in, point, or
+  thumbs-up instead.
 - Feet: oversized solid black ovals.
 - No mouth, no eyebrows, no blush. Deadpan.
 
@@ -68,7 +74,7 @@ Core idea:
 
 Composition:
 {where T Krobot is, the body action — not a grip — the main object, how
-information flows. Hands are open or pointing only.}
+information flows. Hands: open, point, thumbs-up (palm-closed), or closed.}
 
 Suggested elements:
 {element1} / {element2} / {element3}
@@ -88,7 +94,8 @@ at least 35% blank white. At most 5-8 short handwritten labels. No title in
 any corner. Do not write the structure type on the image. Not a formal
 diagram, slide, or dense explainer. Clear but not instructional, interesting
 but not childish, strange but clean. No extra type on props (no "STAMPED",
-no "WEEKLY BRIEFING" headings). Hands open or pointing only — no grips.
+no "WEEKLY BRIEFING" headings). Hands: open, point, thumbs-up (palm-closed),
+or closed at rest — no grips.
 ```
 
 ## Edit prompts
@@ -109,8 +116,9 @@ to the conceptual action — doing the strange work that explains the idea, not
 standing beside the diagram. Keep it clean, sparse, hand-drawn, not cute.
 Keep T Krobot on-model: grey tube limbs, trapezoid black head and body, empty
 round white glasses, red chest diamond, black palm blobs with four large
-grey rectangular tabs. Hands open or pointing only — no gripping. Not an
-all-black stick figure. Not cartoon gloves.
+grey rectangular tabs. Hands: open, point, thumbs-up (palm-closed), or
+closed at rest — no gripping. Not an all-black stick figure. Not cartoon
+gloves.
 ```
 
 Fix an off-model T Krobot (keep the scene):
@@ -131,8 +139,10 @@ Edit the provided image. Fix only T Krobot's hands to match the attached
 hand-lock sheets. Each visible hand: a round solid-black palm blob, with
 exactly three light-grey rectangular finger tabs plus one grey thumb tab
 growing from the blob's edge. Large flat tabs, hard sides. Each hand is
-OPEN or POINTING — if it is wrapped around a handle, uncurl it into an
-open palm or a point and move the object so it is not being held. Not
+OPEN, POINTING, THUMBS-UP (palm-closed), or CLOSED at rest. If it is
+wrapped around a handle, uncurl it and move the object so it is not
+being held. Thumbs-up must keep the palm closed (tucked stubs + thumb
+up), not an open fan. Not
 white gloves, not five digits, not sausages, not all-black fists, not
 striped mittens. Leave the head, body, scene, and labels untouched.
 ```

@@ -17,9 +17,9 @@ order:
 1. `assets/character-lock-canonical.png` — anatomy and colours from the sticker
    masters (wave, hands-on-hips, OK, face).
 2. `assets/character-lock-sketch.png` — the same character in thin-line form.
-3. `assets/hand-lock-canonical.png` — open-palm and pointing poses only.
-   Also `docs/references/hand-size-anchor.png`.
-4. `assets/hand-lock-sketch.png` — the same two poses in thin-line form.
+3. `assets/hand-lock-canonical.png` — open, point, thumbs-up (palm-closed),
+   and closed-at-rest. Also `docs/references/hand-size-anchor.png`.
+4. `assets/hand-lock-sketch.png` — the same poses in thin-line form.
 
 Hands are the most common miss. If a call can only take a few references,
 keep the two **hand** sheets. Do **not** pass `assets/examples/*.png` as
@@ -45,16 +45,21 @@ These do not relax. If any one is missing, regenerate.
 - Oversized **black oval feet**.
 - No mouth, no eyebrows, no blush, no nose. Blank, deadpan.
 
-## Hands (open or point — never grip)
+## Hands (open, point, thumbs-up, closed — never grip)
 
-Grips are the failure mode. Visible hands may only do **two** poses:
+Grips are the failure mode. Visible hands may only do these poses:
 
-- **Open** — palm toward us, hanging at the side, waving, or flat against a
-  surface (pushing). All four tabs readable.
+- **Open** — palm toward us, waving, or flat against a surface. Four tabs
+  fanned.
 - **Point** — one grey finger tab out, grey thumb, two tabs along the palm.
+- **Thumbs-up** — **palm closed**. The black blob is a closed palm. Three
+  grey finger tabs tuck as short stubs along the blob's edge. One grey thumb
+  tab sticks straight up. Not an open fan with a thumb.
+- **Closed** — palm closed at rest: black blob hanging at the side or on a
+  hip, all grey tabs tucked as stubs. Not fanned. Not wrapped around a tool.
 
-Do not invent a third pose. No holding, wrapping, cranking, stamping,
-carrying, pinching, thumbs-up, OK, fists, or gear-like sunbursts of tabs.
+Do not invent a grip. No holding, wrapping, cranking, stamping, carrying,
+pinching, OK, or gear-like sunbursts of tabs.
 
 Locked construction, from `docs/references/hand-size-anchor.png`:
 
@@ -65,16 +70,17 @@ Locked construction, from `docs/references/hand-size-anchor.png`:
   **edge** of the black blob.
 - Count the grey tabs: **three fingers plus one thumb**. Four tabs total.
   Never four fingers plus a thumb (five tabs). Never five digits.
-- Tabs stay **large** — the locked v1 blocky scale. Not tiny nubs, not
-  sausages.
+- On **open** hands the tabs stay large (locked v1 scale). On **closed** and
+  **thumbs-up** the three finger tabs shorten into stubs against the blob;
+  the thumb tab stays a clear rectangle when it is up.
 - The grey arm tube meets the black palm. No extra ring.
 
-A hand that is fully hidden may vanish. A hand that is visible enough to
-count must be open or pointing, in this construction.
+A hand that is fully hidden may vanish. A visible hand must be one of the
+four poses above.
 
 The **body** does the work: stand inside the machine, lean on the gate, sit
-on the crate, push with an open palm, point at the flow. Objects may rest
-*on* an open palm. They must not be gripped.
+on the crate, push with an open palm, point at the flow, signal thumbs-up.
+Objects may rest *on* an open palm. They must not be gripped.
 
 Never: white Mickey gloves, all-black hands, stick-figure hooks, sausage
 fingers, fingernails, knuckle lines, a mitten with white bars, or any wrap
@@ -93,7 +99,8 @@ around a handle.
 T Krobot is a serious, deadpan worker doing an absurd-but-coherent job. It
 must perform the image's core action with its **body**, not a grip: stuck
 inside the machine, leaning on the gate, standing on the crate, pointing at
-the leak, pushing the box with an open palm.
+the leak, pushing with an open palm, signalling thumbs-up when the job is
+done.
 
 Multiple T Krobots are allowed (2–3 max) when the structure needs stations —
 each doing one job. Never a crowd, never a mascot lineup.
