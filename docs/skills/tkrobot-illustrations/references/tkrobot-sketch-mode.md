@@ -15,7 +15,7 @@ On every `image_gen` call, pass these lock sheets as reference images, in this
 order:
 
 1. `assets/character-lock-canonical.png` — anatomy and colours from the sticker
-   masters (wave, hands-on-hips, OK, face).
+   masters (wave, hands-on-hips, thumbs-up, face). No OK sign.
 2. `assets/character-lock-sketch.png` — the same character in thin-line form.
 3. `assets/hand-lock-canonical.png` — open, point, thumbs-up (palm-closed),
    and closed-at-rest. Also `docs/references/hand-size-anchor.png`.

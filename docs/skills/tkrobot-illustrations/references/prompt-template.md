@@ -6,6 +6,7 @@ Attach these lock sheets as reference images on the same call
 (`reference_image_paths` or the equivalent), in this order:
 
 1. `docs/skills/tkrobot-illustrations/assets/character-lock-canonical.png`
+   (wave, hands-on-hips, thumbs-up, face — not the OK sticker)
 2. `docs/skills/tkrobot-illustrations/assets/character-lock-sketch.png`
 3. `docs/skills/tkrobot-illustrations/assets/hand-lock-canonical.png`
 4. `docs/skills/tkrobot-illustrations/assets/hand-lock-sketch.png`

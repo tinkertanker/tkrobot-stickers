@@ -3,7 +3,7 @@
 ## Character lock (attach every time)
 
 - `character-lock-canonical.png` — four sticker masters on white (wave,
-  hands-on-hips, OK, face). Anatomy and colours.
+  hands-on-hips, thumbs-up, face). Anatomy and colours. No OK sign.
 - `character-lock-sketch.png` — the same mascot in thin-line sketch form.
 
 ## Hand lock (attach every time)
