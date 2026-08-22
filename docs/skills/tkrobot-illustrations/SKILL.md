@@ -40,6 +40,8 @@ figure, not cartoon gloves, not a grip.
   no-recycling rule.
 - `references/prompt-template.md` — the per-image generation prompt.
 - `references/qa-checklist.md` — post-generation checks and edit prompts.
+- `references/worked-examples.md` — 2026-08 course-body keepers. Look, do
+  not attach, do not recycle the furniture.
 
 ## Workflow
 
@@ -92,9 +94,17 @@ or went vector; the background isn't clean white.
 
 ### 5. Deliver
 
-Save into the consuming project, e.g. `assets/<slug>-illustrations/01-topic.png`,
-numbered in article order. Report: how many, where each goes, which are solid
-and which optional. Let the images speak; skip style theory.
+Chat `<img src="/opt/cursor/artifacts/…">` dies with the VM. If a shot is a
+keeper, copy it into `archive/course-illustrations/<slug>/` in this repo in
+the same turn (see `references/worked-examples.md`).
+
+Then save into the consuming project, numbered in article order. For
+tinkercademy.com that is `public/images/generated/illustrations/<slug>/`
+plus an `<img>` in `src/content/programmes/<slug>.md`. Do not write these
+into `heroImage` — heroes stay photoreal.
+
+Report: how many, where each goes, which are solid and which optional. Let
+the images speak; skip style theory.
 
 ## Attribution
 

@@ -39,8 +39,9 @@ screenshots of tools — this layer is metaphor, not UI.
 
 ## No recycling
 
-Do not reuse compositions from `assets/examples/` or previous outputs —
-including the upstream classics (conveyor-belt breakpoints, lever-in-machine,
-funnel sorter, path-pulling). Same theme next time = new metaphor. Examples
-exist only to calibrate line density, whitespace, and the character's
-deadpan-worker energy.
+Do not reuse compositions from `assets/examples/`,
+`archive/course-illustrations/`, or previous outputs — including the
+upstream classics (conveyor-belt breakpoints, lever-in-machine, funnel
+sorter, path-pulling). Same theme next time = new metaphor. The course
+keepers are a pose-and-label guide, not a furniture catalogue. The
+Xiaohei-era files in `assets/examples/` are density calibration only.

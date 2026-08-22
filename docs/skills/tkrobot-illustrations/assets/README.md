@@ -27,5 +27,9 @@ deadpan-worker energy. Do not copy these compositions (see the no-recycling
 rule). Do not use them as the character or hand reference; older files may
 still look like Xiaohei.
 
+On-model course-body keepers (look, do not attach) are listed in
+`../references/worked-examples.md` and stored under
+`archive/course-illustrations/`.
+
 - `examples/01-vibe-coding.png` — workflow: slips in, crank machine, app on easel, inspector.
 - `examples/02-blocks-to-hardware.png` — concept metaphor: block hopper, screw press, walking board.
