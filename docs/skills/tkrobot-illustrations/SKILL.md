@@ -13,23 +13,35 @@ not PPT infographics, not cute mascot posters — a clean, whimsical,
 product-sketch-feeling drawing where **T Krobot does the strange work that
 explains the idea**.
 
-T Krobot must participate in the core action — hauling, sorting, cranking,
-guarding, falling into the hole. Never standing beside the diagram as
-decoration.
+T Krobot must participate in the core action — standing in the machine,
+leaning on the gate, pointing at the break, pushing with an open palm,
+signalling thumbs-up. Never standing beside the diagram as decoration.
+Hands may be **open**, **pointing**, **thumbs-up (palm-closed)**, or
+**closed at rest**. Do not grip or hold objects (those poses collapse).
 
 This is distinct from the sticker pack (transparent chat stickers) and from
 banner composition (deterministic hero scenes). This skill produces editorial
 body images for articles, tutorials, proposals, and course-page prose.
 
-## Read these references as needed
+## Read before generating
 
-- `references/style-dna.md` — visual DNA, colours, lettering, hard bans.
-- `references/tkrobot-sketch-mode.md` — how the canonical character translates
-  to thin-line sketch form. The invariants that survive, and the ones that relax.
-- `references/composition-patterns.md` — structure types, the metaphor
-  invention method, and the no-recycling rule.
+Always read `references/tkrobot-sketch-mode.md` and look at the lock sheets
+before the first `image_gen` call. T Krobot is the sticker mascot with **light
+grey tube limbs** and **black palm + grey tab hands** that **open, point,
+thumbs-up (palm-closed), or close at rest**. Not an all-black Xiaohei stick
+figure, not cartoon gloves, not a grip.
+
+- `assets/character-lock-canonical.png` — anatomy and colours.
+- `assets/character-lock-sketch.png` — the same character in thin-line form.
+- `assets/hand-lock-canonical.png` and `assets/hand-lock-sketch.png` — hands.
+  Also `docs/references/hand-size-anchor.png`.
+- `references/style-dna.md` — page DNA, colours, lettering, hard bans.
+- `references/composition-patterns.md` — structure types, metaphor invention,
+  no-recycling rule.
 - `references/prompt-template.md` — the per-image generation prompt.
 - `references/qa-checklist.md` — post-generation checks and edit prompts.
+- `references/worked-examples.md` — 2026-08 course-body keepers. Look, do
+  not attach, do not recycle the furniture.
 
 ## Workflow
 
@@ -51,22 +63,48 @@ Default 3–6 images; short pieces 1–2. Enough is enough.
 ### 3. Generate one image at a time
 
 If the user asks to generate, generate — one `image_gen` call per image, using
-`references/prompt-template.md`. Never collage multiple ideas into one image.
-Invent a fresh metaphor from *this* text each time; never reuse a previous
-composition (see the no-recycling rule).
+`references/prompt-template.md`. Attach the character lock sheets **and** the
+hand lock sheets as `reference_image_paths` on that call. Prefer **GPT's
+latest image model** whenever the tool lets you pick (today: a GPT-5.6-class
+caller). Do not default to Grok. Only run a Grok pair when the user asks
+for an eval.
+
+Never collage multiple ideas into one image. Invent a fresh *scene* metaphor
+from *this* text each time (see the no-recycling rule). Do **not** invent a
+new T Krobot gesture or slogan to carry it.
+
+**Steal poses from the sticker pack.** Before filling the prompt, open
+`stickers/manifest.json` and `stickers/contact-sheet.png`. If a locked
+sticker already is the action — `thumbsup`, `point-right`, `palm-open`,
+`greetings`, `hands-on-hips` — use that pose and attach the sticker PNG as
+an extra reference. Do not write cheerleading labels like "job done" on the
+page; the existing thumbs-up already says it. The metaphor lives in the
+objects and the flow, not in a new catchphrase or a made-up hand.
 
 ### 4. Check and iterate
 
-Run `references/qa-checklist.md`. Regenerate or edit if: T Krobot is mere
-decoration; the canvas is crowded; it reads as a flowchart or slide; the
-annotations are long or numerous; a type-title appears in a corner; the style
-went cute or went vector; the background isn't clean white.
+Run `references/qa-checklist.md`. Check the character — then every visible
+hand — against the lock sheets before anything else. Regenerate or edit if:
+the robot drifted into Xiaohei (black stick limbs, pill head, dotted eyes);
+hands drifted into gloves, five digits, sausages, grips, or black fists;
+a slogan like "job done" landed on the page; T Krobot is mere decoration;
+the canvas is crowded; it reads as a flowchart or slide; the annotations
+are long or numerous; a type-title appears in a corner; the style went cute
+or went vector; the background isn't clean white.
 
 ### 5. Deliver
 
-Save into the consuming project, e.g. `assets/<slug>-illustrations/01-topic.png`,
-numbered in article order. Report: how many, where each goes, which are solid
-and which optional. Let the images speak; skip style theory.
+Chat `<img src="/opt/cursor/artifacts/…">` dies with the VM. If a shot is a
+keeper, copy it into `archive/course-illustrations/<slug>/` in this repo in
+the same turn (see `references/worked-examples.md`).
+
+Then save into the consuming project, numbered in article order. For
+tinkercademy.com that is `public/images/generated/illustrations/<slug>/`
+plus an `<img>` in `src/content/programmes/<slug>.md`. Do not write these
+into `heroImage` — heroes stay photoreal.
+
+Report: how many, where each goes, which are solid and which optional. Let
+the images speak; skip style theory.
 
 ## Attribution
 

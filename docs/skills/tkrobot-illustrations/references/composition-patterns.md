@@ -13,9 +13,9 @@ Pick ONE structure per image.
 - **Concept metaphor** — one memorable odd contraption; minimal inputs, one
   output.
 - **Layered method** — stacked boxes, hand-drawn not a formal pyramid;
-  T Krobot hauling bricks or building a layer.
+  T Krobot standing on a layer or pointing at the next brick.
 - **Route map** — a bending path with few nodes; T Krobot walking it or
-  pulling a thread along it.
+  pointing along it.
 - **Mini comic** — 2–4 panels, one action per panel.
 
 ## Inventing the metaphor (every time)
@@ -25,8 +25,13 @@ Pick ONE structure per image.
 2. Convert the system into a **low-tech object**: broken machine, cardboard
    box, drawer, pipe, postbox, dial, scale, well, ladder, clothesline, gate,
    odd workstation. Pick 1–2, never a pile.
-3. Give T Krobot the action: not standing beside it — jammed in it, pulling
-   it, guarding it, weighing it, mending it, feeding it.
+3. Give T Krobot a **body** action borrowed from an existing sticker
+   wherever one fits: jammed in it, leaning on it, standing on it,
+   guarding it, pointing (`point-right` / `point-left`), pushing with an
+   open palm (`palm-open`), signalling thumbs-up (`thumbsup`). Do not
+   invent a new gesture or a slogan to explain the pose. Do not solve the
+   action with a grip. Hands stay open, pointing, thumbs-up (palm-closed),
+   or closed at rest.
 
 Education-flavoured objects are welcome when the text calls for them
 (classroom conveyor, marking stamp, kit crate, block bin) but avoid literal
@@ -34,8 +39,9 @@ screenshots of tools — this layer is metaphor, not UI.
 
 ## No recycling
 
-Do not reuse compositions from `assets/examples/` or previous outputs —
-including the upstream classics (conveyor-belt breakpoints, lever-in-machine,
-funnel sorter, path-pulling). Same theme next time = new metaphor. Examples
-exist only to calibrate line density, whitespace, and the character's
-deadpan-worker energy.
+Do not reuse compositions from `assets/examples/`,
+`archive/course-illustrations/`, or previous outputs — including the
+upstream classics (conveyor-belt breakpoints, lever-in-machine, funnel
+sorter, path-pulling). Same theme next time = new metaphor. The course
+keepers are a pose-and-label guide, not a furniture catalogue. The
+Xiaohei-era files in `assets/examples/` are density calibration only.

@@ -12,6 +12,7 @@ Historical and source material lives here so the working pack in `stickers/` sta
 | `chroma-key-sources/` | Flat green renders used for many of the current transparent PNGs |
 | `generated-iterations/` | Earlier attempts, rejected batches, and style calibration history |
 | `references/` | Copied visual references used during generation (including full Kiap Kiap set) |
+| `course-illustrations/` | Accepted 16:9 course-body sketches for the illustrations skill. Cited from `docs/skills/tkrobot-illustrations/references/worked-examples.md`. |
 
 ## Current anchors still cited from history
 

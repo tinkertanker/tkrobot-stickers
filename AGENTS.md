@@ -27,6 +27,7 @@ Do **not** add unrelated brand assets, slide decks, checkerboard previews, or lo
 | `docs/ios-app-migration.md` | Remaining App Store relist and 2021-repo rename/archive checklist |
 | `tools/scripts/` | Pack helpers: verify, contact sheet, site manifest, README sync, `export_chat_pack.py` |
 | `archive/` | Historical sources and rejected iterations — **not** the working pack |
+| `archive/course-illustrations/` | Accepted 16:9 course-body sketches (pose/label guide). Handoff source for tinkercademy.com body images, not heroes |
 | `site/` | Public gallery for stickers.tk.sg |
 
 ### Agent quick map
@@ -34,9 +35,9 @@ Do **not** add unrelated brand assets, slide decks, checkerboard previews, or lo
 1. **Find existing stickers** → `stickers/` and `stickers/manifest.json` (filter by `tags` / `description`).
 2. **See the whole pack** → `stickers/contact-sheet.png`.
 3. **Match style before generating** → `docs/skills/tkrobot-sticker-generation/references/style-guide.md` and `docs/prompts/tkrobot-sticker-guidelines.md`.
-3b. **Article/tutorial body illustrations** (not stickers) → `docs/skills/tkrobot-illustrations/SKILL.md` — hand-drawn 16:9 explainer images where sketch-mode T Krobot performs the concept.
+3b. **Article/tutorial body illustrations** (not stickers) → `docs/skills/tkrobot-illustrations/SKILL.md` and `references/worked-examples.md`. Attach the character and hand lock sheets on every generation call. Prefer GPT's latest image model. Steal poses from existing stickers (`thumbsup`, `point-right`, `palm-open`); do not invent slogans like "job done". Hands: **open, point, thumbs-up (palm-closed), or closed at rest** — no gripping. Reject gloves, five digits, and all-black Xiaohei stick figures. Commit keepers to `archive/course-illustrations/`; chat artifact paths do not last.
 4. **Match hand size** → `docs/references/hand-size-anchor.png`.
-5. **Ignore by default** → almost everything under `archive/generated-iterations/` except when a manifest `source_path` or note points there.
+5. **Ignore by default** → almost everything under `archive/generated-iterations/` except when a manifest `source_path` or note points there. `archive/course-illustrations/` is the exception for body-illustration work.
 
 ## Sticker style (invariants)
 
