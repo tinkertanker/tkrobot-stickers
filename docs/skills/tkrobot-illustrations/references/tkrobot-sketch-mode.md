@@ -94,7 +94,7 @@ around a handle.
 - Line weight: thin wobbly pen instead of the thick sticker outline.
 - Head/body fill: flat solid black (skip the sticker gradient and the 1px shine
   if the scale is small).
-- Slight squash/stretch for the action — carrying, cranking, falling — as long
+- Slight squash/stretch for the action — leaning, sitting, falling — as long
   as head, glasses, grey limbs, diamond, and hands still read.
 
 ## Character in the scene
