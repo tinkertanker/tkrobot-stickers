@@ -1,6 +1,6 @@
 {
   "name": "T Krobot definitive sticker pack",
-  "count": 36,
+  "count": 37,
   "items": [
     {
       "slug": "crashed",
@@ -71,8 +71,8 @@
     {
       "slug": "handraise",
       "filename": "handraise.png",
-      "path": "/stickers/handraise.png?v=4bcc536dbfb9",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/handraise.png?v=262cc33efe49",
+      "updated_at": "2026-09-12"
     },
     {
       "slug": "hands-on-hips",
@@ -103,6 +103,12 @@
       "filename": "jumping-for-joy.png",
       "path": "/stickers/jumping-for-joy.png?v=d0f642f2a818",
       "updated_at": "2026-07-20"
+    },
+    {
+      "slug": "just-peeking",
+      "filename": "just-peeking.png",
+      "path": "/stickers/just-peeking.png?v=2753c5465cac",
+      "updated_at": "2026-09-12"
     },
     {
       "slug": "lobster-claws",

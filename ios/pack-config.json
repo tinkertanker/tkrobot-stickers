@@ -20,6 +20,7 @@
     "heart": ["❤️", "🥰"],
     "intenseglare": ["😡", "😠"],
     "jumping-for-joy": ["🥳", "🎉"],
+    "just-peeking": ["🫣", "👋"],
     "lobster-claws": ["🦞"],
     "ok": ["👌", "👍"],
     "palm-open": ["🫴"],
@@ -81,6 +82,7 @@
       "identifier": "sg.tk.tinkertanker.stickers.extra",
       "name": "T Krobot extra",
       "slugs": [
+        "just-peeking",
         "failed-sitting",
         "lobster-claws",
         "rubbing-tummy",

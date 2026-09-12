@@ -2,7 +2,7 @@
 
 Use these transparent PNGs as the current locked rectangular-finger T Krobot sticker set.
 
-- Count: 36 stickers.
+- Count: 37 stickers.
 - Size: 1254 x 1254 RGBA PNGs.
 - Catalogue: `stickers/manifest.json` (slug, description, tags, source path).
 - Full overview sheet: `stickers/contact-sheet.png`.
@@ -21,12 +21,13 @@ Use these transparent PNGs as the current locked rectangular-finger T Krobot sti
 - `flailing.png` — Panicked flailing limbs. _motion, reaction_
 - `gasp.png` — Surprise with hands on cheeks and exclamation marks. _emotion, reaction_
 - `greetings.png` — Friendly wave / hello. _gesture, social_
-- `handraise.png` — Raised hand as if volunteering or asking a question. _gesture, social_
+- `handraise.png` — Eager volunteering with a raised hand, tilted head and longer legs. _gesture, social_
 - `hands-on-hips.png` — Confident arms-akimbo stance. _gesture, pose_
 - `happy.png` — Happy expression with upside-down-U eyes. _emotion, happy_
 - `heart.png` — Holding or presenting a heart. _emotion, social_
 - `intenseglare.png` — Narrow glare slits for stern focus. _emotion, reaction_
 - `jumping-for-joy.png` — Jumping celebration with happy eyes. _motion, happy_
+- `just-peeking.png` — Leaning sideways with a tentative wave, just peeking in. _gesture, social, curious_
 - `lobster-claws.png` — Raising red mechanical lobster claws to either side. _gesture, fun, mechanical_
 - `ok.png` — OK / acknowledgement hand sign. _gesture, approval_
 - `palm-open.png` — Open palm, expectant hand-off or waiting pose. _gesture, social_

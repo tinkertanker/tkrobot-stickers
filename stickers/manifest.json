@@ -1,7 +1,7 @@
 {
   "name": "T Krobot definitive sticker pack",
   "style": "locked-v11-rectangular-fingers",
-  "count": 36,
+  "count": 37,
   "contact_sheet": "stickers/contact-sheet.png",
   "items": [
     {
@@ -148,14 +148,13 @@
       "slug": "handraise",
       "filename": "handraise.png",
       "sticker_path": "stickers/handraise.png",
-      "source_path": "archive/chroma-key-sources/handraise.png",
-      "original_filename": "handraise4.png",
-      "original_item_id": "KoulPoEb",
-      "description": "Raised hand as if volunteering or asking a question.",
+      "source_path": "archive/chroma-key-sources/2026-09-12-approved/handraise.png",
+      "description": "Eager volunteering with a raised hand, tilted head and longer legs.",
       "tags": [
         "gesture",
         "social"
-      ]
+      ],
+      "note": "User-approved replacement on 2026-09-12. Previous transparent master preserved in archive/chroma-key-sources/2026-09-12-approved/handraise-previous.png; original source remains in archive/chroma-key-sources/handraise.png."
     },
     {
       "slug": "hands-on-hips",
@@ -221,6 +220,19 @@
         "motion",
         "happy"
       ]
+    },
+    {
+      "slug": "just-peeking",
+      "filename": "just-peeking.png",
+      "sticker_path": "stickers/just-peeking.png",
+      "source_path": "archive/chroma-key-sources/2026-09-12-approved/just-peeking.png",
+      "description": "Leaning sideways with a tentative wave, just peeking in.",
+      "tags": [
+        "gesture",
+        "social",
+        "curious"
+      ],
+      "note": "User-approved leaning-wave concept with reduced head size on 2026-09-12."
     },
     {
       "slug": "lobster-claws",
