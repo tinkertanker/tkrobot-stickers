@@ -11,3 +11,6 @@ xcuserdata/
 *.xcuserstate
 DerivedData/
 .amp/portals/
+node_modules/
+dist/
+.wrangler/

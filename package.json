@@ -1,0 +1,11 @@
+{
+  "name": "tkrobot-stickers-site",
+  "private": true,
+  "scripts": {
+    "build": "python3 tools/scripts/build_cloudflare_site.py",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.131.1"
+  }
+}

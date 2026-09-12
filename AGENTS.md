@@ -10,6 +10,12 @@ The current TT Stickers app is `ios/`. The 2021 Xcode repo should be renamed `tt
 
 Do **not** add unrelated brand assets, slide decks, checkerboard previews, or loose generated scratch files.
 
+### Production hosting
+
+- `https://stickers.tk.sg` is served by **Cloudflare Workers Static Assets**, Worker `tkrobot-stickers`, in the **Tinkertanker** account. `wrangler.jsonc` is the deployment source of truth.
+- Build path: `site/` + `stickers/` → `npm run build` → ignored `dist/`. Deploy with `npm run deploy` only when authorized. See the Website section of `README.md` for credentials and release workflow setup.
+- The old Docker deployment on `dev.tk.sg` was stopped and disabled on 12 September 2026. Do **not** use `deploy.sh` for normal releases or re-enable that deployment. Its archived checkout/image, protected old path, and recovery runbook are documented in `README.md`.
+
 ### Where things live
 
 | Path | Use it for |
