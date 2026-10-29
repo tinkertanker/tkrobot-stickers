@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "python3 tools/scripts/build_cloudflare_site.py",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && python3 tools/scripts/test_site_guidance.py && wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "4.131.1"

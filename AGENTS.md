@@ -4,7 +4,7 @@
 
 This repository stores **T Krobot** artwork and the chat apps that ship it. The locked pack is transparent PNG masters in `stickers/`. The TT Stickers iOS app in `ios/` is the consumer.
 
-When asked to add a sticker, touch only `stickers/`, the manifest, and pack scripts, then run `export_chat_pack.py`. Do not invent poses inside `ios/` or resize masters by hand. `stickers/` remains 1254×1254 transparent PNG only; chat-sized files are generated.
+When asked to add a sticker, touch only `stickers/`, the manifest, pack scripts, and `site/llms.txt` guidance, then run `export_chat_pack.py`. Do not invent poses inside `ios/` or resize masters by hand. `stickers/` remains 1254×1254 transparent PNG only; chat-sized files are generated.
 
 The current TT Stickers app is `ios/`. The 2021 Xcode repo should be renamed `tt-stickers-ios-legacy`; that rename and archive are still outstanding. See `docs/ios-app-migration.md`.
 
@@ -85,7 +85,9 @@ Full detail: `docs/skills/tkrobot-sticker-generation/references/style-guide.md`.
    - `python3 tools/scripts/make_contact_sheet.py stickers --out stickers/contact-sheet.png`
    - `python3 tools/scripts/sync_pack_readme.py`
    - `python3 tools/scripts/build_site_manifest.py`
-9. Verify: `python3 tools/scripts/verify_pack.py`
+9. Update `site/llms.txt` with the sticker's intent/context and exact PNG URL (or revise/remove its entry when replacing/removing artwork). Verify:
+   - `python3 tools/scripts/verify_pack.py`
+   - `npm run build && python3 tools/scripts/test_site_guidance.py`
 10. Export chat assets: `python3 tools/scripts/export_chat_pack.py`
 11. Commit only the touched paths with a Conventional Commit message.
 
@@ -99,6 +101,8 @@ Before committing a new or replaced PNG:
 - [ ] No mouth, default pupils, limb joints, accidental text, brand marks, or leftover background
 - [ ] Visually consistent with `stickers/contact-sheet.png`
 - [ ] Listed in `ios/pack-config.json` (emoji + one WhatsApp pack)
+- [ ] `site/llms.txt` intent/context and PNG link match the current artwork
+- [ ] `npm run build && python3 tools/scripts/test_site_guidance.py` passes
 - [ ] `python3 tools/scripts/verify_pack.py` passes
 - [ ] `python3 tools/scripts/export_chat_pack.py` succeeds
 
