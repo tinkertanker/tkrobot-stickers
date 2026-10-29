@@ -45,6 +45,8 @@ def main() -> None:
         {
             "slug": item["slug"],
             "filename": item["filename"],
+            "description": item["description"],
+            "tags": item["tags"],
             "path": f"/{item['sticker_path']}?v={asset_version(item['sticker_path'])}",
             "updated_at": last_updated(item["sticker_path"]),
         }

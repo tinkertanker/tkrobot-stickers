@@ -40,4 +40,6 @@ npm run deploy
 
 The build refreshes `site/stickers.json` and stages only the public site and pack in gitignored `dist/`, excluding iOS assets, archives, and credentials. PNGs use immutable caching; site files revalidate. `/healthz` returns `ok`.
 
+Agent guidance lives at [`/llms.txt`](https://stickers.tk.sg/llms.txt), advertised by the gallery's HTML and an HTTP `Link` header. It maps conversational intent to real PNG downloads, explains format and tone, and grants no usage rights. Keep its choices and links in sync when the pack changes. `site/stickers.json` includes descriptions and tags generated from the authoritative manifest, alongside versioned asset paths. WebMCP is intentionally not added: this public static catalog needs no browser-state actions, and direct HTTP retrieval also works for agents outside a browser.
+
 The release workflow deploys on `v*` tags or manual dispatch. Set the repository Actions secret `CLOUDFLARE_API_TOKEN` with Tinkertanker account permissions **Workers Scripts Edit** and **Account Settings Read**, plus **tk.sg Zone Read** and **DNS Edit** for custom domains. Orb credentials do not carry over to GitHub Actions.
