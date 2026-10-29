@@ -5,222 +5,408 @@
     {
       "slug": "crashed",
       "filename": "crashed.png",
+      "description": "Lying crashed with cracked-glass look after a hard fail.",
+      "tags": [
+        "state",
+        "fail"
+      ],
       "path": "/stickers/crashed.png?v=db1295fa1733",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "ded",
       "filename": "ded.png",
+      "description": "Flat on its back, knocked out with X-mark eyes.",
+      "tags": [
+        "state",
+        "fail"
+      ],
       "path": "/stickers/ded.png?v=0fb1a5620932",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "depressed",
       "filename": "depressed.png",
+      "description": "Slumped sad pose with drooping posture.",
+      "tags": [
+        "emotion",
+        "sad"
+      ],
       "path": "/stickers/depressed.png?v=344554024aea",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "face",
       "filename": "face.png",
+      "description": "Close-up face / portrait crop of T Krobot.",
+      "tags": [
+        "portrait"
+      ],
       "path": "/stickers/face.png?v=b3bc68ebcb9a",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "facepalm",
       "filename": "facepalm.png",
+      "description": "Hand to face in exasperation.",
+      "tags": [
+        "gesture",
+        "reaction"
+      ],
       "path": "/stickers/facepalm.png?v=814365d34f77",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "failed-sitting",
       "filename": "failed-sitting.png",
+      "description": "Seated slump that reads as wiped out rather than dead.",
+      "tags": [
+        "state",
+        "fail"
+      ],
       "path": "/stickers/failed-sitting.png?v=8e7ebe8f856a",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "falling",
       "filename": "falling.png",
+      "description": "Mid-air tumble / falling pose.",
+      "tags": [
+        "motion"
+      ],
       "path": "/stickers/falling.png?v=9ba994614092",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "fingerguns",
       "filename": "fingerguns.png",
+      "description": "Playful finger-guns gesture.",
+      "tags": [
+        "gesture",
+        "fun"
+      ],
       "path": "/stickers/fingerguns.png?v=f5aaed274df5",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "flailing",
       "filename": "flailing.png",
+      "description": "Panicked flailing limbs.",
+      "tags": [
+        "motion",
+        "reaction"
+      ],
       "path": "/stickers/flailing.png?v=3f96e1045351",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "gasp",
       "filename": "gasp.png",
+      "description": "Surprise with hands on cheeks and exclamation marks.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ],
       "path": "/stickers/gasp.png?v=1dcd6b407232",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "greetings",
       "filename": "greetings.png",
+      "description": "Friendly wave / hello.",
+      "tags": [
+        "gesture",
+        "social"
+      ],
       "path": "/stickers/greetings.png?v=32882438298d",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "handraise",
       "filename": "handraise.png",
+      "description": "Eager volunteering with a raised hand, tilted head and longer legs.",
+      "tags": [
+        "gesture",
+        "social"
+      ],
       "path": "/stickers/handraise.png?v=262cc33efe49",
       "updated_at": "2026-09-12"
     },
     {
       "slug": "hands-on-hips",
       "filename": "hands-on-hips.png",
+      "description": "Confident arms-akimbo stance.",
+      "tags": [
+        "gesture",
+        "pose"
+      ],
       "path": "/stickers/hands-on-hips.png?v=d1f1a745b378",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "happy",
       "filename": "happy.png",
+      "description": "Happy expression with upside-down-U eyes.",
+      "tags": [
+        "emotion",
+        "happy"
+      ],
       "path": "/stickers/happy.png?v=3816e7a34cfd",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "heart",
       "filename": "heart.png",
+      "description": "Holding or presenting a heart.",
+      "tags": [
+        "emotion",
+        "social"
+      ],
       "path": "/stickers/heart.png?v=9112bade77eb",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "intenseglare",
       "filename": "intenseglare.png",
+      "description": "Narrow glare slits for stern focus.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ],
       "path": "/stickers/intenseglare.png?v=7b80d71d6e67",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "jumping-for-joy",
       "filename": "jumping-for-joy.png",
+      "description": "Jumping celebration with happy eyes.",
+      "tags": [
+        "motion",
+        "happy"
+      ],
       "path": "/stickers/jumping-for-joy.png?v=d0f642f2a818",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "just-peeking",
       "filename": "just-peeking.png",
+      "description": "Leaning sideways with a tentative wave, just peeking in.",
+      "tags": [
+        "gesture",
+        "social",
+        "curious"
+      ],
       "path": "/stickers/just-peeking.png?v=2753c5465cac",
       "updated_at": "2026-09-12"
     },
     {
       "slug": "lobster-claws",
       "filename": "lobster-claws.png",
+      "description": "Raising red mechanical lobster claws to either side.",
+      "tags": [
+        "gesture",
+        "fun",
+        "mechanical"
+      ],
       "path": "/stickers/lobster-claws.png?v=5b39d318b84e",
       "updated_at": "2026-08-01"
     },
     {
       "slug": "ok",
       "filename": "ok.png",
+      "description": "OK / acknowledgement hand sign.",
+      "tags": [
+        "gesture",
+        "approval"
+      ],
       "path": "/stickers/ok.png?v=84d1cc3b7748",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "palm-open",
       "filename": "palm-open.png",
+      "description": "Open palm, expectant hand-off or waiting pose.",
+      "tags": [
+        "gesture",
+        "social"
+      ],
       "path": "/stickers/palm-open.png?v=c255e1d1f01c",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "pls",
       "filename": "pls.png",
+      "description": "Pleading / please pose.",
+      "tags": [
+        "gesture",
+        "emotion"
+      ],
       "path": "/stickers/pls.png?v=467c567a56d4",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "point-left",
       "filename": "point-left.png",
+      "description": "Pointing left; mirrored pair of point-right.",
+      "tags": [
+        "gesture",
+        "direction"
+      ],
       "path": "/stickers/point-left.png?v=2897f4fedcdb",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "point-right",
       "filename": "point-right.png",
+      "description": "Pointing right.",
+      "tags": [
+        "gesture",
+        "direction"
+      ],
       "path": "/stickers/point-right.png?v=ba20dffe9a13",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "rubbing-tummy",
       "filename": "rubbing-tummy.png",
+      "description": "Content tummy-rub with happy eyes.",
+      "tags": [
+        "gesture",
+        "happy"
+      ],
       "path": "/stickers/rubbing-tummy.png?v=1287392c046a",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "running-left",
       "filename": "running-left.png",
+      "description": "Running left; directional pair of running-right.",
+      "tags": [
+        "motion",
+        "direction"
+      ],
       "path": "/stickers/running-left.png?v=b31e0f86b739",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "running-right",
       "filename": "running-right.png",
+      "description": "Running right / on-my-way energy.",
+      "tags": [
+        "motion",
+        "direction"
+      ],
       "path": "/stickers/running-right.png?v=ac176ab8b7b4",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "salute",
       "filename": "salute.png",
+      "description": "Salute with both arms present.",
+      "tags": [
+        "gesture",
+        "social"
+      ],
       "path": "/stickers/salute.png?v=2074eb13bd1c",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "shock",
       "filename": "shock.png",
+      "description": "Recoil shock with blank widened glasses.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ],
       "path": "/stickers/shock.png?v=e86e9af79318",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "shrug",
       "filename": "shrug.png",
+      "description": "Shrugging uncertainty.",
+      "tags": [
+        "gesture",
+        "reaction"
+      ],
       "path": "/stickers/shrug.png?v=ade1680204f9",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "sixseven",
       "filename": "sixseven.png",
+      "description": "6-7 meme gesture sticker.",
+      "tags": [
+        "gesture",
+        "fun",
+        "meme"
+      ],
       "path": "/stickers/sixseven.png?v=2382a4f7f09f",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "snooze",
       "filename": "snooze.png",
+      "description": "Sleeping with yellow lightning pupils.",
+      "tags": [
+        "state",
+        "emotion"
+      ],
       "path": "/stickers/snooze.png?v=8bb9563d7230",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "sus",
       "filename": "sus.png",
+      "description": "Suspicious hand-to-chin review look.",
+      "tags": [
+        "emotion",
+        "reaction"
+      ],
       "path": "/stickers/sus.png?v=26016f6b76c2",
       "updated_at": "2026-07-20"
     },
     {
       "slug": "thumbsdown",
       "filename": "thumbsdown.png",
+      "description": "Dejected thumbs-down.",
+      "tags": [
+        "gesture",
+        "disapproval"
+      ],
       "path": "/stickers/thumbsdown.png?v=4311ebe1c519",
       "updated_at": "2026-07-16"
     },
     {
       "slug": "thumbsup",
       "filename": "thumbsup.png",
+      "description": "Thumbs-up approval.",
+      "tags": [
+        "gesture",
+        "approval"
+      ],
       "path": "/stickers/thumbsup.png?v=70d101503c5d",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "wrong",
       "filename": "wrong.png",
+      "description": "Wrong / incorrect reaction.",
+      "tags": [
+        "reaction",
+        "fail"
+      ],
       "path": "/stickers/wrong.png?v=f27e4d09eb3c",
       "updated_at": "2026-07-08"
     },
     {
       "slug": "yay",
       "filename": "yay.png",
+      "description": "Upright celebration with raised arms.",
+      "tags": [
+        "emotion",
+        "happy"
+      ],
       "path": "/stickers/yay.png?v=b69935270585",
       "updated_at": "2026-07-08"
     }

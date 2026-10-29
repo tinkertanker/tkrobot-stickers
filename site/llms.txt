@@ -1,0 +1,71 @@
+# T Krobot Stickers
+
+> Transparent reaction stickers of T Krobot, the Tinkertanker robot mascot. Choose a sticker by the user's intent and conversational tone, then return its downloadable PNG URL.
+
+All sticker downloads below are static PNG images (image/png), 1254 × 1254 pixels, with RGBA transparency. They are not animated. This website does not offer WebP, SVG, GIF, WhatsApp packs, or iMessage installation downloads; do not invent alternate extensions or install links.
+
+Choose one clear reaction rather than several conflicting ones. For a neutral acknowledgement use ok; for praise use thumbsup; for a win use yay. A wave (greetings) is a safer introduction than a meme. If the intended meaning is ambiguous, offer one or two choices with a short explanation, or ask the user. Do not infer actual task completion, agreement, or availability from a sticker alone.
+
+Treat the intent descriptions as suggestions, not fixed translations. In serious, sensitive, or distressed conversations, prefer plain words over sarcastic failure, anger, or meme reactions. Use ded, crashed, facepalm, intenseglare, sus, fingerguns, and sixseven only when the context supports their playful or pointed tone. Do not use a sticker as the only explanation of an error or correction.
+
+For delivery, provide a direct PNG link and a brief description (also usable as alt text), for example: “Thumbs-up approval — https://stickers.tk.sg/stickers/thumbsup.png”. Preserve transparency and aspect ratio. Downloading needs no login or JavaScript. Each file is a separate download; the gallery's multi-select downloads separate PNGs, not a ZIP. For the freshest cached asset, read stickers.json and prepend https://stickers.tk.sg to the item's path, retaining its ?v= content hash. Unversioned PNG links may remain cached for up to a year after artwork is replaced. Slugs and filenames are exact and case-sensitive; do not guess missing poses.
+
+These instructions describe selection and retrieval, not a license or permission grant. Public availability does not establish reuse, redistribution, commercial-use, or modification rights. Do not claim those rights or invent attribution terms; confirm applicable permissions with Tinkertanker when needed.
+
+## Catalog and discovery
+
+- [Machine-readable catalog](https://stickers.tk.sg/stickers.json): All current items with slug, filename, description, tags, updated_at, and a root-relative path with a content-hash query string. count is the number of items. Descriptions and tags describe the artwork, not licensing.
+- [Visual gallery](https://stickers.tk.sg/): Preview, select, and download individual transparent PNGs.
+- [Contact sheet](https://stickers.tk.sg/stickers/contact-sheet.png): Overview for comparing poses; not an individual transparent sticker.
+
+## Hello, acknowledgement, and requests
+
+- [greetings](https://stickers.tk.sg/stickers/greetings.png): Friendly wave; hello, welcome, or a casual goodbye.
+- [just-peeking](https://stickers.tk.sg/stickers/just-peeking.png): Sideways lean with a tentative wave; a gentle check-in or quietly joining a conversation.
+- [ok](https://stickers.tk.sg/stickers/ok.png): OK hand sign; “got it” or acknowledgement, less celebratory than thumbsup.
+- [salute](https://stickers.tk.sg/stickers/salute.png): Salute; playful “on it” or respectful acknowledgement, not proof the work is done.
+- [handraise](https://stickers.tk.sg/stickers/handraise.png): Raised hand; volunteering, asking to speak, or “I have a question”.
+- [pls](https://stickers.tk.sg/stickers/pls.png): Pleading hands; a gentle “please” or request, not a demand.
+- [palm-open](https://stickers.tk.sg/stickers/palm-open.png): Open palm; presenting an option, inviting a response, or waiting for a hand-off. Not a pointing gesture.
+
+## Approval, thanks, and celebration
+
+- [thumbsup](https://stickers.tk.sg/stickers/thumbsup.png): Thumbs-up approval; “looks good”, praise, or encouragement.
+- [heart](https://stickers.tk.sg/stickers/heart.png): Presenting a red heart; warm thanks, appreciation, care, or affection.
+- [happy](https://stickers.tk.sg/stickers/happy.png): Happy curved eyes; quiet happiness or satisfaction, lower-energy than yay.
+- [yay](https://stickers.tk.sg/stickers/yay.png): Upright with both arms raised; a win or cheerful celebration.
+- [jumping-for-joy](https://stickers.tk.sg/stickers/jumping-for-joy.png): Jumping with happy eyes; especially excited celebration.
+- [rubbing-tummy](https://stickers.tk.sg/stickers/rubbing-tummy.png): Contented tummy-rub; enjoyed a meal or feeling satisfied. Prefer happy for general happiness.
+- [fingerguns](https://stickers.tk.sg/stickers/fingerguns.png): Playful finger guns; cheeky confidence or banter, not a neutral professional acknowledgement.
+- [hands-on-hips](https://stickers.tk.sg/stickers/hands-on-hips.png): Confident arms-akimbo stance; ready or self-assured, not explicit approval.
+
+## Uncertainty, surprise, and correction
+
+- [shrug](https://stickers.tk.sg/stickers/shrug.png): Shrug with question marks; “not sure” or uncertainty. State the actual uncertainty in words too.
+- [sus](https://stickers.tk.sg/stickers/sus.png): Hand to chin with narrowed eyes; skeptical review or “that looks suspicious”. Not an accusation or verified finding.
+- [gasp](https://stickers.tk.sg/stickers/gasp.png): Hands on cheeks with exclamation marks; surprised or amazed.
+- [shock](https://stickers.tk.sg/stickers/shock.png): Recoiling with wide blank glasses; startled disbelief, stronger than gasp.
+- [thumbsdown](https://stickers.tk.sg/stickers/thumbsdown.png): Dejected thumbs-down; dislike or disapproval, not necessarily factual incorrectness.
+- [wrong](https://stickers.tk.sg/stickers/wrong.png): Crossed arms with a red X; incorrect or “no”. Explain any correction in words.
+- [facepalm](https://stickers.tk.sg/stickers/facepalm.png): Hand to face; exasperation or a self-directed “oops”. Avoid shaming someone else's mistake.
+- [intenseglare](https://stickers.tk.sg/stickers/intenseglare.png): Narrow glare; stern focus or playful displeasure. Can read as angry.
+
+## Tired, sad, overwhelmed, or failed
+
+- [snooze](https://stickers.tk.sg/stickers/snooze.png): Sleeping with lightning eye marks and Zs; tired, asleep, or taking a break. Not a promise of availability.
+- [depressed](https://stickers.tk.sg/stickers/depressed.png): Sad slump beneath a rain cloud; feeling down or disappointed. The filename is not a diagnosis.
+- [failed-sitting](https://stickers.tk.sg/stickers/failed-sitting.png): Seated exhausted slump; wiped out after a setback, less dramatic than ded or crashed.
+- [crashed](https://stickers.tk.sg/stickers/crashed.png): Fallen robot with cracked-glass eyes and smoke; dramatic hard failure or overload in a playful context.
+- [ded](https://stickers.tk.sg/stickers/ded.png): Flat on its back with X eyes; exaggerated “I'm done” or knocked-out exhaustion. Avoid literal bereavement or medical contexts.
+- [flailing](https://stickers.tk.sg/stickers/flailing.png): Limbs flailing; overwhelmed, panicked, or scrambling.
+- [falling](https://stickers.tk.sg/stickers/falling.png): Mid-air tumble; a slip, loss of balance, or things going sideways. Distinct from running or celebrating.
+
+## Direction, movement, portrait, and specific jokes
+
+- [point-left](https://stickers.tk.sg/stickers/point-left.png): Points toward the viewer's left; draw attention to content on that side.
+- [point-right](https://stickers.tk.sg/stickers/point-right.png): Points toward the viewer's right; draw attention to content on that side. Choose direction from the final layout.
+- [running-left](https://stickers.tk.sg/stickers/running-left.png): Runs toward the viewer's left; directional movement or playful “on my way”.
+- [running-right](https://stickers.tk.sg/stickers/running-right.png): Runs toward the viewer's right; directional movement or playful “on my way”. Not an ETA.
+- [face](https://stickers.tk.sg/stickers/face.png): Close-up mascot portrait; character identification, not a specific emotional reaction or a substitute for a logo asset.
+- [lobster-claws](https://stickers.tk.sg/stickers/lobster-claws.png): Raised red mechanical lobster claws; a literal lobster/robot-claw joke. Use only when relevant.
+- [sixseven](https://stickers.tk.sg/stickers/sixseven.png): Floating 6 and 7 with spiral eyes; the 6–7 meme. Use only when that specific joke is requested or understood, not to communicate a quantity reliably.
