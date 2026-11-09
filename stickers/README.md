@@ -38,7 +38,7 @@ Use these transparent PNGs as the current locked rectangular-finger T Krobot sti
 - `running-left.png` — Running left; directional pair of running-right. _motion, direction_
 - `running-right.png` — Running right / on-my-way energy. _motion, direction_
 - `salute.png` — Salute with both arms present. _gesture, social_
-- `shock.png` — Recoil shock with blank widened glasses. _emotion, reaction_
+- `shock.png` — Recoil shock with blank widened glasses and a small red block exclamation mark. _emotion, reaction_
 - `shrug.png` — Shrugging uncertainty. _gesture, reaction_
 - `sixseven.png` — 6-7 meme gesture sticker. _gesture, fun, meme_
 - `snooze.png` — Sleeping with yellow lightning pupils. _state, emotion_

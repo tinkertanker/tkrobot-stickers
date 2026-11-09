@@ -85,8 +85,8 @@
         "gesture",
         "fun"
       ],
-      "path": "/stickers/fingerguns.png?v=f5aaed274df5",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/fingerguns.png?v=7fee3d40c7cf",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "flailing",
@@ -96,8 +96,8 @@
         "motion",
         "reaction"
       ],
-      "path": "/stickers/flailing.png?v=3f96e1045351",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/flailing.png?v=9caaf176e20a",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "gasp",
@@ -129,8 +129,8 @@
         "gesture",
         "social"
       ],
-      "path": "/stickers/handraise.png?v=262cc33efe49",
-      "updated_at": "2026-09-12"
+      "path": "/stickers/handraise.png?v=e95abb783a62",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "hands-on-hips",
@@ -252,8 +252,8 @@
         "gesture",
         "direction"
       ],
-      "path": "/stickers/point-left.png?v=2897f4fedcdb",
-      "updated_at": "2026-07-16"
+      "path": "/stickers/point-left.png?v=ba1a5a4f432e",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "point-right",
@@ -263,8 +263,8 @@
         "gesture",
         "direction"
       ],
-      "path": "/stickers/point-right.png?v=ba20dffe9a13",
-      "updated_at": "2026-07-16"
+      "path": "/stickers/point-right.png?v=0f2922b06ea3",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "rubbing-tummy",
@@ -307,19 +307,19 @@
         "gesture",
         "social"
       ],
-      "path": "/stickers/salute.png?v=2074eb13bd1c",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/salute.png?v=92fd40583037",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "shock",
       "filename": "shock.png",
-      "description": "Recoil shock with blank widened glasses.",
+      "description": "Recoil shock with blank widened glasses and a small red block exclamation mark.",
       "tags": [
         "emotion",
         "reaction"
       ],
-      "path": "/stickers/shock.png?v=e86e9af79318",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/shock.png?v=d115bd9cd6e1",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "shrug",
@@ -341,8 +341,8 @@
         "fun",
         "meme"
       ],
-      "path": "/stickers/sixseven.png?v=2382a4f7f09f",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/sixseven.png?v=b95c21cddbfa",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "snooze",
@@ -385,8 +385,8 @@
         "gesture",
         "approval"
       ],
-      "path": "/stickers/thumbsup.png?v=70d101503c5d",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/thumbsup.png?v=3e773040289d",
+      "updated_at": "2026-11-09"
     },
     {
       "slug": "wrong",
@@ -407,8 +407,8 @@
         "emotion",
         "happy"
       ],
-      "path": "/stickers/yay.png?v=b69935270585",
-      "updated_at": "2026-07-08"
+      "path": "/stickers/yay.png?v=59beeb2378e1",
+      "updated_at": "2026-11-09"
     }
   ]
 }
