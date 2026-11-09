@@ -99,6 +99,7 @@
       "source_path": "archive/chroma-key-sources/fingerguns.png",
       "original_filename": "fingerguns.png",
       "original_item_id": "E0u4k1x9",
+      "note": "Orange fan-shaped burst marks removed from the transparent master on 2026-11-09; character pixels unchanged.",
       "description": "Playful finger-guns gesture.",
       "tags": [
         "gesture",
@@ -112,6 +113,7 @@
       "source_path": "archive/chroma-key-sources/flailing.png",
       "original_filename": "flailing2.png",
       "original_item_id": "z8u4ze89",
+      "note": "Orange fan-shaped burst above the head removed on 2026-11-09; curved motion lines and character pixels unchanged.",
       "description": "Panicked flailing limbs.",
       "tags": [
         "motion",
@@ -154,7 +156,7 @@
         "gesture",
         "social"
       ],
-      "note": "User-approved replacement on 2026-09-12. Previous transparent master preserved in archive/chroma-key-sources/2026-09-12-approved/handraise-previous.png; original source remains in archive/chroma-key-sources/handraise.png."
+      "note": "User-approved replacement on 2026-09-12. Previous transparent master preserved in archive/chroma-key-sources/2026-09-12-approved/handraise-previous.png; original source remains in archive/chroma-key-sources/handraise.png. Orange fan-shaped burst marks removed on 2026-11-09; character pixels unchanged."
     },
     {
       "slug": "hands-on-hips",
@@ -293,7 +295,7 @@
       "source_path": "archive/chroma-key-sources/right.png",
       "original_filename": "right.png",
       "original_item_id": "WnulOjnd",
-      "note": "Horizontally mirrored from point-right.png.",
+      "note": "Horizontally mirrored from point-right.png. Orange fan-shaped burst marks removed on 2026-11-09; character pixels unchanged.",
       "description": "Pointing left; mirrored pair of point-right.",
       "tags": [
         "gesture",
@@ -307,6 +309,7 @@
       "source_path": "archive/chroma-key-sources/right.png",
       "original_filename": "right.png",
       "original_item_id": "WnulOjnd",
+      "note": "Orange fan-shaped burst marks removed from the transparent master on 2026-11-09; character pixels unchanged.",
       "description": "Pointing right.",
       "tags": [
         "gesture",
@@ -359,6 +362,7 @@
       "source_path": "archive/chroma-key-sources/salute.png",
       "original_filename": "salute.png",
       "original_item_id": "WnulOjn0",
+      "note": "Orange fan-shaped burst marks removed from the transparent master on 2026-11-09; character pixels unchanged.",
       "description": "Salute with both arms present.",
       "tags": [
         "gesture",
@@ -372,7 +376,8 @@
       "source_path": "archive/chroma-key-sources/shock.png",
       "original_filename": "shock.png",
       "original_item_id": "KoulPo6R",
-      "description": "Recoil shock with blank widened glasses.",
+      "note": "Orange fan-shaped burst marks removed on 2026-11-09; added a finger-height red block exclamation mark floating above the viewer-right hand beside the head. Character pixels unchanged.",
+      "description": "Recoil shock with blank widened glasses and a small red block exclamation mark.",
       "tags": [
         "emotion",
         "reaction"
@@ -397,7 +402,7 @@
       "sticker_path": "stickers/sixseven.png",
       "source_path": "archive/chroma-key-sources/sixseven.png",
       "original_filename": null,
-      "note": "New 6-7 meme sticker, generated after the original tk.sg/stickerlib scrape.",
+      "note": "New 6-7 meme sticker, generated after the original tk.sg/stickerlib scrape. Orange fan-shaped burst above the head removed on 2026-11-09; numbers, curved motion lines and character pixels unchanged.",
       "description": "6-7 meme gesture sticker.",
       "tags": [
         "gesture",
@@ -451,6 +456,7 @@
       "source_path": "archive/chroma-key-sources/thumbsup.png",
       "original_filename": "thumbsup.png",
       "original_item_id": "X6u0pw1x",
+      "note": "Orange fan-shaped burst marks removed from the transparent master on 2026-11-09; character pixels unchanged.",
       "description": "Thumbs-up approval.",
       "tags": [
         "gesture",
@@ -477,6 +483,7 @@
       "source_path": "archive/chroma-key-sources/yay.png",
       "original_filename": "yay.png",
       "original_item_id": "6quxyqll",
+      "note": "Orange fan-shaped burst marks removed from the transparent master on 2026-11-09; character pixels unchanged.",
       "description": "Upright celebration with raised arms.",
       "tags": [
         "emotion",
